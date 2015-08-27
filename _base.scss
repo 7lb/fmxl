@@ -3,7 +3,7 @@
 @import "mixins";
 
 // site-wide backgrounds and text colors
-html, body, #wrap, div.navbar, input {
+body, div.navbar, html, input, #wrap {
     color:          $text_color     !important;
     background:     $dark_bg        !important;
 }

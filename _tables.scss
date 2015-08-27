@@ -1,37 +1,87 @@
 @import "board_index_tables";
 
 // Table headers
+
+// Adjust colors
 ul.topiclist li.header {
-    background-color:   $light_hints    !important;
+    background-color:           $light_hints                                    !important;
 }
 
+ul.topiclist.guidelist li.header *,
 ul.topiclist li.header * {
-    color:              $dark_bg        !important;
-    margin-bottom:      0px             !important;
-    margin-top:         0px             !important;
-    padding-bottom:     0px             !important;
-    padding-top:        0px             !important;
+    color:                      $dark_bg                                        !important;
+    margin-bottom:              0px                                             !important;
+    margin-top:                 0px                                             !important;
+    padding-bottom:             0px                                             !important;
+    padding-top:                0px                                             !important;
+}
+
+// Adjust font
+ul.topiclist.two-columns li.header div.list-inner {
+    font-family:                Tahoma                                          !important;
+    font-size:                  14px                                            !important;
+    line-height:                14px                                            !important;
+}
+
+// Adjust size
+ul.topiclist li.header {
+    padding:                    6px 0px 11px 0px                                !important;
+}
+
+ul.topiclist.guideheader li.header,
+ul.topiclist.two-columns li.header,
+div.panel ul.topiclist li.header {
+    border:                     $big_border_radius solid $light_hints           !important;
+    border-bottom:              0px                                             !important;
+    border-radius:              $big_border_radius                              !important;
+}
+
+ul.topiclist.guideheader li.header,
+div.panel ul.topiclist.two-columns li.header,
+div.panel ul.topiclist.missing-column li.header {
+    border-bottom-right-radius: 0px                                             !important;
+    border-bottom-left-radius:  0px                                             !important;
+}
+
+ul.topiclist.guidelist:not(.guideheader),
+ul.topiclist.cplist.two-columns,
+ul.topiclist.cplist.missing-column {
+    border:                     $big_border_radius solid $light_hints           !important;
+    border-top:                 0px                                             !important;
+    background-color:           $light_hints                                    !important;
+    border-radius:              0px 0px $big_border_radius $big_border_radius   !important;
+}
+
+//Vertically center text inside of headers
+ul.topiclist li.header dd.lastpost,
+ul.topiclist li.header dd.mark,
+ul.topiclist li.header dd.posts,
+ul.topiclist li.header dd.rating,
+ul.topiclist li.header dd.topics,
+ul.topiclist li.header dd.version,
+ul.topiclist li.header dd.views {
+    padding-top:                2px                                             !important;
 }
 
 // Body
 li.row {
-    background-color:   $dark_bg        !important;
-    border-radius:      0px             !important;
-    color:              $text_color     !important;
-    margin-bottom:      0px             !important;
-    margin-top:         0px             !important;
+    background-color:           $dark_bg                                        !important;
+    border-radius:              0px                                             !important;
+    color:                      $text_color                                     !important;
+    margin-bottom:              0px                                             !important;
+    margin-top:                 0px                                             !important;
 }
 
 li.row:hover {
-    background-color:   $normal_bg      !important;
+    background-color:           $normal_bg                                      !important;
 }
 
 li.row:first-child {
-    border-top-left-radius:     2px     !important;
-    border-top-right-radius:    2px     !important;
+    border-top-left-radius:     $small_border_radius                            !important;
+    border-top-right-radius:    $small_border_radius                            !important;
 }
 
 li.row:last-child {
-    border-bottom-right-radius: 2px     !important;
-    border-bottom-left-radius:  2px     !important;
+    border-bottom-right-radius: $small_border_radius                            !important;
+    border-bottom-left-radius:  $small_border_radius                            !important;
 }

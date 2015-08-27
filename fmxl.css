@@ -1,5 +1,5 @@
 @namespace url(http://www.w3.org/1999/xhtml);
-html, body, #wrap, div.navbar, input {
+body, div.navbar, html, input, #wrap {
   color: #bbbbbb !important;
   background: #242424 !important; }
 
@@ -38,7 +38,7 @@ div.navbar {
 
 div.forabg,
 div.forumbg {
-  background: none                            !important; }
+  background: none                !important; }
 
 div.forabg div.inner,
 div.forumbg div.inner {
@@ -48,7 +48,7 @@ div.forumbg div.inner {
 
 div.forabg div.inner ul.topiclist.forums,
 div.forumbg div.inner ul.topiclist.forums {
-  background-color: inherit                         !important; }
+  background-color: #242424 !important; }
 
 div.forabg div.inner ul.topiclist.forums li.row,
 div.forumbg div.inner ul.topiclist.forums li.row {
@@ -61,30 +61,69 @@ div.forumbg div.inner ul.topiclist.forums li.row:hover {
 ul.topiclist li.header {
   background-color: #999999 !important; }
 
+ul.topiclist.guidelist li.header *,
 ul.topiclist li.header * {
   color: #242424 !important;
-  margin-bottom: 0px                             !important;
-  margin-top: 0px                             !important;
-  padding-bottom: 0px                             !important;
-  padding-top: 0px                             !important; }
+  margin-bottom: 0px                                             !important;
+  margin-top: 0px                                             !important;
+  padding-bottom: 0px                                             !important;
+  padding-top: 0px                                             !important; }
+
+ul.topiclist.two-columns li.header div.list-inner {
+  font-family: Tahoma                                          !important;
+  font-size: 14px                                            !important;
+  line-height: 14px                                            !important; }
+
+ul.topiclist li.header {
+  padding: 6px 0px 11px 0px                                !important; }
+
+ul.topiclist.guideheader li.header,
+ul.topiclist.two-columns li.header,
+div.panel ul.topiclist li.header {
+  border: 5px solid #999999 !important;
+  border-bottom: 0px                                             !important;
+  border-radius: 5px !important; }
+
+ul.topiclist.guideheader li.header,
+div.panel ul.topiclist.two-columns li.header,
+div.panel ul.topiclist.missing-column li.header {
+  border-bottom-right-radius: 0px                                             !important;
+  border-bottom-left-radius: 0px                                             !important; }
+
+ul.topiclist.guidelist:not(.guideheader),
+ul.topiclist.cplist.two-columns,
+ul.topiclist.cplist.missing-column {
+  border: 5px solid #999999 !important;
+  border-top: 0px                                             !important;
+  background-color: #999999 !important;
+  border-radius: 0px 0px 5px 5px !important; }
+
+ul.topiclist li.header dd.lastpost,
+ul.topiclist li.header dd.mark,
+ul.topiclist li.header dd.posts,
+ul.topiclist li.header dd.rating,
+ul.topiclist li.header dd.topics,
+ul.topiclist li.header dd.version,
+ul.topiclist li.header dd.views {
+  padding-top: 2px                                             !important; }
 
 li.row {
   background-color: #242424 !important;
-  border-radius: 0px                             !important;
+  border-radius: 0px                                             !important;
   color: #bbbbbb !important;
-  margin-bottom: 0px                             !important;
-  margin-top: 0px                             !important; }
+  margin-bottom: 0px                                             !important;
+  margin-top: 0px                                             !important; }
 
 li.row:hover {
   background-color: #363636 !important; }
 
 li.row:first-child {
-  border-top-left-radius: 2px                     !important;
-  border-top-right-radius: 2px                     !important; }
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important; }
 
 li.row:last-child {
-  border-bottom-right-radius: 2px                     !important;
-  border-bottom-left-radius: 2px                     !important; }
+  border-bottom-right-radius: 2px !important;
+  border-bottom-left-radius: 2px !important; }
 
 a {
   color: #bbbbbb !important; }
