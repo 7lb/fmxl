@@ -1,0 +1,20 @@
+@import "mixins";
+
+// site-wide backgrounds and text colors
+html, body, #wrap, div.navbar, input {
+    color:      $text_color              !important;
+    background: $dark_bg_color      !important;
+}
+
+// Remove box shadows for a flat look
+* {
+    @include no-box-shadow();
+}
+
+// Generally speaking we want borders to have the designed border color.
+// Exceptions will come later. Also, we want borders only in specific places,
+// so they're disabled by default
+* {
+    border:         0px             !important;
+    border-color:   $border_color   !important;
+}

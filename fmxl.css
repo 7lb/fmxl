@@ -1,4 +1,30 @@
 @namespace url(http://www.w3.org/1999/xhtml);
-@-moz-document regexp("https?://(www.)?(forum.|skillplan.)?median-xl.com/(.*)") {}
+html, body, #wrap, div.navbar, input {
+  color: #bbbbbb !important;
+  background: #242424 !important; }
+
+* {
+  -webkit-box-shadow: none        !important;
+  -moz-box-shadow: none        !important;
+  box-shadow: none        !important; }
+
+* {
+  border: 0px             !important;
+  border-color: #666666 !important; }
+
+input:-moz-placeholder {
+  color: #666666 !important; }
+
+input::-moz-placeholder {
+  color: #666666 !important; }
+
+input::-webkit-input-placeholder {
+  color: #666666 !important; }
+
+a {
+  color: #bbbbbb !important; }
+
+a:hover {
+  color: #d23636 !important; }
 
 /*# sourceMappingURL=fmxl.css.map */
