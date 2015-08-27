@@ -12,6 +12,9 @@ html, body, #wrap, div.navbar, input {
   border: 0px             !important;
   border-color: #666666 !important; }
 
+input {
+  background-color: #363636 !important; }
+
 input:-moz-placeholder {
   color: #666666 !important; }
 
@@ -20,6 +23,68 @@ input::-moz-placeholder {
 
 input::-webkit-input-placeholder {
   color: #666666 !important; }
+
+div.navbar {
+  background-color: #404040 !important; }
+
+.scroll-btn {
+  background-color: #242424 !important;
+  border: 2px solid #999999 !important; }
+
+.scroll-btn-arrow {
+  border-bottom: 3px solid #999999 !important;
+  border-left: 3px solid #999999 !important;
+  color: #999999 !important; }
+
+div.forabg,
+div.forumbg {
+  background: none                            !important; }
+
+div.forabg div.inner,
+div.forumbg div.inner {
+  background-color: #999999 !important;
+  border-radius: 5px !important;
+  padding: 5px !important; }
+
+div.forabg div.inner ul.topiclist.forums,
+div.forumbg div.inner ul.topiclist.forums {
+  background-color: inherit                         !important; }
+
+div.forabg div.inner ul.topiclist.forums li.row,
+div.forumbg div.inner ul.topiclist.forums li.row {
+  background-color: #242424 !important; }
+
+div.forabg div.inner ul.topiclist.forums li.row:hover,
+div.forumbg div.inner ul.topiclist.forums li.row:hover {
+  background-color: #363636 !important; }
+
+ul.topiclist li.header {
+  background-color: #999999 !important; }
+
+ul.topiclist li.header * {
+  color: #242424 !important;
+  margin-bottom: 0px                             !important;
+  margin-top: 0px                             !important;
+  padding-bottom: 0px                             !important;
+  padding-top: 0px                             !important; }
+
+li.row {
+  background-color: #242424 !important;
+  border-radius: 0px                             !important;
+  color: #bbbbbb !important;
+  margin-bottom: 0px                             !important;
+  margin-top: 0px                             !important; }
+
+li.row:hover {
+  background-color: #363636 !important; }
+
+li.row:first-child {
+  border-top-left-radius: 2px                     !important;
+  border-top-right-radius: 2px                     !important; }
+
+li.row:last-child {
+  border-bottom-right-radius: 2px                     !important;
+  border-bottom-left-radius: 2px                     !important; }
 
 a {
   color: #bbbbbb !important; }

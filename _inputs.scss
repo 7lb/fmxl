@@ -1,17 +1,21 @@
 // Input placeholder colors. Can't be on the same line! Browsers ignore a
 // whole selector if contains even one unsupported vendor-specific selector
 
+input {
+    background-color:   $input_bg           !important;
+}
+
 // Firefox 4-18 and derivatives
 input:-moz-placeholder {
-    color: $placeholder_text_color  !important;
+    color:              $placeholder_color  !important;
 }
 
 // Firefox 18+ and derivatives (double colon)
 input::-moz-placeholder {
-    color: $placeholder_text_color  !important;
+    color:              $placeholder_color  !important;
 }
 
 // Webkit and blink browsers (Safari, Chrom*, Opera 15+, Edge)
 input::-webkit-input-placeholder {
-    color: $placeholder_text_color  !important;
+    color:              $placeholder_color  !important;
 }

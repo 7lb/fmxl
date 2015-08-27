@@ -1,17 +1,24 @@
-$text_color: #bbbbbb;
-$placeholder_text_color: #666666;
-$light_hints_color: #999999;
-$border_color: #666666;
-$light_bg_color: #363636;
-$normal_bg_color: #2d2d2d;
-$dark_bg_color: #242424;
-$bright_red_hints_color: #d23636;
-$red_hints_color: #a73939;
-$weak_red_hints_color: #883939;
-$red_transparent_color: rgba(#ff8f8f, 0.5);
-$code_color: #16bb16;
-$green_hints_color: #78b082;
-$pagination_color: #8c7a5c;
-$author_button_color: #195ba8;
-$version_button_color: #cdcd0c;
-$bot_names_color: #936ca1;
+$text_color:            #bbbbbb;
+
+$light_bg:              #404040;
+$normal_bg:             #363636;
+$dark_bg:               #242424;
+
+$input_bg:              #363636;
+$placeholder_color:     #666666;
+
+$light_hints:           #999999;
+$bright_colored_hints:  #d23636;
+$colored_hints:         #a73939;
+$weak_colored_hints:    #883939;
+$alt_colored_hints:     #78b082;
+
+$transparent_hints:     rgba(#ff8f8f, 0.5);
+
+$border_color:          #666666;
+
+$code_color:            #16bb16;
+$pagination_color:      #8c7a5c;
+$author_button_color:   #195ba8;
+$version_button_color:  #cdcd0c;
+$bot_names_color:       #936ca1;

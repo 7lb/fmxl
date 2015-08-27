@@ -1,7 +1,10 @@
 @namespace url(http://www.w3.org/1999/xhtml);
-@import "colors";
 @import "base";
+
 @import "inputs";
+@import "navbar";
+@import "scroll_to_top_button";
+@import "tables";
 
 // Links
 a {
@@ -9,5 +12,5 @@ a {
 }
 
 a:hover {
-    color: $bright_red_hints_color  !important;
+    color: $bright_colored_hints  !important;
 }

@@ -1,14 +1,16 @@
+@import "colors";
+@import "values";
 @import "mixins";
 
 // site-wide backgrounds and text colors
 html, body, #wrap, div.navbar, input {
-    color:      $text_color              !important;
-    background: $dark_bg_color      !important;
+    color:          $text_color     !important;
+    background:     $dark_bg        !important;
 }
 
 // Remove box shadows for a flat look
 * {
-    @include no-box-shadow();
+    @include        no-box-shadow();
 }
 
 // Generally speaking we want borders to have the designed border color.
