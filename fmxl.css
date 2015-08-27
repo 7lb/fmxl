@@ -12,6 +12,42 @@ body, div.navbar, html, input, #wrap {
   border: 0px             !important;
   border-color: #666666 !important; }
 
+a.button, a.button2, button.button,
+input.button1, input.button2, span.dropdown-trigger.button {
+  background-color: #a73939 !important;
+  background-image: none                    !important;
+  border-radius: 2px !important;
+  color: #242424 !important;
+  padding: 3px                     !important;
+  text-shadow: none                    !important; }
+
+.icon-button::before {
+  background-image: none                    !important; }
+
+a.button.icon-button:not(.search-adv-icon) {
+  padding-left: 6px                     !important;
+  padding-right: 6px                     !important; }
+
+button.button.search-icon {
+  padding: 0px 3px 0px 3px         !important; }
+
+input.button1, input.button2 {
+  padding: 6px                     !important; }
+
+span.dropdown-trigger.button {
+  padding-right: 20px                    !important; }
+
+a.button:hover, a.button2:hover, button.button:hover,
+input.button1:hover, input.button2:hover, span.dropdown-trigger.button:hover {
+  background-color: #d23636 !important;
+  color: #242424 !important; }
+
+button.search-icon {
+  border-radius: 0px                     !important; }
+
+a.search-adv-icon {
+  border-radius: 0px 2px 2px 0px !important; }
+
 input {
   background-color: #363636 !important; }
 
