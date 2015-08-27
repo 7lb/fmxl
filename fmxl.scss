@@ -1,0 +1,21 @@
+$text_color: #bbbbbb;
+$light_hints_color: #999999;
+$border_color: #424242;
+$light_bg_color: #363636;
+$normal_bg_color: #2d2d2d;
+$dark_bg_color: #242424;
+$normalRed: #d23636;
+$red_hints_color: #a73939;
+$weak_red_hints_color: #883939;
+$red_transparent_color: rgba(#ff8f8f, 0.5);
+$code_color: #16bb16;
+$green_hints_color: #78b082;
+$pagination_color: #8c7a5c;
+$author_button_color: #195ba8;
+$version_button_color: #cdcd0c;
+$bot_names_color: #936ca1;
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document regexp("https?://(www.)?(forum.|skillplan.)?median-xl.com/(.*)") {
+}

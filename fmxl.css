@@ -1,3 +1,4 @@
-
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document regexp("https?://(www.)?(forum.|skillplan.)?median-xl.com/(.*)") {}
 
 /*# sourceMappingURL=fmxl.css.map */
