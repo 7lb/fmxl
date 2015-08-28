@@ -1,0 +1,17 @@
+// Links
+a {
+    color:  $text_color             !important;
+}
+
+a:hover, a.username-coloured:hover {
+    color:  $bright_colored_hints   !important;
+}
+
+a.username-coloured {
+    color:  $colored_hints          !important;
+}
+
+// Headers
+h2 {
+    color:  $text_color             !important;
+}

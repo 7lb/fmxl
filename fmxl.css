@@ -100,6 +100,18 @@ fieldset.fields1 label {
 fieldset dl dd {
   margin-bottom: 0px                     !important; }
 
+a {
+  color: #bbbbbb !important; }
+
+a:hover, a.username-coloured:hover {
+  color: #d23636 !important; }
+
+a.username-coloured {
+  color: #a73939 !important; }
+
+h2 {
+  color: #bbbbbb !important; }
+
 div.navbar {
   background-color: #404040 !important; }
 
@@ -203,11 +215,5 @@ li.row:last-child {
 
 li.row strong {
   color: #bbbbbb !important; }
-
-a {
-  color: #bbbbbb !important; }
-
-a:hover {
-  color: #d23636 !important; }
 
 /*# sourceMappingURL=fmxl.css.map */

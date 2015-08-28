@@ -3,15 +3,7 @@
 
 @import "buttons";
 @import "inputs";
+@import "misc";
 @import "navbar";
 @import "scroll_to_top_button";
 @import "tables";
-
-// Links
-a {
-    color: $text_color              !important;
-}
-
-a:hover {
-    color: $bright_colored_hints  !important;
-}
