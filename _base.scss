@@ -4,19 +4,19 @@
 
 // site-wide backgrounds and text colors
 body, div.navbar, html, input, #wrap {
-    color:          $text_color     !important;
-    background:     $dark_bg        !important;
+    color:              $text_color     !important;
+    background-color:   $dark_bg        !important;
 }
 
 // Remove box shadows for a flat look
 * {
-    @include        no-box-shadow();
+    @include            no-box-shadow();
 }
 
 // Generally speaking we want borders to have the designed border color.
 // Exceptions will come later. Also, we want borders only in specific places,
 // so they're disabled by default
 * {
-    border:         0px             !important;
-    border-color:   $border_color   !important;
+    border:             0px             !important;
+    border-color:       $border_color   !important;
 }

@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 body, div.navbar, html, input, #wrap {
   color: #bbbbbb !important;
-  background: #242424 !important; }
+  background-color: #242424 !important; }
 
 * {
   -webkit-box-shadow: none        !important;
@@ -27,6 +27,10 @@ input.button1, input.button2, span.dropdown-trigger.button {
 a.button.icon-button:not(.search-adv-icon) {
   padding-left: 6px                     !important;
   padding-right: 6px                     !important; }
+
+a.button2 {
+  padding-bottom: 5px                     !important;
+  padding-top: 5px                     !important; }
 
 button.button.search-icon {
   padding: 0px 3px 0px 3px         !important; }
