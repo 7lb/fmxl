@@ -216,4 +216,15 @@ li.row:last-child {
 li.row strong {
   color: #bbbbbb !important; }
 
+.tab a {
+  background-color: #242424 !important;
+  background-image: none            !important; }
+
+.tab a:hover {
+  background-color: #363636 !important; }
+
+.activetab a {
+  background-color: #363636 !important;
+  color: #a73939 !important; }
+
 /*# sourceMappingURL=fmxl.css.map */

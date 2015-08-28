@@ -1,0 +1,13 @@
+.tab a {
+    background-color:   $dark_bg        !important;
+    background-image:   none            !important;
+}
+
+.tab a:hover {
+    background-color:   $normal_bg      !important;
+}
+
+.activetab a {
+    background-color:   $normal_bg      !important;
+    color:              $colored_hints  !important;
+}
