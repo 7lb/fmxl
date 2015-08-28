@@ -94,6 +94,9 @@ fieldset dl dt label {
   position: absolute                !important;
   padding-top: 6px                     !important; }
 
+fieldset.fields1 label {
+  padding-top: 3px !important; }
+
 fieldset dl dd {
   margin-bottom: 0px                     !important; }
 
@@ -197,6 +200,9 @@ li.row:first-child {
 li.row:last-child {
   border-bottom-right-radius: 2px !important;
   border-bottom-left-radius: 2px !important; }
+
+li.row strong {
+  color: #bbbbbb !important; }
 
 a {
   color: #bbbbbb !important; }

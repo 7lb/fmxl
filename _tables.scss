@@ -85,3 +85,7 @@ li.row:last-child {
     border-bottom-right-radius: $small_border_radius                            !important;
     border-bottom-left-radius:  $small_border_radius                            !important;
 }
+
+li.row strong {
+    color:                      $text_color                                     !important;
+}
