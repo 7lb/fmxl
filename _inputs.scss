@@ -37,7 +37,7 @@ select {
 }
 
 // Vertically center some form options
-fieldset label {
+fieldset dl dt label {
     position:           absolute                !important;
     padding-top:        6px                     !important;
 }
