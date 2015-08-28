@@ -10,7 +10,7 @@ body, div.navbar, html, input, #wrap {
 
 * {
   border: 0px             !important;
-  border-color: #666666 !important; }
+  border-color: #363636 !important; }
 
 a.button, a.button2, button.button,
 input.button1, input.button2, span.dropdown-trigger.button {
@@ -112,6 +112,10 @@ a.username-coloured {
 h2 {
   color: #bbbbbb !important; }
 
+h3 {
+  color: #a73939 !important;
+  border-bottom: 1px solid #363636 !important; }
+
 div.navbar {
   background-color: #404040 !important; }
 
@@ -136,7 +140,7 @@ div.forumbg div.inner {
 
 div.forabg div.inner ul.topiclist.forums,
 div.forumbg div.inner ul.topiclist.forums {
-  background-color: #242424 !important; }
+  background-color: #999999 !important; }
 
 div.forabg div.inner ul.topiclist.forums li.row,
 div.forumbg div.inner ul.topiclist.forums li.row {
@@ -225,6 +229,32 @@ li.row strong {
 
 .activetab a {
   background-color: #363636 !important;
+  color: #a73939 !important; }
+
+#navigation ul {
+  border: 1px solid #363636 !important;
+  border-radius: 2px !important; }
+
+#navigation a {
+  background: #242424 !important;
+  margin: 0px                     !important; }
+
+#navigation #active-subsection a {
+  color: #a73939 !important; }
+
+#navigation #active-subsection a, #navigation a:hover {
+  background-color: #363636 !important; }
+
+div.panel.bg3 {
+  border: 1px solid #363636 !important; }
+
+div.panel.bg3, div.panel.bg3 div.panel {
+  background-color: #242424 !important; }
+
+div.panel.bg3 div.panel, div.panel.bg3 div.panel dt {
+  color: #bbbbbb !important; }
+
+div.panel.bg3 div.panel dd {
   color: #a73939 !important; }
 
 /*# sourceMappingURL=fmxl.css.map */

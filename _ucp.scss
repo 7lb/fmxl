@@ -1,0 +1,37 @@
+@import "ucp_tabs";
+
+// Left navigation menu
+#navigation ul  {
+    border:             1px solid $border_color !important;
+    border-radius:      $small_border_radius    !important;
+}
+
+#navigation a {
+    background:         $dark_bg                !important;
+    margin:             0px                     !important;
+}
+
+#navigation #active-subsection a {
+    color:              $colored_hints          !important;
+}
+
+#navigation #active-subsection a, #navigation a:hover {
+    background-color:   $normal_bg              !important;
+}
+
+// Body proper
+div.panel.bg3 {
+    border:             1px solid $border_color !important;
+}
+
+div.panel.bg3, div.panel.bg3 div.panel {
+    background-color:   $dark_bg                !important;
+}
+
+div.panel.bg3 div.panel, div.panel.bg3 div.panel dt {
+    color:              $text-color             !important;
+}
+
+div.panel.bg3 div.panel dd {
+    color:              $colored_hints          !important;
+}
