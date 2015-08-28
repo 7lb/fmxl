@@ -64,8 +64,15 @@ ul.recipients input.button2 {
   position: relative                !important;
   top: -2px                    !important; }
 
-input {
-  background-color: #363636 !important; }
+input.inputbox, textarea {
+  background-color: #363636 !important;
+  border: 1px solid #999999 !important;
+  border-radius: 2px !important;
+  color: #bbbbbb !important; }
+
+input.search.tiny {
+  border: 0px                                                 !important;
+  border-radius: 2px 0px 0px 2px !important; }
 
 input:-moz-placeholder {
   color: #666666 !important; }
@@ -75,6 +82,20 @@ input::-moz-placeholder {
 
 input::-webkit-input-placeholder {
   color: #666666 !important; }
+
+select {
+  background-color: #999999 !important;
+  border-radius: 2px !important;
+  border: 1px solid #999999 !important;
+  color: #242424 !important;
+  height: 24px                    !important; }
+
+fieldset dl dt label {
+  position: absolute                !important;
+  padding-top: 6px                     !important; }
+
+fieldset dl dd {
+  margin-bottom: 0px                     !important; }
 
 div.navbar {
   background-color: #404040 !important; }

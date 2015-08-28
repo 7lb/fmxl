@@ -1,21 +1,51 @@
 // Input placeholder colors. Can't be on the same line! Browsers ignore a
 // whole selector if contains even one unsupported vendor-specific selector
 
-input {
-    background-color:   $input_bg           !important;
+input.inputbox, textarea {
+    background-color:   $input_bg               !important;
+    border:             1px solid $light_hints  !important;
+    border-radius:      $small_border_radius    !important;
+    color:              $text_color             !important;
+}
+
+input.search.tiny {
+    border:             0px                                                 !important;
+    border-radius:      $small_border_radius 0px 0px $small_border_radius   !important
 }
 
 // Firefox 4-18 and derivatives
 input:-moz-placeholder {
-    color:              $placeholder_color  !important;
+    color:              $placeholder_color      !important;
 }
 
 // Firefox 18+ and derivatives (double colon)
 input::-moz-placeholder {
-    color:              $placeholder_color  !important;
+    color:              $placeholder_color      !important;
 }
 
 // Webkit and blink browsers (Safari, Chrom*, Opera 15+, Edge)
 input::-webkit-input-placeholder {
-    color:              $placeholder_color  !important;
+    color:              $placeholder_color      !important;
+}
+
+select {
+    background-color:   $light_hints            !important;
+    border-radius:      $small_border_radius    !important;
+    border:             1px solid $light_hints  !important;
+    color:              $dark_bg                !important;
+    height:             24px                    !important;
+}
+
+// Vertically center some form options
+fieldset label {
+    position:           absolute                !important;
+    padding-top:        6px                     !important;
+}
+
+fieldset.fields1 label {
+    padding-top: 3px !important;
+}
+
+fieldset dl dd {
+    margin-bottom:      0px                     !important;
 }
