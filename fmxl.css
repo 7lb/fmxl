@@ -24,6 +24,13 @@ input.button1, input.button2, span.dropdown-trigger.button {
 .icon-button::before {
   background-image: none                    !important; }
 
+input.abbc3_button {
+  background-color: #a73939 !important;
+  border-radius: 2px !important; }
+
+input.abbc3_button:hover {
+  background-color: #d23636 !important; }
+
 a.button.icon-button:not(.search-adv-icon) {
   padding-left: 6px                     !important;
   padding-right: 6px                     !important; }
@@ -51,6 +58,11 @@ button.search-icon {
 
 a.search-adv-icon {
   border-radius: 0px 2px 2px 0px !important; }
+
+ul.recipients input.button2 {
+  padding: 1px 5px 3px 5px         !important;
+  position: relative                !important;
+  top: -2px                    !important; }
 
 input {
   background-color: #363636 !important; }

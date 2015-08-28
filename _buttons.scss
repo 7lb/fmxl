@@ -1,0 +1,65 @@
+a.button, a.button2, button.button,
+input.button1, input.button2, span.dropdown-trigger.button {
+    background-color:   $colored_hints          !important;
+    background-image:   none                    !important;
+    border-radius:      $small_border_radius    !important;
+    color:              $dark_bg                !important;
+    padding:            3px                     !important;
+    text-shadow:        none                    !important;
+}
+
+.icon-button::before {
+    background-image:   none                    !important;
+}
+
+input.abbc3_button {
+    background-color:   $colored_hints          !important;
+    border-radius:      $small_border_radius    !important;
+}
+
+input.abbc3_button:hover {
+    background-color:   $bright_colored_hints   !important;
+}
+
+// Resize some buttons to make them correct
+a.button.icon-button:not(.search-adv-icon) {
+    padding-left:       6px                     !important;
+    padding-right:      6px                     !important;
+}
+
+a.button2 {
+    padding-bottom:     5px                     !important;
+    padding-top:        5px                     !important;
+}
+
+button.button.search-icon {
+    padding:            0px 3px 0px 3px         !important;
+}
+
+input.button1, input.button2 {
+    padding:            6px                     !important;
+}
+
+span.dropdown-trigger.button {
+    padding-right:      20px                    !important;
+}
+
+a.button:hover, a.button2:hover, button.button:hover,
+input.button1:hover, input.button2:hover, span.dropdown-trigger.button:hover {
+    background-color:   $bright_colored_hints   !important;
+    color:              $dark_bg                !important;
+}
+
+button.search-icon {
+    border-radius:      0px                     !important;
+}
+
+a.search-adv-icon {
+    border-radius:      0px $small_border_radius $small_border_radius 0px   !important;
+}
+
+ul.recipients input.button2 {
+    padding:            1px 5px 3px 5px         !important;
+    position:           relative                !important;
+    top:                -2px                    !important;
+}
