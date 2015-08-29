@@ -226,7 +226,7 @@ div.navbar {
 
 div.forabg,
 div.forumbg {
-  background: none                !important; }
+  background: none                    !important; }
 
 div.forabg div.inner,
 div.forumbg div.inner {
@@ -245,6 +245,42 @@ div.forumbg div.inner ul.topiclist.forums li.row {
 div.forabg div.inner ul.topiclist.forums li.row:hover,
 div.forumbg div.inner ul.topiclist.forums li.row:hover {
   background-color: #363636 !important; }
+
+div#cat26.forabg div.inner ul.topiclist.forums {
+  background-color: #242424 !important;
+  border-radius: 2px !important;
+  margin: 0px                     !important; }
+
+#for27.row,
+#for28.row,
+#for29.row,
+#for30.row {
+  margin-bottom: 5px                     !important;
+  margin-top: 5px !important; }
+
+#for27.row dl.forum_read,
+#for28.row dl.forum_read,
+#for29.row dl.forum_read,
+#for30.row dl.forum_read {
+  opacity: 0.2                     !important; }
+
+#for27.row dl.forum_read:hover,
+#for28.row dl.forum_read:hover,
+#for29.row dl.forum_read:hover,
+#for30.row dl.forum_read:hover {
+  opacity: 0.4                     !important; }
+
+#for27.row dl.forum_unread,
+#for28.row dl.forum_unread,
+#for29.row dl.forum_unread,
+#for30.row dl.forum_unread {
+  opacity: 0.8                     !important; }
+
+#for27.row dl.forum_unread:hover,
+#for28.row dl.forum_unread:hover,
+#for29.row dl.forum_unread:hover,
+#for30.row dl.forum_unread:hover {
+  opacity: 1                       !important; }
 
 ul.topiclist li.header {
   background-color: #999999 !important; }
