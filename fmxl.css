@@ -21,15 +21,13 @@ input.button1, input.button2, span.dropdown-trigger.button {
   padding: 3px                     !important;
   text-shadow: none                    !important; }
 
+a.button:hover, a.button2:hover, button.button:hover,
+input.button1:hover, input.button2:hover, span.dropdown-trigger.button:hover {
+  background-color: #d23636 !important;
+  color: #242424 !important; }
+
 .icon-button::before {
   background-image: none                    !important; }
-
-input.abbc3_button {
-  background-color: #a73939 !important;
-  border-radius: 2px !important; }
-
-input.abbc3_button:hover {
-  background-color: #d23636 !important; }
 
 a.button.icon-button:not(.search-adv-icon) {
   padding-left: 6px                     !important;
@@ -48,11 +46,6 @@ input.button1, input.button2 {
 span.dropdown-trigger.button {
   padding-right: 20px                    !important; }
 
-a.button:hover, a.button2:hover, button.button:hover,
-input.button1:hover, input.button2:hover, span.dropdown-trigger.button:hover {
-  background-color: #d23636 !important;
-  color: #242424 !important; }
-
 button.search-icon {
   border-radius: 0px                     !important; }
 
@@ -64,9 +57,111 @@ ul.recipients input.button2 {
   position: relative                !important;
   top: -2px                    !important; }
 
+fieldset dl label, fieldset.display-options label, #options-panel label,
+div.left-box label, div.right-box label,
+label[for="disable_bbcode"],
+label[for="disable_magic_url"],
+label[for="disable_smilies"] {
+  color: #a73939 !important; }
+
+fieldset dl:hover dt label {
+  color: #d23636 !important; }
+
+fieldset dl dd {
+  margin-bottom: 0px                     !important; }
+
+fieldset dl dd#tz_select_date {
+  margin-bottom: 1px                     !important; }
+
+fieldset dl dd label {
+  position: relative                !important;
+  top: 1px                     !important; }
+
+@media (max-width: 1600px) {
+  fieldset dl dd label[for="allowpm1"],
+  fieldset dl dd label[for="allowpm0"],
+  fieldset dl dd label[for="hideonline1"],
+  fieldset dl dd label[for="hideonline0"] {
+    top: 13px                    !important; } }
+@media (min-width: 1601px) {
+  fieldset dl dd label[for="allowpm1"],
+  fieldset dl dd label[for="allowpm0"],
+  fieldset dl dd label[for="bday_day"],
+  fieldset dl dd label[for="bday_month"],
+  fieldset dl dd label[for="bday_year"],
+  fieldset dl dd label[for="hideonline1"],
+  fieldset dl dd label[for="hideonline0"] {
+    top: 6px                    !important; } }
+fieldset dl dt label {
+  position: absolute                !important;
+  padding-top: 0px                     !important; }
+
+dl.pmlist label {
+  position: relative                !important; }
+
+fieldset dl dt label[for="avatar_upload_file"],
+fieldset dl dt label[for="avatars1"],
+fieldset dl dt label[for="bbcode1"],
+fieldset dl dt label[for="email"],
+fieldset dl dt label[for="flash0"],
+fieldset dl dt label[for="images1"],
+fieldset dl dt label[for="massemail1"],
+fieldset dl dt label[for="notify1"],
+fieldset dl dt label[for="pf_phpbb_facebook"],
+fieldset dl dt label[for="pf_phpbb_skype"],
+fieldset dl dt label[for="pf_phpbb_twitter"],
+fieldset dl dt label[for="pf_phpbb_website"],
+fieldset dl dt label[for="pf_phpbb_youtube"],
+fieldset dl dt label[for="sig1"],
+fieldset dl dt label[for="sigs1"],
+fieldset dl dt label[for="smilies1"],
+fieldset dl dt label[for="topic_preview1"],
+fieldset dl dt label[for="viewemail0"] {
+  padding-top: 1px                     !important; }
+
+fieldset dl dt label[for="timezone"] {
+  padding-top: 18px                    !important; }
+
+input#allowpm1,
+input#allowpm0,
+input#hideonline1,
+input#hideonline0 {
+  margin-top: -1px                    !important; }
+
+input#disable_bbcode,
+input#disable_magic_url,
+input#disable_smilies {
+  margin-top: 1px                     !important; }
+
+@media (max-width: 1024px) {
+  input#cur_password {
+    margin-top: 17px                    !important; }
+
+  select#dateoptions {
+    margin-top: 7px                     !important; } }
+@media (min-width: 1025px) and (max-width: 1600px) {
+  form#ucp div#avatar_option_avatar_driver_remote dl:nth-child(2) dd,
+  input#avatar_remote_url,
+  input#avatar_upload_url,
+  input#cur_password,
+  input#new_password,
+  input#password_confirm {
+    margin-top: 11px                    !important; } }
+@media (min-width: 1601px) and (max-width: 2048px) {
+  form#ucp div#avatar_option_avatar_driver_remote dl:nth-child(2) dd,
+  input#avatar_remote_url,
+  input#avatar_upload_url,
+  input#new_password,
+  input#password_confirm {
+    margin-top: 4px                    !important; }
+
+  input#cur_password {
+    margin-top: 11px                   !important; } }
+@media (min-width: 2049px) {
+  input#cur_password {
+    margin-top: 4px                    !important; } }
 input.inputbox, textarea {
   background-color: #363636 !important;
-  border: 1px solid #999999 !important;
   border-radius: 2px !important;
   color: #bbbbbb !important; }
 
@@ -86,19 +181,16 @@ input::-webkit-input-placeholder {
 select {
   background-color: #999999 !important;
   border-radius: 2px !important;
-  border: 1px solid #999999 !important;
   color: #242424 !important;
   height: 24px                    !important; }
 
-fieldset dl dt label {
-  position: absolute                !important;
-  padding-top: 6px                     !important; }
+select#usernames {
+  height: auto                    !important; }
 
-fieldset.fields1 label {
-  padding-top: 3px !important; }
-
-fieldset dl dd {
-  margin-bottom: 0px                     !important; }
+#flag-container {
+  background-color: #363636 !important;
+  border-radius: 2px !important;
+  color: #a73939 !important; }
 
 a {
   color: #bbbbbb !important; }
@@ -116,6 +208,10 @@ h3 {
   color: #a73939 !important;
   border-bottom: 1px solid #363636 !important; }
 
+/*
+hr {
+    border-top:     1px solid $border_color !important;
+}*/
 div.navbar {
   background-color: #404040 !important; }
 
@@ -220,6 +316,9 @@ li.row:last-child {
 li.row strong {
   color: #bbbbbb !important; }
 
+.tab a, .tab a:hover {
+  margin: 0px 1px 0px 0px !important; }
+
 .tab a {
   background-color: #242424 !important;
   background-image: none            !important; }
@@ -229,7 +328,8 @@ li.row strong {
 
 .activetab a {
   background-color: #363636 !important;
-  color: #a73939 !important; }
+  color: #a73939 !important;
+  padding: 5px 9px         !important; }
 
 #navigation ul {
   border: 1px solid #363636 !important;
@@ -245,6 +345,9 @@ li.row strong {
 #navigation #active-subsection a, #navigation a:hover {
   background-color: #363636 !important; }
 
+#navigation ul:nth-child(2) {
+  margin-top: 5px                     !important; }
+
 div.panel.bg3 {
   border: 1px solid #363636 !important; }
 
@@ -254,7 +357,20 @@ div.panel.bg3, div.panel.bg3 div.panel {
 div.panel.bg3 div.panel, div.panel.bg3 div.panel dt {
   color: #bbbbbb !important; }
 
-div.panel.bg3 div.panel dd {
+div.panel.bg3 div.panel li.header dt {
+  color: #242424 !important; }
+
+div.panel.bg3 div.panel dl.details dd {
+  color: #a73939 !important; }
+
+div.cp-mini {
+  background-color: #242424 !important;
+  border: 1px solid #363636 !important;
+  border-radius: 2px !important;
+  margin-left: 0px                     !important;
+  margin-right: 0px                     !important; }
+
+div.cp-mini dt {
   color: #a73939 !important; }
 
 /*# sourceMappingURL=fmxl.css.map */

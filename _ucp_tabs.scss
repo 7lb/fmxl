@@ -1,3 +1,7 @@
+.tab a, .tab a:hover {
+    margin:             0px 1px 0px 0px !important;
+}
+
 .tab a {
     background-color:   $dark_bg        !important;
     background-image:   none            !important;
@@ -10,4 +14,5 @@
 .activetab a {
     background-color:   $normal_bg      !important;
     color:              $colored_hints  !important;
+    padding:            5px 9px         !important;
 }

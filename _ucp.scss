@@ -19,6 +19,10 @@
     background-color:   $normal_bg              !important;
 }
 
+#navigation ul:nth-child(2) {
+    margin-top:         5px                     !important;
+}
+
 // Body proper
 div.panel.bg3 {
     border:             1px solid $border_color !important;
@@ -32,6 +36,23 @@ div.panel.bg3 div.panel, div.panel.bg3 div.panel dt {
     color:              $text-color             !important;
 }
 
-div.panel.bg3 div.panel dd {
+div.panel.bg3 div.panel li.header dt {
+    color:              $dark_bg                !important;
+}
+
+div.panel.bg3 div.panel dl.details dd {
+    color:              $colored_hints          !important;
+}
+
+// Friends panel
+div.cp-mini {
+    background-color:   $dark_bg                !important;
+    border: 1px solid   $border_color           !important;
+    border-radius:      $small_border_radius    !important;
+    margin-left:        0px                     !important;
+    margin-right:       0px                     !important;
+}
+
+div.cp-mini dt {
     color:              $colored_hints          !important;
 }

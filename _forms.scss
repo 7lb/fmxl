@@ -1,0 +1,135 @@
+// Colors
+fieldset dl label, fieldset.display-options label, #options-panel label,
+div.left-box label, div.right-box label,
+label[for="disable_bbcode"],
+label[for="disable_magic_url"],
+label[for="disable_smilies"] {
+    color:              $colored_hints          !important;
+}
+
+fieldset dl:hover dt label {
+    color:              $bright_colored_hints   !important;
+}
+
+// Vertically center some form options
+fieldset dl dd {
+    margin-bottom:      0px                     !important;
+}
+
+fieldset dl dd#tz_select_date {
+    margin-bottom:      1px                     !important;
+}
+
+fieldset dl dd label {
+    position:           relative                !important;
+    top:                1px                     !important;
+}
+
+@media (max-width: 1600px) {
+    fieldset dl dd label[for="allowpm1"],
+    fieldset dl dd label[for="allowpm0"],
+    fieldset dl dd label[for="hideonline1"],
+    fieldset dl dd label[for="hideonline0"] {
+        top:                13px                    !important;
+    }
+}
+
+@media (min-width: 1601px) {
+    fieldset dl dd label[for="allowpm1"],
+    fieldset dl dd label[for="allowpm0"],
+    fieldset dl dd label[for="bday_day"],
+    fieldset dl dd label[for="bday_month"],
+    fieldset dl dd label[for="bday_year"],
+    fieldset dl dd label[for="hideonline1"],
+    fieldset dl dd label[for="hideonline0"] {
+        top:                 6px                    !important;
+    }
+}
+
+fieldset dl dt label {
+    position:           absolute                !important;
+    padding-top:        0px                     !important;
+}
+
+dl.pmlist label {
+    position:           relative                !important;
+}
+
+fieldset dl dt label[for="avatar_upload_file"],
+fieldset dl dt label[for="avatars1"],
+fieldset dl dt label[for="bbcode1"],
+fieldset dl dt label[for="email"],
+fieldset dl dt label[for="flash0"],
+fieldset dl dt label[for="images1"],
+fieldset dl dt label[for="massemail1"],
+fieldset dl dt label[for="notify1"],
+fieldset dl dt label[for="pf_phpbb_facebook"],
+fieldset dl dt label[for="pf_phpbb_skype"],
+fieldset dl dt label[for="pf_phpbb_twitter"],
+fieldset dl dt label[for="pf_phpbb_website"],
+fieldset dl dt label[for="pf_phpbb_youtube"],
+fieldset dl dt label[for="sig1"],
+fieldset dl dt label[for="sigs1"],
+fieldset dl dt label[for="smilies1"],
+fieldset dl dt label[for="topic_preview1"],
+fieldset dl dt label[for="viewemail0"] {
+    padding-top:        1px                     !important;
+}
+
+fieldset dl dt label[for="timezone"] {
+    padding-top:        18px                    !important;
+}
+
+input#allowpm1,
+input#allowpm0,
+input#hideonline1,
+input#hideonline0 {
+    margin-top:         -1px                    !important;
+}
+
+input#disable_bbcode,
+input#disable_magic_url,
+input#disable_smilies {
+    margin-top:         1px                     !important;
+}
+
+@media (max-width: 1024px) {
+    input#cur_password {
+        margin-top:         17px                    !important;
+    }
+
+    select#dateoptions {
+        margin-top:         7px                     !important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+    form#ucp div#avatar_option_avatar_driver_remote dl:nth-child(2) dd,
+    input#avatar_remote_url,
+    input#avatar_upload_url,
+    input#cur_password,
+    input#new_password,
+    input#password_confirm {
+        margin-top:         11px                    !important;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 2048px) {
+    form#ucp div#avatar_option_avatar_driver_remote dl:nth-child(2) dd,
+    input#avatar_remote_url,
+    input#avatar_upload_url,
+    input#new_password,
+    input#password_confirm {
+        margin-top:         4px                    !important;
+    }
+
+    input#cur_password {
+        margin-top:         11px                   !important;
+    }
+}
+
+@media (min-width: 2049px) {
+    input#cur_password {
+        margin-top:         4px                    !important;
+    }
+}
