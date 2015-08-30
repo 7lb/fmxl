@@ -1,63 +1,63 @@
 // icon button (icons for every button)
 a.icon-button::before, button.icon-button::before, span.icon-button::before {
-    background-image:   none        !important;
-    color:              $dark_bg    !important;
-    font-family:        FontAwesome !important;
-    font-size:          8pt         !important;
-    text-align:         center      !important;
+    background-image:   none                !important;
+    color:              $dark_bg            !important;
+    font-family:        FontAwesome         !important;
+    font-size:          8pt                 !important;
+    text-align:         center              !important;
 }
 
 // button icons
 a.edit-icon::before {
-    content:            '\f040'     !important;
+    content:            '\f040'             !important;
 }
 
 a.newpm-icon::before {
-    content:            '\f069'     !important;
-    padding-left:       2px         !important;
-    padding-top:        1px         !important;
+    content:            '\f069'             !important;
+    padding-left:       2px                 !important;
+    padding-top:        1px                 !important;
 }
 
 a.post-icon::before {
-    content:            '\f067'     !important;
-    padding-left:       2px         !important;
-    padding-top:        1px         !important;
+    content:            '\f067'             !important;
+    padding-left:       2px                 !important;
+    padding-top:        1px                 !important;
 }
 
 a.quote-icon::before {
-    content:            '\f10d'     !important;
-    font-size:          7pt         !important;
+    content:            '\f10d'             !important;
+    font-size:          7pt                 !important;
 }
 
 a.reply-icon::before {
-    content:            '\f112'     !important;
-    margin-top:         4px         !important;
-    padding-left:       2px         !important;
+    content:            '\f112'             !important;
+    margin-top:         4px                 !important;
+    padding-left:       2px                 !important;
 }
 
 a.report-icon::before {
-    content:            '\f12a'     !important;
+    content:            '\f12a'             !important;
 }
 
 a.search-adv-icon::before {
-    content:            '\f013'     !important;
-    left:               -1px        !important;
-    padding-top:        2px         !important;
-    position:           relative    !important;
+    content:            '\f013'             !important;
+    left:               -1px                !important;
+    padding-top:        2px                 !important;
+    position:           relative            !important;
 }
 
 button.search-icon::before {
-    content:            '\f002'     !important;
-    left:               -1px        !important;
-    padding-top:        2px         !important;
-    position:           relative    !important;
+    content:            '\f002'             !important;
+    left:               -1px                !important;
+    padding-top:        2px                 !important;
+    position:           relative            !important;
 }
 
 span.tools-icon::before {
-    content:            '\f0ad'     !important;
-    left:               1px         !important;
-    padding-top:        2px         !important;
-    position:           relative    !important;
+    content:            '\f0ad'             !important;
+    left:               1px                 !important;
+    padding-top:        2px                 !important;
+    position:           relative            !important;
 }
 
 // Right part of tools button and jump to button

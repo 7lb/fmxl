@@ -1,0 +1,63 @@
+div.bg1 {
+    background-color:   $normal_bg              !important;
+}
+
+div.bg2 {
+    background-color:   $normal_bg              !important;
+}
+
+div.content, p.author {
+    color:              $text_color             !important;
+}
+
+div.postbody h3 {
+    border:             0px                     !important;
+}
+
+div.vote-no-bar {
+    color:              $text_color             !important;
+}
+
+dl.postprofile dd.profile-contact strong,
+dl.postprofile dd.profile-cookies,
+dl.postprofile dd.profile-cookies strong,
+dl.postprofile dd.profile-posts strong {
+    color:              $text_color             !important;
+}
+
+#qr_postform div.panel {
+    background-color:   $dark_bg                !important;
+    border:             1px solid $border_color !important;
+}
+
+form + hr {
+    display:            none                    !important;
+}
+
+// Post content like quotes, code etc
+// This makes sure that the first container in a nested chain
+// does not have any border, but makes nested ones do
+div.content > blockquote,
+div.content > div.codebox,
+div.content > div.detail-spoiler div.hidden,
+div.content > div.spoilwrapper,
+div.codebox > code {
+    border:             0px                     !important;
+}
+
+blockquote, code, div.codebox, div.hidden, div.spoilwrapper {
+    border:             1px solid $border_color !important;
+}
+
+blockquote, code, div.codebox, div.hidden, div.spoilwrapper, pre.nfo {
+    background-color:   $dark_bg                !important;
+    border-radius:      $small_border_radius    !important;
+}
+
+code {
+    color:              $code_color             !important;
+}
+
+div.spoiltitle span.spoilbtn, div.spoilcontent, pre.nfo {
+    color:              $text_color             !important;
+}
