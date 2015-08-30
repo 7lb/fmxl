@@ -1,0 +1,25 @@
+a.subforum {
+    background-image:   none            !important;
+    padding-left:       0px             !important;
+}
+
+a.subforum.read::before, a.subforum.unread::before {
+    content:            '\f016'         !important;
+    font-family:        FontAwesome     !important;
+    padding:            0px 2px 2px 0px !important;
+    position:           relative        !important;
+    top:                -1px            !important;
+}
+
+a.subforum.unread::before {
+    color:              $colored_hints  !important;
+}
+
+a.subforum.read:hover::before, a.subforum.unread:hover::before {
+    display:            inline-block    !important;
+    text-decoration:    none            !important;
+}
+
+a.subforum.read:hover::before {
+    color:              $text_color     !important;
+}

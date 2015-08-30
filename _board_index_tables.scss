@@ -25,6 +25,33 @@ div.forumbg div.inner ul.topiclist.forums li.row:hover {
     background-color:   $normal_bg              !important;
 }
 
+// Vertically center stuff inside rows
+li.row dt {
+    padding-top:        6px                     !important;
+}
+
+li#for7 dt, li#for13 dt {
+    padding-top:        0px                     !important;
+}
+
+div.forabg li.row dd.topics,
+div.forabg li.row dd.posts {
+    padding-top:        11px                    !important;
+}
+
+div.forabg li.row dd.lastpost {
+    padding-top:        2px                     !important;
+}
+
+div.forumbg li.row dd.posts,
+div.forumbg li.row dd.views {
+    padding-top:        8px                     !important;
+}
+
+div.forumbg li.row dd.lastpost {
+    padding-top:        3px                     !important;
+}
+
 // Median XL Worldwide section
 div#cat26.forabg div.inner ul.topiclist.forums {
     background-color:   $dark_bg                !important;

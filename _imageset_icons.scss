@@ -1,0 +1,50 @@
+// imageset icons
+span.imageset:first-child {
+    background-image:   none            !important;
+    font-family:        FontAwesome     !important;
+    padding:            7px             !important;
+    position:           relative        !important;
+    top:                3px             !important;
+}
+
+span.icon_contact::before, span.icon_post_target::before,
+span.icon_post_target_unread::before, span.icon_topic_attach::before,
+span.icon_topic_latest::before, span.icon_topic_newest::before,
+span.icon_topic_poll::before {
+    left:               -7px            !important;
+    top:                -6px            !important;
+    position:           relative        !important;
+}
+
+span.icon_contact::before {
+    content:            '\f0d7'         !important;
+    font-size:          12pt            !important;
+    top:                -10px           !important;
+}
+
+span.icon_post_target::before {
+    content:            '\f016'         !important;
+}
+
+span.icon_post_target_unread::before {
+    color:              $colored_hints  !important;
+    content:            '\f016'         !important;
+}
+
+span.icon_topic_attach::before {
+    content:            '\f0c6'         !important;
+    font-size:          10pt            !important;
+}
+
+span.icon_topic_latest::before {
+    content:            '\f050'         !important;
+}
+
+span.icon_topic_newest::before {
+    color:              $colored_hints  !important;
+    content:            '\f08e'         !important;
+}
+
+span.icon_topic_poll::before {
+    content:            '\f080'         !important;
+}

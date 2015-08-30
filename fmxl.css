@@ -12,7 +12,7 @@ body, div.navbar, html, input, #wrap {
   border: 0px             !important;
   border-color: #363636 !important; }
 
-a.button, a.button2, button.button,
+a.button, a.button2, button.button, button.button2,
 input.button1, input.button2, span.dropdown-trigger.button {
   background-color: #a73939 !important;
   background-image: none                    !important;
@@ -21,10 +21,13 @@ input.button1, input.button2, span.dropdown-trigger.button {
   padding: 3px                     !important;
   text-shadow: none                    !important; }
 
-a.button:hover, a.button2:hover, button.button:hover,
+a.button:hover, a.button2:hover, button.button:hover, button.button2:hover,
 input.button1:hover, input.button2:hover, span.dropdown-trigger.button:hover {
   background-color: #d23636 !important;
   color: #242424 !important; }
+
+button.button2 {
+  padding: 5px 4px                !important; }
 
 .icon-button::before {
   background-image: none                    !important; }
@@ -161,6 +164,29 @@ input#disable_smilies {
 @media (min-width: 2049px) {
   input#cur_password {
     margin-top: 4px                    !important; } }
+form#guidefilter fieldset {
+  height: 25px                    !important; }
+
+form#guidefilter > span {
+  background-color: #363636 !important;
+  border-radius: 2px !important; }
+
+form#guidefilter span {
+  color: #bbbbbb !important; }
+
+ul.guidelist li.row dt {
+  padding-bottom: 3px                     !important;
+  padding-top: 3px                     !important; }
+
+ul.guidelist li.row dd.rating {
+  padding-top: 8px                     !important; }
+
+ul.guidelist li.row dd.views {
+  padding-top: 10px                    !important; }
+
+ul.guidelist li.row dd.lastpost {
+  padding-top: 5px                     !important; }
+
 a.icon-button::before, button.icon-button::before, span.icon-button::before {
   background-image: none                !important;
   color: #242424 !important;
@@ -223,6 +249,47 @@ span.dropdown-select::after {
 span.dropdown-select[title="Jump to"] {
   padding-left: 7px                 !important;
   padding-right: 24px                !important; }
+
+span.imageset:first-child {
+  background-image: none            !important;
+  font-family: FontAwesome     !important;
+  padding: 7px             !important;
+  position: relative        !important;
+  top: 3px             !important; }
+
+span.icon_contact::before, span.icon_post_target::before,
+span.icon_post_target_unread::before, span.icon_topic_attach::before,
+span.icon_topic_latest::before, span.icon_topic_newest::before,
+span.icon_topic_poll::before {
+  left: -7px            !important;
+  top: -6px            !important;
+  position: relative        !important; }
+
+span.icon_contact::before {
+  content: '\f0d7'         !important;
+  font-size: 12pt            !important;
+  top: -10px           !important; }
+
+span.icon_post_target::before {
+  content: '\f016'         !important; }
+
+span.icon_post_target_unread::before {
+  color: #a73939 !important;
+  content: '\f016'         !important; }
+
+span.icon_topic_attach::before {
+  content: '\f0c6'         !important;
+  font-size: 10pt            !important; }
+
+span.icon_topic_latest::before {
+  content: '\f050'         !important; }
+
+span.icon_topic_newest::before {
+  color: #a73939 !important;
+  content: '\f08e'         !important; }
+
+span.icon_topic_poll::before {
+  content: '\f080'         !important; }
 
 div.dropdown li.small-icon {
   margin-left: 25px                    !important; }
@@ -338,6 +405,27 @@ li.icon-sendemail a::before {
 li.icon-subscribe a::before {
   content: '\f046'                 !important; }
 
+a.subforum {
+  background-image: none            !important;
+  padding-left: 0px             !important; }
+
+a.subforum.read::before, a.subforum.unread::before {
+  content: '\f016'         !important;
+  font-family: FontAwesome     !important;
+  padding: 0px 2px 2px 0px !important;
+  position: relative        !important;
+  top: -1px            !important; }
+
+a.subforum.unread::before {
+  color: #a73939 !important; }
+
+a.subforum.read:hover::before, a.subforum.unread:hover::before {
+  display: inline-block    !important;
+  text-decoration: none            !important; }
+
+a.subforum.read:hover::before {
+  color: #bbbbbb !important; }
+
 input.inputbox, textarea {
   background-color: #363636 !important;
   border-radius: 2px !important;
@@ -386,7 +474,7 @@ h3 {
   color: #a73939 !important;
   border-bottom: 1px solid #363636 !important; }
 
-hr {
+hr:not(.divider) {
   border-top: 1px solid #999999 !important; }
 
 div.navbar {
@@ -455,6 +543,26 @@ div.forumbg div.inner ul.topiclist.forums li.row {
 div.forabg div.inner ul.topiclist.forums li.row:hover,
 div.forumbg div.inner ul.topiclist.forums li.row:hover {
   background-color: #363636 !important; }
+
+li.row dt {
+  padding-top: 6px                     !important; }
+
+li#for7 dt, li#for13 dt {
+  padding-top: 0px                     !important; }
+
+div.forabg li.row dd.topics,
+div.forabg li.row dd.posts {
+  padding-top: 11px                    !important; }
+
+div.forabg li.row dd.lastpost {
+  padding-top: 2px                     !important; }
+
+div.forumbg li.row dd.posts,
+div.forumbg li.row dd.views {
+  padding-top: 8px                     !important; }
+
+div.forumbg li.row dd.lastpost {
+  padding-top: 3px                     !important; }
 
 div#cat26.forabg div.inner ul.topiclist.forums {
   background-color: #242424 !important;

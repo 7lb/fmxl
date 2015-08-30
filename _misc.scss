@@ -22,6 +22,6 @@ h3 {
 }
 
 
-hr {
+hr:not(.divider) {
     border-top:     1px solid $light_hints  !important;
 }

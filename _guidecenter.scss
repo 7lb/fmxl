@@ -1,0 +1,29 @@
+form#guidefilter fieldset {
+    height:             25px                    !important;
+}
+
+form#guidefilter > span {
+    background-color:   $normal_bg              !important;
+    border-radius:      $small_border_radius    !important;
+}
+
+form#guidefilter span {
+    color:              $text_color             !important;
+}
+
+ul.guidelist li.row dt {
+    padding-bottom:     3px                     !important;
+    padding-top:        3px                     !important;
+}
+
+ul.guidelist li.row dd.rating {
+    padding-top:        8px                     !important;
+}
+
+ul.guidelist li.row dd.views {
+    padding-top:        10px                    !important;
+}
+
+ul.guidelist li.row dd.lastpost {
+    padding-top:        5px                     !important;
+}
