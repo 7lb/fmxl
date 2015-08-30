@@ -393,6 +393,38 @@ div.navbar {
   background-color: #242424 !important;
   border: 1px solid #363636 !important; }
 
+div.pointer, div.pointer-inner {
+  border-left: 10px solid transparent      !important;
+  border-right: 10px solid transparent      !important;
+  border-bottom: 10px solid transparent      !important;
+  border-color: #363636 transparent !important; }
+
+div.pointer div.pointer-inner {
+  border-color: #242424 transparent !important; }
+
+div.dropdown-contents, div.dropdown-contents div.header, ul.dropdown-contents {
+  background: #242424 !important;
+  color: #bbbbbb !important;
+  text-shadow: none                        !important; }
+
+div.dropdown-contents, ul.dropdown-contents {
+  border: 1px solid #363636 !important; }
+
+div.dropdown-contents div.header {
+  border-bottom: 1px solid #363636 !important; }
+
+div.dropdown-contents div.footer {
+  border-top: 1px solid #363636 !important; }
+
+a.notification-block:hover {
+  background-color: #404040 !important; }
+
+a.notification-block:hover span.username-coloured {
+  color: #bbbbbb !important; }
+
+a.notification-block p.notification-time {
+  color: #a73939 !important; }
+
 .scroll-btn {
   background-color: #242424 !important;
   border: 2px solid #999999 !important; }
@@ -565,10 +597,12 @@ div.content > div.spoilwrapper,
 div.codebox > code {
   border: 0px                     !important; }
 
-blockquote, code, div.codebox, div.hidden, div.spoilwrapper {
+blockquote, code, div.codebox, div.detail-spoiler div.hidden,
+div.spoilwrapper {
   border: 1px solid #363636 !important; }
 
-blockquote, code, div.codebox, div.hidden, div.spoilwrapper, pre.nfo {
+blockquote, code, div.codebox, div.detail-spoiler div.hidden,
+div.spoilwrapper, pre.nfo {
   background-color: #242424 !important;
   border-radius: 2px !important; }
 

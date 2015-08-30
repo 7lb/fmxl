@@ -45,11 +45,13 @@ div.codebox > code {
     border:             0px                     !important;
 }
 
-blockquote, code, div.codebox, div.hidden, div.spoilwrapper {
+blockquote, code, div.codebox, div.detail-spoiler div.hidden,
+div.spoilwrapper {
     border:             1px solid $border_color !important;
 }
 
-blockquote, code, div.codebox, div.hidden, div.spoilwrapper, pre.nfo {
+blockquote, code, div.codebox, div.detail-spoiler div.hidden,
+div.spoilwrapper, pre.nfo {
     background-color:   $dark_bg                !important;
     border-radius:      $small_border_radius    !important;
 }
