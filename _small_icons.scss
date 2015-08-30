@@ -1,0 +1,151 @@
+div.dropdown li.small-icon {
+    margin-left:        25px                    !important;
+}
+
+li.small-icon:not(.icon-tradegold) {
+    background-image:   none                    !important;
+}
+
+li.small-icon:not(.icon-tradegold)::before {
+    left:               0px                     !important;
+    top:                0px                     !important;
+}
+
+li.small-icon:not(.responsive-menu):not(.icon-tradegold) a {
+    padding-left:       0px                     !important;
+}
+
+div.dropdown li.small-icon:not(.icon-tradegold) a::before {
+    position:           absolute                !important;
+    left:               0px                     !important;
+}
+
+li.small-icon:not(.icon-tradegold) a::before {
+    color:              $text_color             !important;
+    font-family:        FontAwesome             !important;
+    font-size:          130%                    !important;
+    font-weight:        normal                  !important;
+}
+
+li.small-icon:not(.responsive-menu):not(.icon-tradegold) a::before {
+    padding:            0px 5px                 !important;
+}
+
+li.small-icon:not(.icon-tradegold) a:hover::before {
+    color:              $bright_colored_hints   !important;
+    display:            inline-block            !important;
+    text-decoration:    none                    !important;
+}
+
+// navbar icons
+// Home icon before "board index" link
+li.breadcrumbs span:first-child > a::before {
+    content:            '\f015'                 !important;
+}
+
+li.icon-contact a::before {
+    color:              $colored_hints          !important;
+    content:            '\f003'                 !important;
+}
+
+li.icon-delete-cookies a::before {
+    content:            '\f014'                 !important;
+}
+
+li.icon-donate a::before {
+    color:              $colored_hints          !important;
+    content:            '\f08a'                 !important;
+}
+
+li.icon-faq a::before {
+    color:              $colored_hints          !important;
+    content:            '\f059'                 !important;
+}
+
+// also used for login
+li.icon-logout a::before {
+    content:            '\f011'                 !important;
+}
+
+li.icon-notification a::before {
+    color:              $colored_hints          !important;
+    content:            '\f0a2'                 !important;
+}
+
+    // pertains to .icon-notification
+#notification_list a::before {
+    display:            none                    !important;
+}
+
+li.icon-pm a::before {
+    color:              $colored_hints          !important;
+    content:            '\f003'                 !important;
+}
+
+li.icon-register a::before {
+    color:              colored_hints           !important;
+    content:            '\f234'                 !important;
+}
+/*
+li.icon-tradegold a::before {
+    color:              $yellow                 !important;
+    content:            '\f219'                 !important;
+}*/
+
+// quick links icons
+li.icon-members a::before {
+    content:            '\f007'                 !important;
+}
+
+li.icon-search a::before {
+    content:            '\f002'                 !important;
+}
+
+li.icon-search-active a::before {
+    content:            '\f0f6'                 !important;
+}
+
+li.icon-search-new a::before{
+    color:              $colored_hints          !important;
+    content:            '\f1ea'                 !important;
+}
+
+li.icon-search-self a::before {
+    content:            '\f14c'                 !important;
+}
+
+li.icon-search-unanswered a::before {
+    content:            '\f016'                 !important;
+}
+
+li.icon-search-unread a::before {
+    color:              $colored_hints          !important;
+    content:            '\f08e'                 !important;
+}
+
+li.icon-team a::before {
+    color:              $colored_hints          !important;
+    content:            '\f0c0'                 !important;
+}
+
+// username menu icons
+li.icon-profile a::before {
+    content:            '\f007'                 !important;
+}
+
+li.icon-ucp a::before {
+    content:            '\f085'                 !important;
+}
+
+// tools menu icons
+li.icon-bookmark a::before {
+    content:            '\f097'                 !important;
+}
+
+li.icon-sendemail a::before {
+    content:            '\f003'                 !important;
+}
+
+li.icon-subscribe a::before {
+    content:            '\f046'                 !important;
+}
