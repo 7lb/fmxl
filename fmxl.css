@@ -197,6 +197,13 @@ a.icon-button::before, button.icon-button::before, span.icon-button::before {
 a.edit-icon::before {
   content: '\f040'             !important; }
 
+button.forwardpm-icon::before {
+  content: '\f045'             !important;
+  font-size: 10pt                !important;
+  padding-left: 3px                 !important;
+  padding-right: 2px                 !important;
+  position: relative            !important; }
+
 a.newpm-icon::before {
   content: '\f069'             !important;
   padding-left: 2px                 !important;
@@ -753,6 +760,45 @@ li.row:last-child {
 
 li.row strong {
   color: #bbbbbb !important; }
+
+div.panel.bg2 {
+  background-color: #242424 !important;
+  border: 1px solid #363636 !important; }
+
+form#tradeform span,
+form#tradeform strong {
+  color: #bbbbbb !important; }
+
+form#tradeform textarea {
+  margin-top: 3px                     !important; }
+
+input#tradevalue,
+input#member {
+  background-color: #363636 !important;
+  border-radius: 2px !important;
+  height: 24px                    !important;
+  top: -5px                    !important;
+  position: relative                !important; }
+
+form#tradeform label[for="confirm_box"] span {
+  color: #a73939 !important; }
+
+div.forumbg.forumbg-table div.inner {
+  background-color: #999999 !important; }
+
+div.forumbg.forumbg-table div.inner thead * {
+  color: #242424 !important;
+  padding-top: 6px                     !important;
+  padding-bottom: 12px                    !important; }
+
+tr.bg1 {
+  background-color: #242424 !important; }
+
+tr.bg1:hover {
+  background-color: #363636 !important; }
+
+tr.bg1 td {
+  color: #a73939 !important; }
 
 div.bg1 {
   background-color: #363636 !important; }

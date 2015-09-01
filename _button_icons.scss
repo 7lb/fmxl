@@ -12,6 +12,14 @@ a.edit-icon::before {
     content:            '\f040'             !important;
 }
 
+button.forwardpm-icon::before {
+    content:            '\f045'             !important;
+    font-size:          10pt                !important;
+    padding-left:       3px                 !important;
+    padding-right:      2px                 !important;
+    position:           relative            !important;
+}
+
 a.newpm-icon::before {
     content:            '\f069'             !important;
     padding-left:       2px                 !important;
