@@ -32,6 +32,12 @@ a.post-icon::before {
     padding-top:        1px                 !important;
 }
 
+button.post-icon::before {
+    content:            '\f067'             !important;
+    padding-left:       2px                 !important;
+    padding-top:        1px                 !important;
+}
+
 a.quote-icon::before {
     content:            '\f10d'             !important;
     font-size:          7pt                 !important;

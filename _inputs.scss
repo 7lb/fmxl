@@ -4,7 +4,7 @@ input.inputbox, textarea {
     color:              $text_color             !important;
 }
 
-input.inputbox.tiny {
+input.inputbox:not(.search).tiny {
     height:             21px                    !important;
 }
 

@@ -60,6 +60,23 @@ ul.recipients input.button2 {
   position: relative                !important;
   top: -2px                    !important; }
 
+div.panel.bg1,
+li.donate-comment {
+  background-color: #242424 !important;
+  border: 1px solid #363636 !important; }
+
+div.panel.bg1 div.inner div,
+div.panel.bg2 form.payPalForm {
+  color: #bbbbbb !important; }
+
+input#manual-input {
+  background-color: #363636 !important;
+  height: 24px                    !important;
+  border-radius: 2px !important; }
+
+li.donate-comment {
+  border-radius: 2px !important; }
+
 fieldset dl label, fieldset.display-options label, #options-panel label,
 div.left-box label, div.right-box label,
 label[for="disable_bbcode"],
@@ -210,6 +227,11 @@ a.newpm-icon::before {
   padding-top: 1px                 !important; }
 
 a.post-icon::before {
+  content: '\f067'             !important;
+  padding-left: 2px                 !important;
+  padding-top: 1px                 !important; }
+
+button.post-icon::before {
   content: '\f067'             !important;
   padding-left: 2px                 !important;
   padding-top: 1px                 !important; }
@@ -434,21 +456,27 @@ a.subforum.read:hover::before {
   color: #bbbbbb !important; }
 
 a.top2 {
-  background-image: none        !important; }
+  background-image: none            !important; }
 
 a.top2::before {
-  content: '\f139'     !important;
-  font-family: FontAwesome !important;
-  font-size: 9pt        !important;
-  position: absolute    !important;
-  margin-left: -14px       !important; }
+  content: '\f139'         !important;
+  font-family: FontAwesome     !important;
+  font-size: 9pt             !important;
+  position: absolute        !important;
+  margin-left: -14px           !important; }
+
+#quick-links > a::before {
+  border: 0px             !important;
+  content: '\f0c9'         !important;
+  color: #a73939 !important;
+  top: 4px             !important; }
 
 input.inputbox, textarea {
   background-color: #363636 !important;
   border-radius: 2px !important;
   color: #bbbbbb !important; }
 
-input.inputbox.tiny {
+input.inputbox:not(.search).tiny {
   height: 21px                    !important; }
 
 input.search.tiny {
@@ -497,8 +525,14 @@ h3 {
   color: #a73939 !important;
   border-bottom: 1px solid #363636 !important; }
 
+h4 {
+  color: #883939 !important; }
+
 hr:not(.divider) {
-  border-top: 1px solid #999999 !important; }
+  border-top: 1px solid #363636 !important; }
+
+hr.dashed {
+  border-top: 1px dashed #363636 !important; }
 
 div.navbar {
   background-color: #242424 !important;
@@ -532,6 +566,14 @@ a.notification-block:hover span.username-coloured {
 
 a.notification-block p.notification-time {
   color: #a73939 !important; }
+
+#username_logged_in::before {
+  content: ''                          !important; }
+
+span.username::after {
+  content: '\f0d7'                     !important;
+  font-family: FontAwesome                 !important;
+  font-size: 130%                        !important; }
 
 li.row div.pagination {
   background-image: none                    !important; }

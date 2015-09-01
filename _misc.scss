@@ -1,31 +1,38 @@
 // Links
 a {
-    color:          $text_color             !important;
+    color:          $text_color                 !important;
 }
 
 a:hover, a.username-coloured:hover {
-    color:          $bright_colored_hints   !important;
+    color:          $bright_colored_hints       !important;
 }
 
 a.username-coloured {
-    color:          $colored_hints          !important;
+    color:          $colored_hints              !important;
 }
 
 dl.faq strong {
-    color:          $colored_hints          !important;
+    color:          $colored_hints              !important;
 }
 
 // Headers
 h2 {
-    color:          $text_color             !important;
+    color:          $text_color                 !important;
 }
 
 h3 {
-    color:          $colored_hints          !important;
-    border-bottom:  1px solid $border_color !important;
+    color:          $colored_hints              !important;
+    border-bottom:  1px solid $border_color     !important;
 }
 
+h4 {
+    color:          $weak_colored_hints         !important;
+}
 
 hr:not(.divider) {
-    border-top:     1px solid $light_hints  !important;
+    border-top:     1px solid $border_color     !important;
+}
+
+hr.dashed {
+    border-top:     1px dashed $border_color    !important;
 }

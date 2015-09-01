@@ -43,3 +43,14 @@ a.notification-block:hover span.username-coloured {
 a.notification-block p.notification-time {
     color:              $colored_hints              !important;
 }
+
+// Username "icons" (circle on the left and triangle on the right)
+#username_logged_in::before {
+    content:            ''                          !important;
+}
+
+span.username::after {
+    content:            '\f0d7'                     !important;
+    font-family:        FontAwesome                 !important;
+    font-size:          130%                        !important;
+}
