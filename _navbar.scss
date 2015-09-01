@@ -4,14 +4,11 @@ div.navbar {
 }
 
 // Dropdown arrow
-div.pointer, div.pointer-inner {
-    border-left:        10px solid transparent      !important;
-    border-right:       10px solid transparent      !important;
-    border-bottom:      10px solid transparent      !important;
+div.pointer {
     border-color:       $border_color transparent   !important;
 }
 
-div.pointer div.pointer-inner {
+div.pointer-inner {
     border-color:       $dark_bg transparent        !important;
 }
 

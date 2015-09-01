@@ -4,6 +4,10 @@ input.inputbox, textarea {
     color:              $text_color             !important;
 }
 
+input.inputbox.tiny {
+    height:             21px                    !important;
+}
+
 input.search.tiny {
     border:             0px                                                 !important;
     border-radius:      $small_border_radius 0px 0px $small_border_radius   !important

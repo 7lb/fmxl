@@ -1,0 +1,26 @@
+div.phpbb_alert {
+    border-color:       $border_color       !important;
+    border-radius:      $big_border_radius  !important;
+    background-color:   $dark_bg            !important;
+
+}
+
+// Alert close icon
+div.phpbb_alert a.alert_close {
+    background-image:   none                !important;
+    background-color:   $dark_bg            !important;
+    border-radius:      50%                 !important;
+    width:              17px                !important;
+    height:             17px                !important;
+    margin-right:       -33px               !important;
+    margin-top:         -8px                !important;
+}
+
+div.phpbb_alert a.alert_close::before {
+    content:            '\f05c'             !important;
+    font-family:        FontAwesome         !important;
+    font-size:          14pt                !important;
+    position:           relative            !important;
+    left:               1px                 !important;
+    top:                -1px                !important;
+}

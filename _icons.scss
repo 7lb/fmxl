@@ -2,3 +2,16 @@
 @import "imageset_icons";
 @import "small_icons";
 @import "subforum_icons";
+
+// Go to top icon
+a.top2 {
+    background-image:   none        !important;
+}
+
+a.top2::before {
+    content:            '\f139'     !important;
+    font-family:        FontAwesome !important;
+    font-size:          9pt        !important;
+    position:           absolute    !important;
+    margin-left:        -14px       !important;
+}

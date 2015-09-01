@@ -8,7 +8,7 @@ body, div.navbar, html, input, #wrap {
   -moz-box-shadow: none        !important;
   box-shadow: none        !important; }
 
-* {
+*:not(.pointer):not(.pointer-inner) {
   border: 0px             !important;
   border-color: #363636 !important; }
 
@@ -426,10 +426,23 @@ a.subforum.read:hover::before, a.subforum.unread:hover::before {
 a.subforum.read:hover::before {
   color: #bbbbbb !important; }
 
+a.top2 {
+  background-image: none        !important; }
+
+a.top2::before {
+  content: '\f139'     !important;
+  font-family: FontAwesome !important;
+  font-size: 9pt        !important;
+  position: absolute    !important;
+  margin-left: -14px       !important; }
+
 input.inputbox, textarea {
   background-color: #363636 !important;
   border-radius: 2px !important;
   color: #bbbbbb !important; }
+
+input.inputbox.tiny {
+  height: 21px                    !important; }
 
 input.search.tiny {
   border: 0px                                                 !important;
@@ -467,6 +480,9 @@ a:hover, a.username-coloured:hover {
 a.username-coloured {
   color: #a73939 !important; }
 
+dl.faq strong {
+  color: #a73939 !important; }
+
 h2 {
   color: #bbbbbb !important; }
 
@@ -481,13 +497,10 @@ div.navbar {
   background-color: #242424 !important;
   border: 1px solid #363636 !important; }
 
-div.pointer, div.pointer-inner {
-  border-left: 10px solid transparent      !important;
-  border-right: 10px solid transparent      !important;
-  border-bottom: 10px solid transparent      !important;
+div.pointer {
   border-color: #363636 transparent !important; }
 
-div.pointer div.pointer-inner {
+div.pointer-inner {
   border-color: #242424 transparent !important; }
 
 div.dropdown-contents, div.dropdown-contents div.header, ul.dropdown-contents {
@@ -512,6 +525,77 @@ a.notification-block:hover span.username-coloured {
 
 a.notification-block p.notification-time {
   color: #a73939 !important; }
+
+li.row div.pagination {
+  background-image: none                    !important; }
+
+div.pagination a.dropdown-toggle,
+div.pagination ul li a,
+div.pagination ul li span {
+  background-image: none                    !important;
+  background-color: #242424 !important;
+  border: 1px solid #363636 !important;
+  color: #8c7a5c !important; }
+
+div.pagination a.dropdown-toggle:hover,
+div.pagination ul li a:hover,
+div.pagination ul li span:hover {
+  background-color: #d23636 !important;
+  color: #242424 !important; }
+
+div.pagination ul li.active span {
+  background-color: #a73939 !important;
+  color: #242424 !important; }
+
+div.pagination ul li.ellipsis span,
+li.ellipsis span {
+  border: 0px                     !important;
+  color: #bbbbbb !important;
+  font-size: 110%                    !important; }
+
+div.pagination a.dropdown-toggle::before,
+div.pagination li.next a::before,
+div.pagination li.previous a::before {
+  font-family: FontAwesome             !important; }
+
+div.pagination a.dropdown-toggle::before {
+  content: '\f178'                 !important;
+  font-size: 16pt                    !important; }
+
+div.pagination li.next a::before,
+div.pagination li.previous a::before {
+  font-size: 9pt                     !important;
+  position: relative                !important;
+  top: 1px                     !important; }
+
+div.pagination li.next a::before {
+  content: '\f054'                 !important;
+  left: 1px                     !important; }
+
+div.pagination li.previous a::before {
+  content: '\f053'                 !important; }
+
+div.phpbb_alert {
+  border-color: #363636 !important;
+  border-radius: 5px !important;
+  background-color: #242424 !important; }
+
+div.phpbb_alert a.alert_close {
+  background-image: none                !important;
+  background-color: #242424 !important;
+  border-radius: 50%                 !important;
+  width: 17px                !important;
+  height: 17px                !important;
+  margin-right: -33px               !important;
+  margin-top: -8px                !important; }
+
+div.phpbb_alert a.alert_close::before {
+  content: '\f05c'             !important;
+  font-family: FontAwesome         !important;
+  font-size: 14pt                !important;
+  position: relative            !important;
+  left: 1px                 !important;
+  top: -1px                !important; }
 
 .scroll-btn {
   background-color: #242424 !important;
