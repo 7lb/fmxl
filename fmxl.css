@@ -534,6 +534,23 @@ hr:not(.divider) {
 hr.dashed {
   border-top: 1px dashed #363636 !important; }
 
+#topic_preview {
+  background-color: #242424 !important;
+  border: 1px solid #363636 !important;
+  color: #bbbbbb !important; }
+
+#topic_preview::before,
+#topic_preview.invert::after {
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
+
+div#message {
+  background-color: #242424 !important;
+  border: 1px solid #363636 !important; }
+
+div#message p {
+  color: #bbbbbb !important; }
+
 div.navbar {
   background-color: #242424 !important;
   border: 1px solid #363636 !important; }
@@ -892,20 +909,20 @@ code {
 div.spoiltitle span.spoilbtn, div.spoilcontent, pre.nfo {
   color: #bbbbbb !important; }
 
-.hidebox_visible, .hidebox_hidden {
+div.hidebox_visible, div.hidebox_hidden {
   border-radius: 2px !important;
   color: #242424 !important; }
 
-.hidebox_visible {
+div.hidebox_visible {
   background-color: #78b082 !important; }
 
-.hidebox_hidden {
+div.hidebox_hidden {
   background-color: #883939 !important; }
 
-.hidebox_title {
+div.hidebox_title {
   border-right: 1px solid #242424 !important;
   border-bottom: 1px solid #242424 !important;
-  border-radius: 0px 0px 2px 0px !important;
+  border-radius: 2px 0px 2px 0px !important;
   color: #242424 !important;
   left: 0px                     !important;
   top: 0px                     !important; }
