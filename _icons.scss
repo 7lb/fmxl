@@ -6,21 +6,33 @@
 
 // Go to top icon
 a.top2 {
-    background-image:   none            !important;
+    background-image:   none                !important;
 }
 
 a.top2::before {
-    content:            '\f139'         !important;
-    font-family:        FontAwesome     !important;
-    font-size:          9pt             !important;
-    position:           absolute        !important;
-    margin-left:        -14px           !important;
+    content:            '\f139'             !important;
+    font-family:        FontAwesome         !important;
+    font-size:          9pt                 !important;
+    position:           absolute            !important;
+    margin-left:        -14px               !important;
 }
 
 // Quick links icon
 #quick-links > a::before {
-    border:             0px             !important;
-    content:            '\f0c9'         !important;
-    color:              $colored_hints  !important;
-    top:                4px             !important;
+    border:             0px                 !important;
+    content:            '\f0c9'             !important;
+    color:              $colored_hints      !important;
+    top:                4px                 !important;
+}
+
+// Attachment uploaded icon
+span.file-uploaded {
+    background-image:   none                !important;
+}
+
+span.file-uploaded::before {
+    content:            '\f058'             !important;
+    color:              $alt_colored_hints  !important;
+    font-family:        FontAwesome         !important;
+    font-size:          12pt                !important;
 }

@@ -59,3 +59,10 @@ div#message {
 div#message p {
     color:              $text_color                 !important;
 }
+
+// Text selection color. Doesn't really work in chrome because of <br> tags
+// inside text in posts
+::-moz-selection {
+    color:              $dark_text_color            !important;
+    background:         $colored_hints              !important;
+}

@@ -159,6 +159,49 @@ input#disable_smilies {
 @media (min-width: 2049px) {
   input#cur_password {
     margin-top: 4px                    !important; } }
+div#postingbox {
+  background-color: #242424 !important;
+  border: 1px solid #363636 !important;
+  color: #bbbbbb !important; }
+
+div.abbc3_buttons_row {
+  background-color: #242424 !important; }
+
+div.abbc3_button,
+input.abbc3_button {
+  background-color: #a73939 !important;
+  border-radius: 2px !important; }
+
+div.abbc3_button:hover,
+input.abbc3_button:hover {
+  background-color: #d23636 !important; }
+
+div.abbc3_button {
+  padding: 1px                     !important; }
+
+div.abbc3_button img {
+  cursor: pointer                 !important; }
+
+div#attach-panel {
+  color: #bbbbbb !important; }
+
+table.zebra-list th.attach-name {
+  text-align: left                    !important; }
+
+table.zebra-list th.attach-status {
+  width: 60px                    !important; }
+
+table.zebra-list tr.attach-row td {
+  background-color: #242424 !important; }
+
+table.zebra-list tr.attach-row textarea.inputbox {
+  height: 21px                    !important; }
+
+span.file-progress {
+  width: 60px                    !important;
+  top: 7px                     !important;
+  position: relative                !important; }
+
 form#guidefilter fieldset {
   height: 25px                    !important; }
 
@@ -260,43 +303,43 @@ span.dropdown-select[title="Jump to"] {
 label[for=icon-1] img, label[for=icon-4] img, label[for=icon-5] img,
 label[for=icon-6] img, label[for=icon-7] img, label[for=icon-8] img,
 label[for=icon-9] img, label[for=icon-10] img {
-  display: none                                                       !important; }
+  display: none                   !important; }
 
 label[for=icon-1]::after, label[for=icon-4]::after, label[for=icon-5]::after,
 label[for=icon-6]::after, label[for=icon-7]::after, label[for=icon-8]::after,
 label[for=icon-9]::after, label[for=icon-10]::after {
   color: #bbbbbb !important;
-  font-family: FontAwesome                                            !important;
-  font-size: 11pt                                                     !important;
-  font-weight: normal                                                 !important;
-  position: relative                                                  !important;
-  top: 3px                                                            !important; }
+  font-family: FontAwesome     !important;
+  font-size: 11pt            !important;
+  font-weight: normal          !important;
+  position: relative        !important;
+  top: 3px             !important; }
 
 label[for=icon-1]::after {
   color: #a73939 !important;
-  content: '\f06d'                                                    !important; }
+  content: '\f06d'         !important; }
 
 label[for=icon-4]::after {
   color: #a73939 !important;
-  content: '\f08a'                                                    !important; }
+  content: '\f08a'         !important; }
 
 label[for=icon-5]::after {
-  content: '\f006'                                                    !important; }
+  content: '\f006'         !important; }
 
 label[for=icon-6]::after {
-  content: '\f1cd'                                                    !important; }
+  content: '\f1cd'         !important; }
 
 label[for=icon-7]::after {
-  content: '\f0e5'                                                    !important; }
+  content: '\f0e5'         !important; }
 
 label[for=icon-8]::after {
-  content: '\f05a'                                                    !important; }
+  content: '\f05a'         !important; }
 
 label[for=icon-9]::after {
-  content: '\f059'                                                    !important; }
+  content: '\f059'         !important; }
 
 label[for=icon-10]::after {
-  content: '\f071'                                                    !important; }
+  content: '\f071'         !important; }
 
 span.imageset:first-child {
   background-image: none            !important;
@@ -475,20 +518,29 @@ a.subforum.read:hover::before {
   color: #bbbbbb !important; }
 
 a.top2 {
-  background-image: none            !important; }
+  background-image: none                !important; }
 
 a.top2::before {
-  content: '\f139'         !important;
-  font-family: FontAwesome     !important;
-  font-size: 9pt             !important;
-  position: absolute        !important;
-  margin-left: -14px           !important; }
+  content: '\f139'             !important;
+  font-family: FontAwesome         !important;
+  font-size: 9pt                 !important;
+  position: absolute            !important;
+  margin-left: -14px               !important; }
 
 #quick-links > a::before {
-  border: 0px             !important;
-  content: '\f0c9'         !important;
+  border: 0px                 !important;
+  content: '\f0c9'             !important;
   color: #a73939 !important;
-  top: 4px             !important; }
+  top: 4px                 !important; }
+
+span.file-uploaded {
+  background-image: none                !important; }
+
+span.file-uploaded::before {
+  content: '\f058'             !important;
+  color: #78b082 !important;
+  font-family: FontAwesome         !important;
+  font-size: 12pt                !important; }
 
 input.inputbox, textarea {
   background-color: #363636 !important;
@@ -1088,7 +1140,7 @@ table.table1 tr td label {
 
 table.table1 tr.big-column {
   background-color: #404040 !important;
-  text-align: center; }
+  text-align: center                  !important; }
 
 table.table1 tr.big-column td {
   color: #bbbbbb !important; }
