@@ -39,6 +39,17 @@ div.signature {
     color:              $text_color             !important;
 }
 
+// Cookie vote color
+div.vote-up a:hover,
+div.vote-down a:hover {
+    color:              $dark_text_color        !important;
+}
+
+div.vote-up a i.fa:hover,
+div.vote-down a i.fa:hover {
+    background-color:   $colored_hints          !important;
+}
+
 // Post content like quotes, code etc
 // This makes sure that the first container in a nested chain
 // does not have any border, but makes nested ones do

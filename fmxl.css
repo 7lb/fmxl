@@ -694,14 +694,6 @@ div#message p {
 div.online-list span.username-coloured {
   color: #936ca1 !important; }
 
-div.vote-up a:hover,
-div.vote-down a:hover {
-  color: #242424 !important; }
-
-div.vote-up a i.fa:hover,
-div.vote-down a i.fa:hover {
-  background-color: #a73939 !important; }
-
 a[href$="&g=5"] {
   color: #a73939 !important; }
 
@@ -1092,6 +1084,14 @@ form + hr {
 div.signature {
   border-top: 1px solid #999999 !important;
   color: #bbbbbb !important; }
+
+div.vote-up a:hover,
+div.vote-down a:hover {
+  color: #242424 !important; }
+
+div.vote-up a i.fa:hover,
+div.vote-down a i.fa:hover {
+  background-color: #a73939 !important; }
 
 div.content > blockquote,
 div.content > div.codebox,

@@ -78,17 +78,6 @@ div.online-list span.username-coloured {
     color:              $bot_names_color            !important;
 }
 
-// Cookie vote color
-div.vote-up a:hover,
-div.vote-down a:hover {
-    color:              $dark_text_color            !important;
-}
-
-div.vote-up a i.fa:hover,
-div.vote-down a i.fa:hover {
-    background-color:   $colored_hints              !important;
-}
-
 // Forum staff legend colors
 a[href$="&g=5"] {
     color:              $colored_hints              !important;
