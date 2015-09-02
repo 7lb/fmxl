@@ -81,6 +81,18 @@ input#disable_smilies {
     }
 }
 
+@media (max-width: 1440px) {
+    input#pf_phpbb_twitch {
+        margin-top:         11px                    !important;
+    }
+}
+
+@media (min-width: 1600px) {
+    input#pf_phpbb_twitch {
+        margin-top:         4px                    !important;
+    }
+}
+
 @media (min-width: 1025px) and (max-width: 1600px) {
     form#ucp div#avatar_option_avatar_driver_remote dl:nth-child(2) dd,
     input#avatar_remote_url,

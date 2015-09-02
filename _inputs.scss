@@ -31,10 +31,12 @@ input::-webkit-input-placeholder {
     color:              $placeholder_color      !important;
 }
 
+// Chrome's select dropdown arrow is always black, for this reason
+// select tags will always need to have a light bg and a dark text
 select {
-    background-color:   $light_hints            !important;
+    background-color:   $always_light_bg        !important;
     border-radius:      $small_border_radius    !important;
-    color:              $dark_text_color        !important;
+    color:              $always_dark_text_color !important;
     height:             24px                    !important;
 }
 

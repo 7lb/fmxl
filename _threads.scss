@@ -39,7 +39,7 @@ div.signature {
     color:              $text_color             !important;
 }
 
-// Cookie vote color
+// Cookie buttons color
 div.vote-up a:hover,
 div.vote-down a:hover {
     color:              $dark_text_color        !important;
@@ -48,6 +48,15 @@ div.vote-down a:hover {
 div.vote-up a i.fa:hover,
 div.vote-down a i.fa:hover {
     background-color:   $colored_hints          !important;
+}
+
+// Cookie bar color
+div.vote-bar-plus {
+    background-color:   $cookie_bar_plus        !important;
+}
+
+div.vote-bar-minus {
+    background-color:   $cookie_bar_minus       !important;
 }
 
 // Post content like quotes, code etc

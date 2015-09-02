@@ -16,10 +16,9 @@
 }
 
 .icon-mark::after {
-    color:              $normal_bg          !important;
+    color:              $light_bg          !important;
 }
 
 .icon-mark:hover::after {
-    color:              $dark_text_color    !important;
     left:               11px                !important;
 }

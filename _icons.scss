@@ -70,13 +70,9 @@ a.arrow-left:hover::before {
     content:            '\f100'             !important;
 }
 
-// Compact post buttons
-ul.post-buttons.compact a::before {
+// Compact post buttons icon
+ul.post-buttons.compact > a::before {
     content:            '\f0c9'             !important;
     left:               -1px                !important;
     position:           relative            !important;
-}
-
-ul.post-buttons.compact ul.dropdown-contents a::before {
-	display:           none                !important;
 }

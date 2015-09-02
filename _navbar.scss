@@ -13,10 +13,13 @@ div.pointer-inner {
 }
 
 // Dropdown menus
-div.dropdown-contents, div.dropdown-contents div.header,
-div.dropdown-contents li.bg2, ul.dropdown-contents {
+div.dropdown-contents, div.dropdown-contents div.header, ul.dropdown-contents {
     background:         $dark_bg                    !important;
     color:              $text_color                 !important;
+}
+
+div.dropdown-contents li.bg2 {
+    background:         $light_bg                   !important;
 }
 
 div.dropdown-contents, ul.dropdown-contents  {
@@ -29,6 +32,10 @@ div.dropdown-contents div.header {
 
 div.dropdown-contents div.footer {
     border-top:         1px solid $border_color     !important;
+}
+
+ul li a.notification-block{
+    padding:            8px                         !important;
 }
 
 // Notification block colored_hints
