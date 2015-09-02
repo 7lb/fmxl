@@ -49,7 +49,7 @@ a.notification-block p.notification-time {
     content:            ''                          !important;
 }
 
-span.username::after {
+div.header-profile span.username::after {
     content:            '\f0d7'                     !important;
     font-family:        FontAwesome                 !important;
     font-size:          130%                        !important;

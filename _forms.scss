@@ -47,38 +47,15 @@ fieldset dl dd label {
 }
 
 fieldset dl dt label {
-    position:           absolute                !important;
-    padding-top:        0px                     !important;
+    position:           relative                !important;
 }
 
 dl.pmlist label {
     position:           relative                !important;
 }
 
-fieldset dl dt label[for="avatar_upload_file"],
-fieldset dl dt label[for="avatars1"],
-fieldset dl dt label[for="bbcode1"],
-fieldset dl dt label[for="email"],
-fieldset dl dt label[for="flash0"],
-fieldset dl dt label[for="images1"],
-fieldset dl dt label[for="massemail1"],
-fieldset dl dt label[for="notify1"],
-fieldset dl dt label[for="pf_phpbb_facebook"],
-fieldset dl dt label[for="pf_phpbb_skype"],
-fieldset dl dt label[for="pf_phpbb_twitter"],
-fieldset dl dt label[for="pf_phpbb_website"],
-fieldset dl dt label[for="pf_phpbb_youtube"],
-fieldset dl dt label[for="sig1"],
-fieldset dl dt label[for="sigs1"],
-fieldset dl dt label[for="smilies1"],
-fieldset dl dt label[for="subject"],
-fieldset dl dt label[for="topic_preview1"],
-fieldset dl dt label[for="viewemail0"] {
-    padding-top:        1px                     !important;
-}
-
 fieldset dl dt label[for="timezone"] {
-    padding-top:        18px                    !important;
+    top:        18px                    !important;
 }
 
 input#allowpm1,

@@ -1,27 +1,5 @@
 @import "ucp_tabs";
-
-// Left navigation menu
-#navigation ul  {
-    border:             1px solid $border_color !important;
-    border-radius:      $small_border_radius    !important;
-}
-
-#navigation a {
-    background:         $dark_bg                !important;
-    margin:             0px                     !important;
-}
-
-#navigation #active-subsection a {
-    color:              $colored_hints          !important;
-}
-
-#navigation #active-subsection a, #navigation a:hover {
-    background-color:   $normal_bg              !important;
-}
-
-#navigation ul:nth-child(2) {
-    margin-top:         5px                     !important;
-}
+@import "ucp_menu";
 
 // Body proper
 div.panel.bg3 {
@@ -44,15 +22,76 @@ div.panel.bg3 div.panel dl.details dd {
     color:              $colored_hints          !important;
 }
 
-// Friends panel
-div.cp-mini {
-    background-color:   $dark_bg                !important;
-    border: 1px solid   $border_color           !important;
-    border-radius:      $small_border_radius    !important;
-    margin-left:        0px                     !important;
-    margin-right:       0px                     !important;
+// Manage "remember me" login keys table
+table.table1 {
+    border:             5px solid $light_hints  !important;
+    border-collapse:    separate                !important;
+    border-radius:      $big_border_radius      !important;
 }
 
-div.cp-mini dt {
+table.table1 thead th {
+    background-color:   $light_hints            !important;
+    padding-bottom:     12px                    !important;
+    padding-top:        6px                     !important;
+}
+
+table.table1 tr {
+    background-color:   $dark_bg                !important;
+}
+
+table.table1 tr:hover {
+    background-color:   $border_color           !important;
+}
+
+table.table1 tr td,
+table.table1 tr td label {
     color:              $colored_hints          !important;
+}
+
+// Better styling for UCP -> Board preferences -> Edit notification options table
+table.table1 tr.big-column {
+    background-color:   $light_bg               !important;
+    text-align:         center;
+}
+
+table.table1 tr.big-column td {
+    color:              $text_color             !important;
+}
+
+// Styling of UCP -> Private messages -> row border colors
+li.row.pm_marked_colour,
+li.row.pm_replied_colour,
+li.row.pm_friend_colour,
+li.row.pm_foe_colour {
+    border-left:        3px solid               !important;
+}
+
+li.row.pm_marked_colour {
+    border-color:       $pm_marked_color        !important;
+}
+
+li.row.pm_replied_colour {
+    border-color:       $pm_replied_color       !important;
+}
+
+li.row.pm_friend_colour {
+    border-color:       $pm_friend_color        !important;
+}
+
+li.row.pm_foe_colour {
+    border-color:       $pm_foe_color           !important;
+}
+
+// Center some tables' "mark" header text and row checkbox
+ul.cplist dd.mark,
+ul.missing-column li.header dd.mark {
+    margin-left:        15px                    !important;
+}
+
+// These tables' "mark" header text and row input control is already ok
+div.notification_list ul.cplist dd.mark,
+div.notification_list ul.missing-column li.header dd.mark,
+form#ucp ul.cplist dd.mark,
+form#ucp ul.missing-column li.header dd.mark {
+	margin-left:       0px                     !important;
 }

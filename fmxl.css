@@ -113,35 +113,13 @@ fieldset dl dd label {
   fieldset dl dd label[for="hideonline0"] {
     top: 6px                    !important; } }
 fieldset dl dt label {
-  position: absolute                !important;
-  padding-top: 0px                     !important; }
+  position: relative                !important; }
 
 dl.pmlist label {
   position: relative                !important; }
 
-fieldset dl dt label[for="avatar_upload_file"],
-fieldset dl dt label[for="avatars1"],
-fieldset dl dt label[for="bbcode1"],
-fieldset dl dt label[for="email"],
-fieldset dl dt label[for="flash0"],
-fieldset dl dt label[for="images1"],
-fieldset dl dt label[for="massemail1"],
-fieldset dl dt label[for="notify1"],
-fieldset dl dt label[for="pf_phpbb_facebook"],
-fieldset dl dt label[for="pf_phpbb_skype"],
-fieldset dl dt label[for="pf_phpbb_twitter"],
-fieldset dl dt label[for="pf_phpbb_website"],
-fieldset dl dt label[for="pf_phpbb_youtube"],
-fieldset dl dt label[for="sig1"],
-fieldset dl dt label[for="sigs1"],
-fieldset dl dt label[for="smilies1"],
-fieldset dl dt label[for="subject"],
-fieldset dl dt label[for="topic_preview1"],
-fieldset dl dt label[for="viewemail0"] {
-  padding-top: 1px                     !important; }
-
 fieldset dl dt label[for="timezone"] {
-  padding-top: 18px                    !important; }
+  top: 18px                    !important; }
 
 input#allowpm1,
 input#allowpm0,
@@ -506,6 +484,10 @@ select#usernames {
   border-radius: 2px !important;
   color: #a73939 !important; }
 
+form#login div.panel {
+  background-color: #242424 !important;
+  border: 1px solid #363636 !important; }
+
 a {
   color: #bbbbbb !important; }
 
@@ -587,7 +569,7 @@ a.notification-block p.notification-time {
 #username_logged_in::before {
   content: ''                          !important; }
 
-span.username::after {
+div.header-profile span.username::after {
   content: '\f0d7'                     !important;
   font-family: FontAwesome                 !important;
   font-size: 130%                        !important; }
@@ -662,6 +644,41 @@ div.phpbb_alert a.alert_close::before {
   position: relative            !important;
   left: 1px                 !important;
   top: -1px                !important; }
+
+form#agreement div.panel,
+form#register div.panel {
+  background-color: #242424 !important;
+  border: 1px solid #363636 !important; }
+
+form#register dd.error {
+  color: #d23636 !important; }
+
+form#register div.panel,
+div.captcha-panel {
+  color: #bbbbbb !important; }
+
+form#register input#new_password,
+form#register input#password_confirm,
+form#register input#username {
+  position: relative                !important; }
+
+form#register input#username {
+  top: 19px                    !important; }
+
+form#register input#new_password {
+  top: 8px                     !important; }
+
+form#register label[for="password_confirm"] {
+  top: 6px                     !important; }
+
+form#register input#password_confirm {
+  top: -6px                    !important; }
+
+div.captcha-panel input#confirm_code {
+  height: 21px                    !important; }
+
+fieldset.fields2 dd.captcha-image {
+  margin-bottom: 5px                     !important; }
 
 .scroll-btn {
   background-color: #242424 !important;
@@ -959,6 +976,40 @@ div.hidebox_title {
 #navigation ul:nth-child(2) {
   margin-top: 5px                     !important; }
 
+div.cp-mini {
+  background-color: #242424 !important;
+  border: 1px solid #363636 !important;
+  border-radius: 2px !important;
+  margin-left: 0px                     !important;
+  margin-right: 0px                     !important; }
+
+div.cp-mini dt {
+  color: #a73939 !important; }
+
+dl.mini {
+  color: #bbbbbb !important; }
+
+span.imageset.pm_marked,
+span.imageset.pm_replied,
+span.imageset.pm_friend,
+span.imageset.pm_foe {
+  display: none                    !important; }
+
+dd.pm-legend {
+  border-left: 10px solid              !important; }
+
+dd.pm_marked_colour {
+  border-color: #dd8800 !important; }
+
+dd.pm_replied_colour {
+  border-color: #88dddd !important; }
+
+dd.pm_friend_colour {
+  border-color: #22dd22 !important; }
+
+dd.pm_foe_colour {
+  border-color: #ee3333 !important; }
+
 div.panel.bg3 {
   border: 1px solid #363636 !important; }
 
@@ -974,14 +1025,59 @@ div.panel.bg3 div.panel li.header dt {
 div.panel.bg3 div.panel dl.details dd {
   color: #a73939 !important; }
 
-div.cp-mini {
-  background-color: #242424 !important;
-  border: 1px solid #363636 !important;
-  border-radius: 2px !important;
-  margin-left: 0px                     !important;
-  margin-right: 0px                     !important; }
+table.table1 {
+  border: 5px solid #999999 !important;
+  border-collapse: separate                !important;
+  border-radius: 5px !important; }
 
-div.cp-mini dt {
+table.table1 thead th {
+  background-color: #999999 !important;
+  padding-bottom: 12px                    !important;
+  padding-top: 6px                     !important; }
+
+table.table1 tr {
+  background-color: #242424 !important; }
+
+table.table1 tr:hover {
+  background-color: #363636 !important; }
+
+table.table1 tr td,
+table.table1 tr td label {
   color: #a73939 !important; }
+
+table.table1 tr.big-column {
+  background-color: #404040 !important;
+  text-align: center; }
+
+table.table1 tr.big-column td {
+  color: #bbbbbb !important; }
+
+li.row.pm_marked_colour,
+li.row.pm_replied_colour,
+li.row.pm_friend_colour,
+li.row.pm_foe_colour {
+  border-left: 3px solid               !important; }
+
+li.row.pm_marked_colour {
+  border-color: #dd8800 !important; }
+
+li.row.pm_replied_colour {
+  border-color: #88dddd !important; }
+
+li.row.pm_friend_colour {
+  border-color: #22dd22 !important; }
+
+li.row.pm_foe_colour {
+  border-color: #ee3333 !important; }
+
+ul.cplist dd.mark,
+ul.missing-column li.header dd.mark {
+  margin-left: 15px                    !important; }
+
+div.notification_list ul.cplist dd.mark,
+div.notification_list ul.missing-column li.header dd.mark,
+form#ucp ul.cplist dd.mark,
+form#ucp ul.missing-column li.header dd.mark {
+  margin-left: 0px                     !important; }
 
 /*# sourceMappingURL=fmxl.css.map */

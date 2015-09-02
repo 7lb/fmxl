@@ -1,0 +1,44 @@
+form#agreement div.panel,
+form#register div.panel {
+    background-color:   $dark_bg                !important;
+    border:             1px solid $border_color !important;
+}
+
+form#register dd.error {
+    color:              $bright_colored_hints   !important;
+}
+
+form#register div.panel,
+div.captcha-panel {
+    color:              $text_color             !important;
+}
+
+form#register input#new_password,
+form#register input#password_confirm,
+form#register input#username {
+    position:           relative                !important;
+}
+
+form#register input#username {
+    top:                19px                    !important;
+}
+
+form#register input#new_password {
+    top:                8px                     !important;
+}
+
+form#register label[for="password_confirm"] {
+    top:                6px                     !important;
+}
+
+form#register input#password_confirm {
+    top:                -6px                    !important;
+}
+
+div.captcha-panel input#confirm_code {
+    height:             21px                    !important;
+}
+
+fieldset.fields2 dd.captcha-image {
+    margin-bottom:      5px                     !important;
+}

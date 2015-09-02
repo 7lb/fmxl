@@ -1,0 +1,66 @@
+#navigation ul  {
+    border:             1px solid $border_color !important;
+    border-radius:      $small_border_radius    !important;
+}
+
+#navigation a {
+    background:         $dark_bg                !important;
+    margin:             0px                     !important;
+}
+
+#navigation #active-subsection a {
+    color:              $colored_hints          !important;
+}
+
+#navigation #active-subsection a, #navigation a:hover {
+    background-color:   $normal_bg              !important;
+}
+
+#navigation ul:nth-child(2) {
+    margin-top:         5px                     !important;
+}
+
+// Friends panel
+div.cp-mini {
+    background-color:   $dark_bg                !important;
+    border: 1px solid   $border_color           !important;
+    border-radius:      $small_border_radius    !important;
+    margin-left:        0px                     !important;
+    margin-right:       0px                     !important;
+}
+
+div.cp-mini dt {
+    color:              $colored_hints          !important;
+}
+
+// Styling of UCP -> Private messages -> message colours legend
+dl.mini {
+    color:              $text_color             !important;
+}
+
+span.imageset.pm_marked,
+span.imageset.pm_replied,
+span.imageset.pm_friend,
+span.imageset.pm_foe {
+    display:            none                    !important;
+}
+
+dd.pm-legend {
+    border-left:        10px solid              !important;
+}
+
+dd.pm_marked_colour {
+    border-color:       $pm_marked_color        !important;
+}
+
+dd.pm_replied_colour {
+    border-color:       $pm_replied_color       !important;
+}
+
+dd.pm_friend_colour {
+    border-color:       $pm_friend_color        !important;
+}
+
+dd.pm_foe_colour {
+    border-color:       $pm_foe_color           !important;
+}
