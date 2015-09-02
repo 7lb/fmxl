@@ -1,7 +1,7 @@
 // icon button (icons for every button)
 a.icon-button::before, button.icon-button::before, span.icon-button::before {
     background-image:   none                !important;
-    color:              $dark_bg            !important;
+    color:              $dark_text_color    !important;
     font-family:        FontAwesome         !important;
     font-size:          8pt                 !important;
     text-align:         center              !important;

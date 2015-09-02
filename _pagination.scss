@@ -15,12 +15,12 @@ div.pagination a.dropdown-toggle:hover,
 div.pagination ul li a:hover,
 div.pagination ul li span:hover {
     background-color:   $bright_colored_hints   !important;
-    color:              $dark_bg                !important;
+    color:              $dark_text_color        !important;
 }
 
 div.pagination ul li.active span {
     background-color:   $colored_hints          !important;
-    color:              $dark_bg                !important;
+    color:              $dark_text_color        !important;
 }
 
 div.pagination ul li.ellipsis span,

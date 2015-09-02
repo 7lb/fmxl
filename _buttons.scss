@@ -4,7 +4,7 @@ input.button1, input.button2, span.dropdown-trigger.button {
     background-color:   $colored_hints          !important;
     background-image:   none                    !important;
     border-radius:      $small_border_radius    !important;
-    color:              $dark_bg                !important;
+    color:              $dark_text_color        !important;
     padding:            3px                     !important;
     text-shadow:        none                    !important;
 }
@@ -12,7 +12,7 @@ input.button1, input.button2, span.dropdown-trigger.button {
 a.button:hover, a.button2:hover, button.button:hover, button.button2:hover,
 input.button1:hover, input.button2:hover, span.dropdown-trigger.button:hover {
     background-color:   $bright_colored_hints   !important;
-    color:              $dark_bg                !important;
+    color:              $dark_text_color        !important;
 }
 
 button.button2 {

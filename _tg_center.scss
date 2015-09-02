@@ -30,7 +30,7 @@ div.forumbg.forumbg-table div.inner {
 }
 
 div.forumbg.forumbg-table div.inner thead *{
-    color:              $dark_bg                !important;
+    color:              $dark_text_color        !important;
     padding-top:        6px                     !important;
     padding-bottom:     12px                    !important;
 }
@@ -44,5 +44,5 @@ tr.bg1:hover {
 }
 
 tr.bg1 td {
-    color: #a73939 !important;
+    color:              $colored_hints          !important;
 }

@@ -892,6 +892,24 @@ code {
 div.spoiltitle span.spoilbtn, div.spoilcontent, pre.nfo {
   color: #bbbbbb !important; }
 
+.hidebox_visible, .hidebox_hidden {
+  border-radius: 2px !important;
+  color: #242424 !important; }
+
+.hidebox_visible {
+  background-color: #78b082 !important; }
+
+.hidebox_hidden {
+  background-color: #883939 !important; }
+
+.hidebox_title {
+  border-right: 1px solid #242424 !important;
+  border-bottom: 1px solid #242424 !important;
+  border-radius: 0px 0px 2px 0px !important;
+  color: #242424 !important;
+  left: 0px                     !important;
+  top: 0px                     !important; }
+
 .tab a, .tab a:hover {
   margin: 0px 1px 0px 0px !important; }
 
