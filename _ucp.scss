@@ -23,40 +23,57 @@ div.panel.bg3 div.panel dl.details dd {
 }
 
 // Manage "remember me" login keys table
-table.table1 {
-    border:             5px solid $light_hints  !important;
+div.inner table.table1 {
+    background-color:   $light_hints            !important;
+    border:             $big_border_radius solid $light_hints   !important;
     border-collapse:    separate                !important;
     border-radius:      $big_border_radius      !important;
 }
 
-table.table1 thead th {
+div.inner table.table1 thead th {
     background-color:   $light_hints            !important;
     color:              $dark_text_color        !important;
     padding-bottom:     12px                    !important;
     padding-top:        6px                     !important;
 }
 
-table.table1 tr {
+div.inner table.table1 tr:first-child td:first-child {
+    border-top-left-radius:     $small_border_radius    !important;
+}
+
+div.inner table.table1 tr:first-child td:last-child {
+    border-top-right-radius:    $small_border_radius    !important;
+}
+
+div.inner table.table1 tr {
     background-color:   $dark_bg                !important;
 }
 
-table.table1 tr:hover {
+div.inner table.table1 tr:hover {
     background-color:   $border_color           !important;
 }
 
-table.table1 tr td,
-table.table1 tr td label {
+div.inner table.table1 tr td,
+div.inner table.table1 tr td label {
     color:              $colored_hints          !important;
 }
 
 // Better styling for UCP -> Board preferences -> Edit notification options table
-table.table1 tr.big-column {
+div.inner table.table1 tr.big-column {
     background-color:   $light_bg               !important;
     text-align:         center                  !important;
 }
 
-table.table1 tr.big-column td {
+div.inner table.table1 tr.big-column td {
     color:              $text_color             !important;
+}
+
+div.inner table.table1 tr:last-child td:first-child {
+    border-bottom-left-radius:  $small_border_radius    !important;
+}
+
+div.inner table.table1 tr:last-child td:last-child {
+    border-bottom-right-radius: $small_border_radius    !important;
 }
 
 // Styling of UCP -> Private messages -> row border colors

@@ -39,35 +39,36 @@ li.small-icon:not(.icon-tradegold) a:hover::before {
 
 // navbar icons
 // Home icon before "board index" link
-li.breadcrumbs span:first-child > a::before {
+ul#nav-main li.breadcrumbs span:first-child > a::before,
+ul#nav-footer li.breadcrumbs span:first-child > a::before {
     content:            '\f015'                 !important;
 }
 
-li.icon-contact a::before {
+ul#nav-footer li.icon-contact a::before {
     color:              $colored_hints          !important;
     content:            '\f003'                 !important;
 }
 
-li.icon-delete-cookies a::before {
+ul#nav-footer li.icon-delete-cookies a::before {
     content:            '\f014'                 !important;
 }
 
-li.icon-donate a::before {
+ul#nav-main li.icon-donate a::before {
     color:              $colored_hints          !important;
     content:            '\f08a'                 !important;
 }
 
-li.icon-faq a::before {
+ul#nav-main li.icon-faq a::before {
     color:              $colored_hints          !important;
     content:            '\f059'                 !important;
 }
 
 // also used for login
-li.icon-logout a::before {
+ul#nav-main li.icon-logout a::before {
     content:            '\f011'                 !important;
 }
 
-li.icon-notification a::before {
+ul#nav-main li.icon-notification a::before {
     color:              $colored_hints          !important;
     content:            '\f0a2'                 !important;
 }
@@ -77,12 +78,12 @@ li.icon-notification a::before {
     display:            none                    !important;
 }
 
-li.icon-pm a::before {
+ul#nav-main li.icon-pm a::before {
     color:              $colored_hints          !important;
     content:            '\f003'                 !important;
 }
 
-li.icon-register a::before {
+ul#nav-main li.icon-register a::before {
     color:              colored_hints           !important;
     content:            '\f234'                 !important;
 }
@@ -93,47 +94,49 @@ li.icon-tradegold a::before {
 }*/
 
 // quick links icons
-li.icon-members a::before {
+ul#nav-main li.icon-members a::before,
+ul#nav-footer li.icon-members a::before {
     content:            '\f007'                 !important;
 }
 
-li.icon-search a::before {
+ul#nav-main li.icon-search a::before {
     content:            '\f002'                 !important;
 }
 
-li.icon-search-active a::before {
+ul#nav-main li.icon-search-active a::before {
     content:            '\f0f6'                 !important;
 }
 
-li.icon-search-new a::before{
+ul#nav-main li.icon-search-new a::before{
     color:              $colored_hints          !important;
     content:            '\f1ea'                 !important;
 }
 
-li.icon-search-self a::before {
+ul#nav-main li.icon-search-self a::before {
     content:            '\f14c'                 !important;
 }
 
-li.icon-search-unanswered a::before {
+ul#nav-main li.icon-search-unanswered a::before {
     content:            '\f016'                 !important;
 }
 
-li.icon-search-unread a::before {
+ul#nav-main li.icon-search-unread a::before {
     color:              $colored_hints          !important;
     content:            '\f08e'                 !important;
 }
 
-li.icon-team a::before {
+ul#nav-main li.icon-team a::before,
+ul#nav-footer li.icon-team a::before {
     color:              $colored_hints          !important;
     content:            '\f0c0'                 !important;
 }
 
 // username menu icons
-li.icon-profile a::before {
+ul#nav-main li.icon-profile a::before {
     content:            '\f007'                 !important;
 }
 
-li.icon-ucp a::before {
+ul#nav-main li.icon-ucp a::before {
     content:            '\f085'                 !important;
 }
 

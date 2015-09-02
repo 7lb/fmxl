@@ -21,7 +21,7 @@
 }
 
 // Friends panel
-div.cp-mini {
+div#cp-menu div.cp-mini {
     background-color:   $dark_bg                !important;
     border: 1px solid   $border_color           !important;
     border-radius:      $small_border_radius    !important;
@@ -45,22 +45,22 @@ span.imageset.pm_foe {
     display:            none                    !important;
 }
 
-dd.pm-legend {
+dl.mini dd.pm-legend {
     border-left:        10px solid              !important;
 }
 
-dd.pm_marked_colour {
+dl.mini dd.pm_marked_colour {
     border-color:       $pm_marked_color        !important;
 }
 
-dd.pm_replied_colour {
+dl.mini dd.pm_replied_colour {
     border-color:       $pm_replied_color       !important;
 }
 
-dd.pm_friend_colour {
+dl.mini dd.pm_friend_colour {
     border-color:       $pm_friend_color        !important;
 }
 
-dd.pm_foe_colour {
+dl.mini dd.pm_foe_colour {
     border-color:       $pm_foe_color           !important;
 }
