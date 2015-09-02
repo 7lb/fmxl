@@ -1,6 +1,7 @@
 @import "button_icons";
 @import "compose_pm_icons";
 @import "imageset_icons";
+@import "mark_read_icon";
 @import "small_icons";
 @import "subforum_icons";
 
@@ -35,4 +36,47 @@ span.file-uploaded::before {
     color:              $alt_colored_hints  !important;
     font-family:        FontAwesome         !important;
     font-size:          12pt                !important;
+}
+
+// Quote icon
+blockquote {
+    background-image:   none                !important;
+}
+
+blockquote div cite::before {
+    content:            '\f10d'             !important;
+    font-family:        FontAwesome         !important;
+    left:               -10px               !important;
+    position:           relative            !important;
+}
+
+// Icon before "return to x" text at the bottom of a thread
+a.arrow-left {
+    background-image:   none                !important;
+}
+
+a.arrow-left:hover {
+    left:               -3px                !important;
+    position:           relative            !important;
+}
+
+a.arrow-left::before {
+    content:            '\f104'             !important;
+    font-family:        FontAwesome         !important;
+    padding-right:      5px                 !important;
+}
+
+a.arrow-left:hover::before {
+    content:            '\f100'             !important;
+}
+
+// Compact post buttons
+ul.post-buttons.compact a::before {
+    content:            '\f0c9'             !important;
+    left:               -1px                !important;
+    position:           relative            !important;
+}
+
+ul.post-buttons.compact ul.dropdown-contents a::before {
+	display:           none                !important;
 }

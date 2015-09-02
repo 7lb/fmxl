@@ -1,0 +1,25 @@
+.dropdown-extended a.mark_read {
+    background-color:   $colored_hints      !important;
+}
+
+.icon-mark {
+    background-image:   none                !important;
+}
+
+.icon-mark::after, .icon-mark:hover::after {
+    content:            '\f05d'             !important;
+    font-family:        FontAwesome         !important;
+    font-size:          16pt                !important;
+    left:               6px                 !important;
+    position:           relative            !important;
+    top:                1px                 !important;
+}
+
+.icon-mark::after {
+    color:              $normal_bg          !important;
+}
+
+.icon-mark:hover::after {
+    color:              $dark_text_color    !important;
+    left:               11px                !important;
+}

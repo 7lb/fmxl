@@ -8,9 +8,10 @@ body, div.navbar, html, input, #wrap {
     background-color:   $dark_bg        !important;
 }
 
-// Remove box shadows for a flat look
+// Remove box and text shadows for a flat look
 * {
     @include            no-box-shadow();
+    text-shadow:        none            !important;
 }
 
 // Generally speaking we want borders to have the designed border color.

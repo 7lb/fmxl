@@ -34,6 +34,11 @@ form + hr {
     display:            none                    !important;
 }
 
+div.signature {
+    border-top:         1px solid $light_hints  !important;
+    color:              $text_color             !important;
+}
+
 // Post content like quotes, code etc
 // This makes sure that the first container in a nested chain
 // does not have any border, but makes nested ones do
@@ -84,4 +89,14 @@ div.hidebox_title {
     color:              $dark_text_color        !important;
     left:               0px                     !important;
     top:                0px                     !important;
+}
+
+dl.attachbox {
+    background-color:   $dark_bg                !important;
+    color:              $text_color             !important;
+}
+
+dl.thumbnail a,
+img.postimage {
+    background-color:   $dark_bg                !important;
 }

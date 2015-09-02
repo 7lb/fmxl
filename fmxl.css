@@ -6,7 +6,8 @@ body, div.navbar, html, input, #wrap {
 * {
   -webkit-box-shadow: none        !important;
   -moz-box-shadow: none        !important;
-  box-shadow: none        !important; }
+  box-shadow: none        !important;
+  text-shadow: none            !important; }
 
 *:not(.pointer):not(.pointer-inner) {
   border: 0px             !important;
@@ -382,6 +383,27 @@ span.icon_topic_newest::before {
 span.icon_topic_poll::before {
   content: '\f080'         !important; }
 
+.dropdown-extended a.mark_read {
+  background-color: #a73939 !important; }
+
+.icon-mark {
+  background-image: none                !important; }
+
+.icon-mark::after, .icon-mark:hover::after {
+  content: '\f05d'             !important;
+  font-family: FontAwesome         !important;
+  font-size: 16pt                !important;
+  left: 6px                 !important;
+  position: relative            !important;
+  top: 1px                 !important; }
+
+.icon-mark::after {
+  color: #363636 !important; }
+
+.icon-mark:hover::after {
+  color: #242424 !important;
+  left: 11px                !important; }
+
 div.dropdown li.small-icon {
   margin-left: 25px                    !important; }
 
@@ -542,6 +564,38 @@ span.file-uploaded::before {
   font-family: FontAwesome         !important;
   font-size: 12pt                !important; }
 
+blockquote {
+  background-image: none                !important; }
+
+blockquote div cite::before {
+  content: '\f10d'             !important;
+  font-family: FontAwesome         !important;
+  left: -10px               !important;
+  position: relative            !important; }
+
+a.arrow-left {
+  background-image: none                !important; }
+
+a.arrow-left:hover {
+  left: -3px                !important;
+  position: relative            !important; }
+
+a.arrow-left::before {
+  content: '\f104'             !important;
+  font-family: FontAwesome         !important;
+  padding-right: 5px                 !important; }
+
+a.arrow-left:hover::before {
+  content: '\f100'             !important; }
+
+ul.post-buttons.compact a::before {
+  content: '\f0c9'             !important;
+  left: -1px                !important;
+  position: relative            !important; }
+
+ul.post-buttons.compact ul.dropdown-contents a::before {
+  display: none                !important; }
+
 input.inputbox, textarea {
   background-color: #363636 !important;
   border-radius: 2px !important;
@@ -590,6 +644,17 @@ a:hover, a.username-coloured:hover {
 a.username-coloured {
   color: #a73939 !important; }
 
+a.postlink,
+a.postlink-local {
+  color: #a73939 !important;
+  border-bottom: 1px solid #a73939 !important; }
+
+a.postlink:hover,
+a.postlink-local:hover {
+  background-color: #a73939 !important;
+  color: #242424 !important;
+  text-decoration: none                        !important; }
+
 dl.faq strong {
   color: #a73939 !important; }
 
@@ -625,6 +690,30 @@ div#message {
 
 div#message p {
   color: #bbbbbb !important; }
+
+div.online-list span.username-coloured {
+  color: #936ca1 !important; }
+
+div.vote-up a:hover,
+div.vote-down a:hover {
+  color: #242424 !important; }
+
+div.vote-up a i.fa:hover,
+div.vote-down a i.fa:hover {
+  background-color: #a73939 !important; }
+
+a[href$="&g=5"] {
+  color: #a73939 !important; }
+
+a[href$="&g=4"] {
+  color: #16bb16 !important; }
+
+a[href$="&g=13"] {
+  color: #78b082 !important; }
+
+::-moz-selection {
+  color: #242424 !important;
+  background: #a73939 !important; }
 
 div.navbar {
   background-color: #242424 !important;
@@ -737,6 +826,9 @@ div.phpbb_alert a.alert_close::before {
   position: relative            !important;
   left: 1px                 !important;
   top: -1px                !important; }
+
+fieldset.quick-login label {
+  color: #a73939 !important; }
 
 form#agreement div.panel,
 form#register div.panel {
@@ -997,6 +1089,10 @@ dl.postprofile dd.profile-posts strong {
 form + hr {
   display: none                    !important; }
 
+div.signature {
+  border-top: 1px solid #999999 !important;
+  color: #bbbbbb !important; }
+
 div.content > blockquote,
 div.content > div.codebox,
 div.content > div.detail-spoiler div.hidden,
@@ -1036,6 +1132,14 @@ div.hidebox_title {
   color: #242424 !important;
   left: 0px                     !important;
   top: 0px                     !important; }
+
+dl.attachbox {
+  background-color: #242424 !important;
+  color: #bbbbbb !important; }
+
+dl.thumbnail a,
+img.postimage {
+  background-color: #242424 !important; }
 
 .tab a, .tab a:hover {
   margin: 0px 1px 0px 0px !important; }
