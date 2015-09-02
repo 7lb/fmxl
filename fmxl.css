@@ -716,7 +716,8 @@ div.pointer {
 div.pointer-inner {
   border-color: #242424 transparent !important; }
 
-div.dropdown-contents, div.dropdown-contents div.header, ul.dropdown-contents {
+div.dropdown-contents, div.dropdown-contents div.header,
+div.dropdown-contents li.bg2, ul.dropdown-contents {
   background: #242424 !important;
   color: #bbbbbb !important; }
 
