@@ -19,8 +19,7 @@ input.button1, input.button2, span.dropdown-trigger.button {
   background-image: none                    !important;
   border-radius: 2px !important;
   color: #242424 !important;
-  padding: 3px                     !important;
-  text-shadow: none                    !important; }
+  padding: 3px                     !important; }
 
 a.button:hover, a.button2:hover, button.button:hover, button.button2:hover,
 input.button1:hover, input.button2:hover, span.dropdown-trigger.button:hover {
@@ -719,8 +718,7 @@ div.pointer-inner {
 
 div.dropdown-contents, div.dropdown-contents div.header, ul.dropdown-contents {
   background: #242424 !important;
-  color: #bbbbbb !important;
-  text-shadow: none                        !important; }
+  color: #bbbbbb !important; }
 
 div.dropdown-contents, ul.dropdown-contents {
   border: 1px solid #363636 !important; }
@@ -1140,6 +1138,38 @@ dl.attachbox {
 dl.thumbnail a,
 img.postimage {
   background-color: #242424 !important; }
+
+span.label-info {
+  background-color: #195ba8 !important;
+  color: #bbbbbb !important; }
+
+span.label-warning {
+  background-color: #cdcd0c !important;
+  color: #242424 !important; }
+
+.btn-default {
+  background-color: #242424 !important;
+  background-image: none                            !important;
+  border: 1px solid #363636 !important; }
+
+.btn-default:hover {
+  background-color: #363636 !important;
+  color: #a73939 !important; }
+
+.btn-danger {
+  background-color: #a73939 !important;
+  color: #242424 !important;
+  background-image: none                            !important;
+  border: 1px solid #a73939 !important; }
+
+.btn-danger:hover {
+  background-color: #d23636 !important;
+  border: 1px solid #d23636 !important;
+  color: #242424 !important; }
+
+p.bg-danger {
+  background-color: rgba(255, 143, 143, 0.5) !important;
+  color: #242424 !important; }
 
 .tab a, .tab a:hover {
   margin: 0px 1px 0px 0px !important; }

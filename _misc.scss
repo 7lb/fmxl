@@ -92,7 +92,8 @@ a[href$="&g=13"] {
 }
 
 // Text selection color. Doesn't really work in chrome because of <br> tags
-// inside text in posts
+// inside text in posts. Chrome will highlight those empty rows with the
+// default blue color, while FF won't highlight those empty rows
 ::-moz-selection {
     color:              $dark_text_color            !important;
     background:         $colored_hints              !important;

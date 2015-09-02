@@ -1,0 +1,38 @@
+span.label-info {
+    background-color:   $author_button_color            !important;
+    color:              $text_color                     !important;
+}
+
+span.label-warning {
+    background-color:   $version_button_color           !important;
+    color:              $dark_text_color                !important;
+}
+
+.btn-default {
+    background-color:   $dark_bg                        !important;
+    background-image:   none                            !important;
+    border:             1px solid $border_color         !important;
+}
+
+.btn-default:hover {
+    background-color:   $normal_bg                      !important;
+    color:              $colored_hints                  !important;
+}
+
+.btn-danger {
+    background-color:   $colored_hints                  !important;
+    color:              $dark_text_color                !important;
+    background-image:   none                            !important;
+    border:             1px solid $colored_hints        !important;
+}
+
+.btn-danger:hover {
+    background-color:   $bright_colored_hints           !important;
+        border:         1px solid $bright_colored_hints !important;
+        color:          $dark_text_color                !important;
+}
+
+p.bg-danger {
+    background-color:   $transparent_hints              !important;
+    color:              $dark_text_color                !important;
+}
