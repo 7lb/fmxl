@@ -51,7 +51,7 @@ table.table1 tr td label {
 // Better styling for UCP -> Board preferences -> Edit notification options table
 table.table1 tr.big-column {
     background-color:   $light_bg               !important;
-    text-align:         center;
+    text-align:         center                  !important;
 }
 
 table.table1 tr.big-column td {
