@@ -104,8 +104,7 @@ ul.recipients input.button2 {
   position: relative                !important;
   top: -2px                    !important; }
 
-div.panel.bg1,
-li.donate-comment {
+div.panel.bg1 {
   background-color: #242424 !important;
   border: 1px solid #363636 !important; }
 
@@ -119,7 +118,11 @@ input#manual-input {
   border-radius: 2px !important; }
 
 li.donate-comment {
+  background-color: #363636 !important;
   border-radius: 2px !important; }
+
+p.warning-text {
+  color: #a73939 !important; }
 
 fieldset dl label, fieldset.display-options label, #options-panel label,
 div.left-box label, div.right-box label,
@@ -483,7 +486,7 @@ li.small-icon:not(.icon-tradegold) a:hover::before {
   display: inline-block            !important;
   text-decoration: none                    !important; }
 
-ul#nav-main li.breadcrumbs span:first-child > a::before,
+ul#nav-breadcrumbs li.breadcrumbs span:first-child > a::before,
 ul#nav-footer li.breadcrumbs span:first-child > a::before {
   content: '\f015'                 !important; }
 
@@ -710,8 +713,7 @@ h2 {
   color: #bbbbbb !important; }
 
 h3 {
-  color: #a73939 !important;
-  border-bottom: 1px solid #363636 !important; }
+  color: #a73939 !important; }
 
 h4 {
   color: #883939 !important; }
@@ -720,7 +722,7 @@ hr:not(.divider) {
   border-top: 1px solid #363636 !important; }
 
 hr.dashed {
-  border-top: 1px dashed #363636 !important; }
+  border-top: 0px                         !important; }
 
 #topic_preview {
   background-color: #242424 !important;
@@ -1069,6 +1071,9 @@ li.row:last-child {
   border-bottom-right-radius: 2px !important;
   border-bottom-left-radius: 2px !important; }
 
+li.row dl.redborder {
+  border-left: 3px solid #a73939 !important; }
+
 li.row strong {
   color: #bbbbbb !important; }
 
@@ -1185,9 +1190,6 @@ div.bg2 {
 
 div.content, p.author {
   color: #bbbbbb !important; }
-
-div.postbody h3 {
-  border: 0px                     !important; }
 
 div.vote-no-bar {
   color: #bbbbbb !important; }

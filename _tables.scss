@@ -86,6 +86,10 @@ li.row:last-child {
     border-bottom-left-radius:  $small_border_radius                            !important;
 }
 
+li.row dl.redborder {
+    border-left:                3px solid $colored_hints                        !important;
+}
+
 li.row strong {
     color:                      $text_color                                     !important;
 }

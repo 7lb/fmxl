@@ -1,5 +1,4 @@
-div.panel.bg1,
-li.donate-comment {
+div.panel.bg1 {
     background-color:   $dark_bg                !important;
     border:             1px solid $border_color !important;
 }
@@ -16,5 +15,10 @@ input#manual-input {
 }
 
 li.donate-comment {
+    background-color:   $normal_bg              !important;
     border-radius:      $small_border_radius    !important;
+}
+
+p.warning-text {
+    color:              $colored_hints          !important;
 }

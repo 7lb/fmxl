@@ -35,7 +35,6 @@ h2 {
 
 h3 {
     color:              $colored_hints              !important;
-    border-bottom:      1px solid $border_color     !important;
 }
 
 h4 {
@@ -47,7 +46,7 @@ hr:not(.divider) {
 }
 
 hr.dashed {
-    border-top:         1px dashed $border_color    !important;
+    border-top:         0px                         !important;
 }
 
 // Topic previews when hovering the mouse over a thread title

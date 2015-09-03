@@ -39,7 +39,7 @@ li.small-icon:not(.icon-tradegold) a:hover::before {
 
 // navbar icons
 // Home icon before "board index" link
-ul#nav-main li.breadcrumbs span:first-child > a::before,
+ul#nav-breadcrumbs li.breadcrumbs span:first-child > a::before,
 ul#nav-footer li.breadcrumbs span:first-child > a::before {
     content:            '\f015'                 !important;
 }
