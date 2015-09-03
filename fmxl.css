@@ -1111,51 +1111,23 @@ tr.bg1:hover {
 tr.bg1 td {
   color: #a73939 !important; }
 
-div.bg1 {
-  background-color: #363636 !important; }
-
-div.bg2 {
-  background-color: #363636 !important; }
-
-div.content, p.author {
-  color: #bbbbbb !important; }
-
-div.postbody h3 {
-  border: 0px                     !important; }
-
-div.vote-no-bar {
-  color: #bbbbbb !important; }
-
-dl.postprofile dd.profile-contact strong,
-dl.postprofile dd.profile-cookies,
-dl.postprofile dd.profile-cookies strong,
-dl.postprofile dd.profile-posts strong {
-  color: #bbbbbb !important; }
-
-#qr_postform div.panel {
+form.topic_poll div.panel {
   background-color: #242424 !important;
   border: 1px solid #363636 !important; }
 
-form + hr {
-  display: none                    !important; }
-
-div.signature {
-  border-top: 1px solid #999999 !important;
+form.topic_poll div.panel fieldset dl {
   color: #bbbbbb !important; }
 
-div.vote-up a:hover,
-div.vote-down a:hover {
-  color: #242424 !important; }
+form.topic_poll div.panel fieldset dl div.pollbar3 {
+  border-radius: 2px !important;
+  background-color: #883939 !important;
+  color: #242424 !important;
+  padding-top: 2px                     !important;
+  position: relative                !important;
+  top: -2px                    !important; }
 
-div.vote-up a i.fa:hover,
-div.vote-down a i.fa:hover {
-  background-color: #a73939 !important; }
-
-div.vote-bar-plus {
-  background-color: #16bb16 !important; }
-
-div.vote-bar-minus {
-  background-color: #d23636 !important; }
+form.topic_poll div.panel fieldset dl.most-votes div.pollbar3 {
+  background-color: #78b082 !important; }
 
 div.content > blockquote,
 div.content > div.codebox,
@@ -1204,6 +1176,52 @@ dl.attachbox {
 dl.thumbnail a,
 img.postimage {
   background-color: #242424 !important; }
+
+div.bg1 {
+  background-color: #363636 !important; }
+
+div.bg2 {
+  background-color: #363636 !important; }
+
+div.content, p.author {
+  color: #bbbbbb !important; }
+
+div.postbody h3 {
+  border: 0px                     !important; }
+
+div.vote-no-bar {
+  color: #bbbbbb !important; }
+
+dl.postprofile dd.profile-contact strong,
+dl.postprofile dd.profile-cookies,
+dl.postprofile dd.profile-cookies strong,
+dl.postprofile dd.profile-posts strong {
+  color: #bbbbbb !important; }
+
+#qr_postform div.panel {
+  background-color: #242424 !important;
+  border: 1px solid #363636 !important; }
+
+form + hr {
+  display: none                    !important; }
+
+div.signature {
+  border-top: 1px solid #999999 !important;
+  color: #bbbbbb !important; }
+
+div.vote-up a:hover,
+div.vote-down a:hover {
+  color: #242424 !important; }
+
+div.vote-up a i.fa:hover,
+div.vote-down a i.fa:hover {
+  background-color: #a73939 !important; }
+
+div.vote-bar-plus {
+  background-color: #16bb16 !important; }
+
+div.vote-bar-minus {
+  background-color: #d23636 !important; }
 
 span.label-info {
   background-color: #195ba8 !important;
