@@ -934,7 +934,7 @@ div.forabg div.inner,
 div.forumbg div.inner {
   background-color: #999999 !important;
   border-radius: 5px !important;
-  padding: 5px !important; }
+  padding: 5px                     !important; }
 
 div.forabg div.inner ul.topiclist.forums,
 div.forumbg div.inner ul.topiclist.forums {
@@ -1134,19 +1134,31 @@ form.topic_poll div.panel fieldset dl div.pollbar3 {
 form.topic_poll div.panel fieldset dl.most-votes div.pollbar3 {
   background-color: #78b082 !important; }
 
-div.content > blockquote,
-div.content > div.codebox,
-div.content > div.detail-spoiler div.hidden,
-div.content > div.spoilwrapper,
-div.codebox > code {
-  border: 0px                     !important; }
-
-blockquote, code, div.codebox, div.detail-spoiler div.hidden,
-div.spoilwrapper {
+div.content blockquote,
+div.content blockquote.uncited,
+div.content code,
+div.content div.codebox,
+div.content div.detail-spoiler div.hidden,
+div.content div.spoilwrapper {
   border: 1px solid #363636 !important; }
 
-blockquote, code, div.codebox, div.detail-spoiler div.hidden,
-div.spoilwrapper, pre.nfo {
+div.content blockquote.uncited {
+  padding-top: 5px                     !important; }
+
+div.content > blockquote,
+div.content > blockquote.uncited,
+div.content div.codebox > code,
+div.content > div.codebox,
+div.content > div.detail-spoiler div.hidden,
+div.content > div.spoilwrapper {
+  border: 0px                     !important; }
+
+blockquote,
+code,
+div.codebox,
+div.detail-spoiler div.hidden,
+div.spoilwrapper,
+pre.nfo {
   background-color: #242424 !important;
   border-radius: 2px !important; }
 

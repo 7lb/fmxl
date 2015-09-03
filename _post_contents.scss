@@ -2,21 +2,34 @@
 
 // This makes sure that the first container in a nested chain
 // does not have any border, but makes nested ones do
-div.content > blockquote,
-div.content > div.codebox,
-div.content > div.detail-spoiler div.hidden,
-div.content > div.spoilwrapper,
-div.codebox > code {
-    border:             0px                     !important;
-}
-
-blockquote, code, div.codebox, div.detail-spoiler div.hidden,
-div.spoilwrapper {
+div.content blockquote,
+div.content blockquote.uncited,
+div.content code,
+div.content div.codebox,
+div.content div.detail-spoiler div.hidden,
+div.content div.spoilwrapper {
     border:             1px solid $border_color !important;
 }
 
-blockquote, code, div.codebox, div.detail-spoiler div.hidden,
-div.spoilwrapper, pre.nfo {
+div.content blockquote.uncited {
+    padding-top:        5px                     !important;
+}
+
+div.content > blockquote,
+div.content > blockquote.uncited,
+div.content div.codebox > code,
+div.content > div.codebox,
+div.content > div.detail-spoiler div.hidden,
+div.content > div.spoilwrapper {
+    border:             0px                     !important;
+}
+
+blockquote,
+code,
+div.codebox,
+div.detail-spoiler div.hidden,
+div.spoilwrapper,
+pre.nfo {
     background-color:   $dark_bg                !important;
     border-radius:      $small_border_radius    !important;
 }
