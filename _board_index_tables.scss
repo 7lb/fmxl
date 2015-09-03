@@ -53,12 +53,14 @@ div.forumbg li.row dd.lastpost {
 }
 
 // Median XL Worldwide section
+div#cat17.forabg div.inner ul.topiclist.forums,
 div#cat26.forabg div.inner ul.topiclist.forums {
     background-color:   $dark_bg                !important;
     border-radius:      $small_border_radius    !important;
     margin:             0px                     !important;
 }
 
+#for18.row,
 #for27.row,
 #for28.row,
 #for29.row,
@@ -67,6 +69,7 @@ div#cat26.forabg div.inner ul.topiclist.forums {
     margin-top:         5px                     !important
 }
 
+#for18.row dl.forum_read,
 #for27.row dl.forum_read,
 #for28.row dl.forum_read,
 #for29.row dl.forum_read,
@@ -74,6 +77,7 @@ div#cat26.forabg div.inner ul.topiclist.forums {
     opacity:            0.2                     !important;
 }
 
+#for18.row dl.forum_read:hover,
 #for27.row dl.forum_read:hover,
 #for28.row dl.forum_read:hover,
 #for29.row dl.forum_read:hover,
@@ -81,6 +85,7 @@ div#cat26.forabg div.inner ul.topiclist.forums {
     opacity:            0.4                     !important;
 }
 
+#for18.row dl.forum_unread,
 #for27.row dl.forum_unread,
 #for28.row dl.forum_unread,
 #for29.row dl.forum_unread,
@@ -88,6 +93,7 @@ div#cat26.forabg div.inner ul.topiclist.forums {
     opacity:            0.8                     !important;
 }
 
+#for18.row dl.forum_unread:hover,
 #for27.row dl.forum_unread:hover,
 #for28.row dl.forum_unread:hover,
 #for29.row dl.forum_unread:hover,

@@ -44,6 +44,11 @@ ul#nav-footer li.breadcrumbs span:first-child > a::before {
     content:            '\f015'                 !important;
 }
 
+ul#nav-main li.icon-acp a::before {
+    color:              $colored_hints          !important;
+    content:            '\f085'                 !important;
+}
+
 ul#nav-footer li.icon-contact a::before {
     color:              $colored_hints          !important;
     content:            '\f003'                 !important;
@@ -67,6 +72,12 @@ ul#nav-main li.icon-faq a::before {
 ul#nav-main li.icon-logout a::before {
     content:            '\f011'                 !important;
 }
+
+ul#nav-main li.icon-mcp a::before {
+    color:              $colored_hints          !important;
+    content:            '\f0e3'                 !important;
+}
+
 
 ul#nav-main li.icon-notification a::before {
     color:              $colored_hints          !important;

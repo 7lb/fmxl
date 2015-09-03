@@ -8,6 +8,10 @@ a.icon-button::before, button.icon-button::before, span.icon-button::before {
 }
 
 // button icons
+a.delete-icon::before {
+    content:            '\f00d'             !important;
+}
+
 a.edit-icon::before {
     content:            '\f040'             !important;
 }
@@ -18,6 +22,10 @@ button.forwardpm-icon::before {
     padding-left:       3px                 !important;
     padding-right:      2px                 !important;
     position:           relative            !important;
+}
+
+a.info-icon::before {
+    content:            '\f129'             !important;
 }
 
 a.newpm-icon::before {
@@ -49,6 +57,7 @@ a.reply-icon::before {
     padding-left:       2px                 !important;
 }
 
+
 a.report-icon::before {
     content:            '\f12a'             !important;
 }
@@ -60,6 +69,10 @@ a.search-adv-icon::before {
     position:           relative            !important;
 }
 
+a.warn-icon::before {
+    content:            '\f071'             !important;
+}
+
 button.search-icon::before {
     content:            '\f002'             !important;
     left:               -1px                !important;
@@ -69,6 +82,13 @@ button.search-icon::before {
 
 span.tools-icon::before {
     content:            '\f0ad'             !important;
+    left:               1px                 !important;
+    padding-top:        2px                 !important;
+    position:           relative            !important;
+}
+
+span.modtools-icon::before {
+    content:            '\f0e3'             !important;
     left:               1px                 !important;
     padding-top:        2px                 !important;
     position:           relative            !important;
