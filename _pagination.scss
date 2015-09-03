@@ -7,29 +7,13 @@ div.list-inner div.pagination ul li a,
 div.action-bar div.pagination ul li a,
 div.pagination ul li span {
     background-image:   none                    !important;
-    background-color:   $dark_bg                !important;
-    border:             1px solid $border_color !important;
+    border:             1px solid               !important;
     border-radius:      $small_border_radius    !important;
-    color:              $pagination_color       !important;
-}
-
-div.action-bar div.pagination a.dropdown-toggle:hover,
-div.list-inner div.pagination ul li a:hover,
-div.action-bar div.pagination ul li a:hover,
-div.pagination ul li span:hover {
-    background-color:   $bright_colored_hints   !important;
-    color:              $dark_text_color        !important;
-}
-
-div.pagination ul li.active span {
-    background-color:   $colored_hints          !important;
-    color:              $dark_text_color        !important;
 }
 
 div.pagination ul li.ellipsis span,
 li.ellipsis span {
     border:             0px                     !important;
-    color:              $text_color             !important;
     font-size:          110%                    !important;
 }
 

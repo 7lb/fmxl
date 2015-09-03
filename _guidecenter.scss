@@ -3,12 +3,7 @@ form#guidefilter fieldset {
 }
 
 form#guidefilter > span {
-    background-color:   $normal_bg              !important;
     border-radius:      $small_border_radius    !important;
-}
-
-form#guidefilter span {
-    color:              $text_color             !important;
 }
 
 ul.guidelist li.row dt {

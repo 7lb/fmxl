@@ -1,16 +1,6 @@
 form#agreement div.panel,
 form#register div.panel {
-    background-color:   $dark_bg                !important;
-    border:             1px solid $border_color !important;
-}
-
-form#register dd.error {
-    color:              $bright_colored_hints   !important;
-}
-
-form#register div.panel,
-div.captcha-panel {
-    color:              $text_color             !important;
+    border:             1px solid               !important;
 }
 
 form#register input#new_password,

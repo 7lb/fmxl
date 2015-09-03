@@ -1,11 +1,5 @@
 div.panel.bg2 {
-    background-color:   $dark_bg                !important;
-    border:             1px solid $border_color !important;
-}
-
-form#tradeform span,
-form#tradeform strong {
-    color:              $text_color             !important;
+    border:             1px solid               !important;
 }
 
 form#tradeform textarea {
@@ -14,35 +8,13 @@ form#tradeform textarea {
 
 input#tradevalue,
 input#member {
-    background-color:   $normal_bg              !important;
     border-radius:      $small_border_radius    !important;
     height:             24px                    !important;
     top:                -5px                    !important;
     position:           relative                !important;
 }
 
-form#tradeform label[for="confirm_box"] span {
-    color:              $colored_hints          !important;
-}
-
-div.forumbg.forumbg-table div.inner {
-    background-color:   $light_hints            !important;
-}
-
 div.forumbg.forumbg-table div.inner thead *{
-    color:              $dark_text_color        !important;
     padding-top:        6px                     !important;
     padding-bottom:     12px                    !important;
-}
-
-tr.bg1 {
-    background-color:   $dark_bg                !important;
-}
-
-tr.bg1:hover {
-    background-color:   $normal_bg              !important;
-}
-
-tr.bg1 td {
-    color:              $colored_hints          !important;
 }

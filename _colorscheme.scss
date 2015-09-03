@@ -1,0 +1,873 @@
+@import "colors";
+/*[[preset_colorscheme]]*/
+
+/* From base.scss                                                             */
+// site-wide backgrounds and text colors
+body, div.navbar, html, input, #wrap {
+    color:              $text_color                 !important;
+    background-color:   $dark_bg                    !important;
+}
+
+*:not(.pointer):not(.pointer-inner) {
+    border-color:       $border_color               !important;
+}
+
+// Text in the top navbar always has a dark background,
+// so it should always be light
+ul#nav-bar li a {
+    color:              $always_light_text_color    !important;
+}
+
+/* From board_index_tables.scss                                               */
+div.forabg div.inner,
+div.forumbg div.inner {
+    background-color:   $light_hints            !important;
+}
+
+div.forabg div.inner ul.topiclist.forums,
+div.forumbg div.inner ul.topiclist.forums {
+    background-color:   $light_hints            !important;
+}
+
+div.forabg div.inner ul.topiclist.forums li.row,
+div.forumbg div.inner ul.topiclist.forums li.row {
+    background-color:   $dark_bg                !important;
+}
+
+div.forabg div.inner ul.topiclist.forums li.row:hover,
+div.forumbg div.inner ul.topiclist.forums li.row:hover {
+    background-color:   $normal_bg              !important;
+}
+
+// Median XL Worldwide section
+div#cat17.forabg div.inner ul.topiclist.forums,
+div#cat26.forabg div.inner ul.topiclist.forums {
+    background-color:   $dark_bg                !important;
+}
+
+/* From button_icons.scss                                                     */
+// icon button (icons for every button)
+a.icon-button::before, button.icon-button::before, span.icon-button::before {
+    color:              $dark_text_color    !important;
+}
+
+// Right part of tools button and jump to button
+span.dropdown-select::after {
+    border-color:       $dark_bg            !important;
+}
+
+/* From buttons.scss                                                          */
+a.button, a.button2, button.button, button.button2,
+input.button1, input.button2, span.dropdown-trigger.button {
+    background-color:   $colored_hints          !important;
+    color:              $dark_text_color        !important;
+}
+
+a.button:hover, a.button2:hover, button.button:hover, button.button2:hover,
+input.button1:hover, input.button2:hover, span.dropdown-trigger.button:hover {
+    background-color:   $bright_colored_hints   !important;
+    color:              $dark_text_color        !important;
+}
+
+/* From compose_pm_icons.scss                                                 */
+label[for=icon-1]::after, label[for=icon-4]::after, label[for=icon-5]::after,
+label[for=icon-6]::after, label[for=icon-7]::after, label[for=icon-8]::after,
+label[for=icon-9]::after, label[for=icon-10]::after {
+    color:          $text_color     !important;
+}
+
+/* From donate_page.scss                                                      */
+label[for=icon-1]::after {
+    color:          $colored_hints  !important;
+}
+
+label[for=icon-4]::after {
+    color:          $colored_hints  !important;
+}
+
+div.panel.bg1 {
+    background-color:   $dark_bg                !important;
+    border-color:       $border_color           !important;
+}
+
+div.panel.bg1 div.inner div,
+div.panel.bg2 form.payPalForm {
+    color:              $text_color             !important;
+}
+
+input#manual-input {
+    background-color:   $normal_bg              !important;
+}
+
+li.donate-comment {
+    background-color:   $normal_bg              !important;
+}
+
+p.warning-text {
+    color:              $colored_hints          !important;
+}
+
+/* From forms.scss                                                            */
+fieldset dl label, fieldset.display-options label, #options-panel label,
+div.left-box label, div.right-box label,
+label[for="disable_bbcode"],
+label[for="disable_magic_url"],
+label[for="disable_smilies"] {
+    color:              $colored_hints          !important;
+}
+
+fieldset dl:hover dt label {
+    color:              $bright_colored_hints   !important;
+}
+
+/* From full_editor.scss                                                      */
+div#postingbox {
+    background-color:   $dark_bg                !important;
+    border-color:       $border_color           !important;
+    color:              $text_color             !important;
+}
+
+div.abbc3_buttons_row {
+    background-color:   $dark_bg                !important;
+}
+
+div.abbc3_button,
+input.abbc3_button {
+    background-color:   $colored_hints          !important;
+}
+
+div.abbc3_button:hover,
+input.abbc3_button:hover {
+    background-color:   $bright_colored_hints   !important;
+}
+
+// Attach panel
+div#attach-panel {
+    color:              $text_color             !important;
+}
+
+table.zebra-list tr.attach-row td {
+    background-color:   $dark_bg                !important;
+}
+
+/* From guidecenter.scss                                                      */
+form#guidefilter > span {
+    background-color:   $normal_bg              !important;
+}
+
+form#guidefilter span {
+    color:              $text_color             !important;
+}
+
+/* From icons.scss                                                            */
+// Quick links icon
+#quick-links > a::before {
+    color:              $colored_hints      !important;
+}
+
+span.file-uploaded::before {
+    color:              $alt_colored_hints  !important;
+}
+
+/* From imageset_icons.scss                                                   */
+span.icon_post_target_unread::before {
+    color:              $colored_hints  !important;
+}
+
+span.icon_topic_newest::before {
+    color:              $colored_hints  !important;
+}
+
+/* From inputs.scss                                                           */
+input.inputbox, textarea {
+    background-color:   $input_bg               !important;
+    color:              $text_color             !important;
+}
+
+// Input placeholder colors. Can't be on the same line! Browsers ignore a
+// whole selector if contains even one unsupported vendor-specific selector
+// Firefox 4-18 and derivatives
+input:-moz-placeholder {
+    color:              $placeholder_color      !important;
+}
+
+// Firefox 18+ and derivatives (double colon)
+input::-moz-placeholder {
+    color:              $placeholder_color      !important;
+}
+
+// Webkit and blink browsers (Safari, Chrom*, Opera 15+, Edge)
+input::-webkit-input-placeholder {
+    color:              $placeholder_color      !important;
+}
+
+// Chrome's select dropdown arrow is always black, for this reason
+// select tags will always need to have a light bg and a dark text
+select {
+    background-color:   $always_light_bg        !important;
+    color:              $always_dark_text_color !important;
+}
+
+#flag-container {
+    background-color:   $normal_bg              !important;
+    color:              $colored_hints          !important;
+}
+
+/* From login_page.scss                                                       */
+form#login div.panel {
+    background-color:   $dark_bg                !important;
+    border-color:       $border_color           !important;
+}
+
+/* From mark_read_icon.scss                                                   */
+.dropdown-extended a.mark_read {
+    background-color:   $colored_hints      !important;
+}
+
+.icon-mark::after {
+    color:              $light_bg          !important;
+}
+
+/* From misc.scss                                                             */
+// Links
+a {
+    color:              $text_color                 !important;
+}
+
+a:hover, a.username-coloured:hover {
+    color:              $bright_colored_hints       !important;
+}
+
+a.username-coloured {
+    color:              $colored_hints              !important;
+}
+
+a.postlink,
+a.postlink-local {
+    color:              $colored_hints              !important;
+    border-color:       $colored_hints              !important;
+}
+
+a.postlink:hover,
+a.postlink-local:hover {
+    background-color:   $colored_hints              !important;
+    color:              $dark_text_color            !important;
+}
+
+dl.faq strong {
+    color:              $colored_hints              !important;
+}
+
+// Headers
+h2 {
+    color:              $text_color                 !important;
+}
+
+h3 {
+    color:              $colored_hints              !important;
+}
+
+h4 {
+    color:              $weak_colored_hints         !important;
+}
+
+hr:not(.divider) {
+    border-color:       $border_color               !important;
+}
+
+div.stat-block p {
+    background-color:   $normal_bg                  !important;
+}
+
+// Topic previews when hovering the mouse over a thread title
+#topic_preview {
+    background-color:   $dark_bg                    !important;
+    border-color:       $border_color               !important;
+    color:              $text_color                 !important;
+}
+
+#topic_preview::before,
+#topic_preview.invert::after {
+    background-color:   $dark_bg                    !important;
+    border-color:       $border_color               !important;
+}
+
+// Forum message
+div#message {
+    background-color:   $dark_bg                    !important;
+    border-color:       $border_color               !important;
+}
+
+div#message p {
+    color:              $text_color                 !important;
+}
+
+// Bot names color
+div.online-list span.username-coloured {
+    color:              $bot_names_color            !important;
+}
+
+// Forum staff legend colors
+a[href$="&g=5"] {
+    color:              $colored_hints              !important;
+}
+
+a[href$="&g=4"] {
+    color:              $alt_bright_colored_hints   !important;
+}
+
+a[href$="&g=13"] {
+    color:              $alt_colored_hints          !important;
+}
+
+// Text selection color. Doesn't really work in chrome because of <br> tags
+// inside text in posts. Chrome will highlight those empty rows with the
+// default blue color, while FF won't highlight those empty rows
+::-moz-selection {
+    color:              $dark_text_color            !important;
+    background:         $colored_hints              !important;
+}
+
+/* From navbar.scss                                                           */
+div#page-header div.navbar,
+div#page-footer div.navbar {
+    background-color:   $dark_bg                    !important;
+    border-color:       $border_color               !important;
+}
+
+// Dropdown arrow
+div.pointer {
+    border-color:       $border_color transparent   !important;
+}
+
+div.pointer-inner {
+    border-color:       $dark_bg transparent        !important;
+}
+
+// Dropdown menus
+div.dropdown-contents, div.dropdown-contents div.header, ul.dropdown-contents {
+    background:         $dark_bg                    !important;
+    color:              $text_color                 !important;
+}
+
+div.dropdown-contents li.bg2 {
+    background:         $light_bg                   !important;
+}
+
+div.dropdown div.dropdown-contents,
+div.dropdown ul.dropdown-contents  {
+    border-color:       $border_color               !important;
+}
+
+div.dropdown-contents div.header {
+    border-color:        $border_color              !important;
+}
+
+div.dropdown-contents div.footer {
+    border-color:       $border_color               !important;
+}
+
+// Notification block colored_hints
+a.notification-block:hover{
+    background-color:   $light_bg                   !important;
+}
+
+a.notification-block:hover span.username-coloured {
+    color:              $text_color                 !important;
+}
+
+a.notification-block p.notification-time {
+    color:              $colored_hints              !important;
+}
+
+/* From pagination.scss                                                       */
+div.action-bar div.pagination a.dropdown-toggle,
+div.list-inner div.pagination ul li a,
+div.action-bar div.pagination ul li a,
+div.pagination ul li span {
+    background-color:   $dark_bg                !important;
+    border-color:       $border_color           !important;
+    color:              $pagination_color       !important;
+}
+
+div.action-bar div.pagination a.dropdown-toggle:hover,
+div.list-inner div.pagination ul li a:hover,
+div.action-bar div.pagination ul li a:hover,
+div.pagination ul li span:hover {
+    background-color:   $bright_colored_hints   !important;
+    color:              $dark_text_color        !important;
+}
+
+div.pagination ul li.active span {
+    background-color:   $colored_hints          !important;
+    color:              $dark_text_color        !important;
+}
+
+div.pagination ul li.ellipsis span,
+li.ellipsis span {
+    color:              $text_color             !important;
+}
+
+/* From phpbb_alert.scss                                                      */
+div.phpbb_alert {
+    border-color:       $border_color       !important;
+    background-color:   $dark_bg            !important;
+}
+
+// Alert close icon
+div.phpbb_alert a.alert_close {
+    background-color:   $dark_bg            !important;
+}
+
+/* From post_contents.scss                                                    */
+// This makes sure that the first container in a nested chain
+// does not have any border, but makes nested ones do
+div.content blockquote,
+div.content blockquote.uncited,
+div.content code,
+div.content div.codebox,
+div.content div.detail-spoiler div.hidden,
+div.content div.spoilwrapper {
+    border-color:       $border_color           !important;
+}
+
+blockquote,
+code,
+div.codebox,
+div.detail-spoiler div.hidden,
+div.spoilwrapper,
+pre.nfo {
+    background-color:   $dark_bg                !important;
+}
+
+code {
+    color:              $code_color             !important;
+}
+
+div.spoiltitle span.spoilbtn, div.spoilcontent, pre.nfo {
+    color:              $text_color             !important;
+}
+
+div.hidebox_visible, div.hidebox_hidden {
+    color:              $dark_text_color        !important;
+}
+
+div.hidebox_visible {
+    background-color:   $alt_colored_hints      !important;
+}
+
+div.hidebox_hidden {
+    background-color:   $weak_colored_hints     !important;
+}
+
+div.hidebox_title {
+    border-color:       $dark_bg                !important;
+    color:              $dark_text_color        !important;
+}
+
+dl.attachbox {
+    background-color:   $dark_bg                !important;
+    color:              $text_color             !important;
+}
+
+dl.thumbnail a,
+img.postimage {
+    background-color:   $dark_bg                !important;
+}
+
+/* From quick-login.scss                                                      */
+fieldset.quick-login label {
+    color:  $colored_hints  !important;
+}
+
+/* From register_page.scss                                                    */
+form#agreement div.panel,
+form#register div.panel {
+    background-color:   $dark_bg                !important;
+    border-color:       $border_color           !important;
+}
+
+form#register dd.error {
+    color:              $bright_colored_hints   !important;
+}
+
+form#register div.panel,
+div.captcha-panel {
+    color:              $text_color             !important;
+}
+
+/* From scroll_to_top_button.scss                                             */
+.scroll-btn {
+    background-color:   $dark_bg                !important;
+    border-color:       $light_hints            !important;
+}
+
+.scroll-btn-arrow {
+    border-color:       $light_hints            !important;
+    color:              $light_hints            !important;
+}
+
+/* From small_icons.scss                                                      */
+li.small-icon:not(.icon-tradegold) a::before {
+    color:              $text_color             !important;
+}
+
+li.small-icon:not(.icon-tradegold) a:hover::before {
+    color:              $bright_colored_hints   !important;
+}
+
+ul#nav-main li.icon-acp a::before,
+ul#nav-footer li.icon-contact a::before,
+ul#nav-main li.icon-donate a::before,
+ul#nav-main li.icon-faq a::before,
+ul#nav-main li.icon-mcp a::before,
+ul#nav-main li.icon-notification a::before,
+ul#nav-main li.icon-pm a::before,
+ul#nav-main li.icon-register a::before,
+ul#nav-main li.icon-search-new a::before,
+ul#nav-main li.icon-search-unread a::before,
+ul#nav-main li.icon-team a::before,
+ul#nav-footer li.icon-team a::before {
+    color:              $colored_hints          !important;
+}
+
+/* From subforum_icons.scss                                                   */
+a.subforum.unread::before {
+    color:              $colored_hints  !important;
+}
+
+a.subforum.read:hover::before {
+    color:              $text_color     !important;
+}
+
+/* From tables.scss                                                           */
+// Table headers
+ul.topiclist li.header {
+    background-color:           $light_hints                                    !important;
+}
+
+ul.topiclist.guidelist li.header *,
+ul.topiclist li.header * {
+    color:                      $dark_text_color                                !important;
+}
+
+ul.topiclist.guideheader li.header,
+ul.topiclist.two-columns li.header,
+div.panel ul.topiclist li.header {
+    border-color:               $light_hints                                    !important;
+}
+
+ul.topiclist.guidelist:not(.guideheader),
+ul.topiclist.cplist.two-columns,
+ul.topiclist.cplist.missing-column {
+    border-color:               $light_hints                                    !important;
+    background-color:           $light_hints                                    !important;
+}
+
+// Body
+li.row {
+    background-color:           $dark_bg                                        !important;
+    color:                      $text_color                                     !important;
+}
+
+li.row:hover {
+    background-color:           $normal_bg                                      !important;
+}
+
+li.row dl.redborder {
+    border-color:               $colored_hints                                  !important;
+}
+
+li.row strong {
+    color:                      $text_color                                     !important;
+}
+
+/* From tg_center.scss                                                        */
+div.panel.bg2 {
+    background-color:   $dark_bg                !important;
+    border-color:       $border_color           !important;
+}
+
+form#tradeform span,
+form#tradeform strong {
+    color:              $text_color             !important;
+}
+
+input#tradevalue,
+input#member {
+    background-color:   $normal_bg              !important;
+}
+
+form#tradeform label[for="confirm_box"] span {
+    color:              $colored_hints          !important;
+}
+
+div.forumbg.forumbg-table div.inner {
+    background-color:   $light_hints            !important;
+}
+
+div.forumbg.forumbg-table div.inner thead *{
+    color:              $dark_text_color        !important;
+}
+
+tr.bg1 {
+    background-color:   $dark_bg                !important;
+}
+
+tr.bg1:hover {
+    background-color:   $normal_bg              !important;
+}
+
+tr.bg1 td {
+    color:              $colored_hints          !important;
+}
+
+/* From threads.scss                                                          */
+div.bg1 {
+    background-color:   $normal_bg              !important;
+}
+
+div.bg2 {
+    background-color:   $normal_bg              !important;
+}
+
+div.content, p.author {
+    color:              $text_color             !important;
+}
+
+div.vote-no-bar {
+    color:              $text_color             !important;
+}
+
+dl.postprofile dd.profile-contact strong,
+dl.postprofile dd.profile-cookies,
+dl.postprofile dd.profile-cookies strong,
+dl.postprofile dd.profile-posts strong {
+    color:              $text_color             !important;
+}
+
+#qr_postform div.panel {
+    background-color:   $dark_bg                !important;
+    border-color:       $border_color           !important;
+}
+
+div.signature {
+    border-color:       $light_hints            !important;
+    color:              $text_color             !important;
+}
+
+// Cookie buttons color
+div.vote-up a:hover,
+div.vote-down a:hover {
+    color:              $dark_text_color        !important;
+}
+
+div.vote-up a i.fa:hover,
+div.vote-down a i.fa:hover {
+    background-color:   $colored_hints          !important;
+}
+
+// Cookie bar color
+div.vote-bar-plus {
+    background-color:   $cookie_bar_plus        !important;
+}
+
+div.vote-bar-minus {
+    background-color:   $cookie_bar_minus       !important;
+}
+
+/* From threads_polls.scss                                                    */
+form.topic_poll div.panel {
+    background-color:   $dark_bg                !important;
+    border-color:       $border_color           !important;
+}
+
+form.topic_poll div.panel fieldset dl {
+    color:              $text_color             !important;
+}
+
+form.topic_poll div.panel fieldset dl div.pollbar3 {
+    background-color:   $weak_colored_hints     !important;
+    color:              $dark_text_color        !important;
+}
+
+form.topic_poll div.panel fieldset dl.most-votes div.pollbar3 {
+    background-color:   $alt_colored_hints      !important;
+}
+
+/* From tools_center.scss                                                     */
+span.label-info {
+    background-color:   $author_button_color            !important;
+    color:              $text_color                     !important;
+}
+
+span.label-warning {
+    background-color:   $version_button_color           !important;
+    color:              $dark_text_color                !important;
+}
+
+.btn-default {
+    background-color:   $dark_bg                        !important;
+    border-color:       $border_color                   !important;
+}
+
+.btn-default:hover {
+    background-color:   $normal_bg                      !important;
+    color:              $colored_hints                  !important;
+}
+
+.btn-danger {
+    background-color:   $colored_hints                  !important;
+    color:              $dark_text_color                !important;
+    border-color:       $colored_hints                  !important;
+}
+
+.btn-danger:hover {
+    background-color:   $bright_colored_hints           !important;
+    border-color:       $bright_colored_hints           !important;
+    color:              $dark_text_color                !important;
+}
+
+p.bg-danger {
+    background-color:   $transparent_hints              !important;
+    color:              $dark_text_color                !important;
+}
+
+/* From ucp.scss                                                              */
+// Body proper
+div.panel.bg3 {
+    border-color:       $border_color           !important;
+}
+
+div.panel.bg3, div.panel.bg3 div.panel {
+    background-color:   $dark_bg                !important;
+}
+
+div.panel.bg3 div.panel, div.panel.bg3 div.panel dt {
+    color:              $text-color             !important;
+}
+
+div.panel.bg3 div.panel li.header dt {
+    color:              $dark_text_color        !important;
+}
+
+div.panel.bg3 div.panel dl.details dd {
+    color:              $colored_hints          !important;
+}
+
+// Manage "remember me" login keys table
+div.inner table.table1 {
+    background-color:   $light_hints            !important;
+    border-color:       $light_hints            !important;
+}
+
+div.inner table.table1 thead th {
+    background-color:   $light_hints            !important;
+    color:              $dark_text_color        !important;
+}
+
+div.inner table.table1 tr {
+    background-color:   $dark_bg                !important;
+}
+
+div.inner table.table1 tr:hover {
+    background-color:   $border_color           !important;
+}
+
+div.inner table.table1 tr td,
+div.inner table.table1 tr td label {
+    color:              $colored_hints          !important;
+}
+
+// Better styling for UCP -> Board preferences -> Edit notification options table
+div.inner table.table1 tr.big-column {
+    background-color:   $light_bg               !important;
+}
+
+div.inner table.table1 tr.big-column td {
+    color:              $text_color             !important;
+}
+
+// Styling of UCP -> Private messages -> row border colors
+li.row.pm_marked_colour {
+    border-color:       $pm_marked_color        !important;
+}
+
+li.row.pm_replied_colour {
+    border-color:       $pm_replied_color       !important;
+}
+
+li.row.pm_friend_colour {
+    border-color:       $pm_friend_color        !important;
+}
+
+li.row.pm_foe_colour {
+    border-color:       $pm_foe_color           !important;
+}
+
+/* From ucp_menu.scss                                                         */
+#navigation ul  {
+    border-color:       $border_color           !important;
+}
+
+#navigation a {
+    background:         $dark_bg                !important;
+}
+
+#navigation #active-subsection a {
+    color:              $colored_hints          !important;
+}
+
+#navigation #active-subsection a, #navigation a:hover {
+    background-color:   $normal_bg              !important;
+}
+
+// Friends panel
+div#cp-menu div.cp-mini {
+    background-color:   $dark_bg                !important;
+    border-color:       $border_color           !important;
+}
+
+div.cp-mini dt {
+    color:              $colored_hints          !important;
+}
+
+// Styling of UCP -> Private messages -> message colours legend
+dl.mini {
+    color:              $text_color             !important;
+}
+
+dl.mini dd.pm_marked_colour {
+    border-color:       $pm_marked_color        !important;
+}
+
+dl.mini dd.pm_replied_colour {
+    border-color:       $pm_replied_color       !important;
+}
+
+dl.mini dd.pm_friend_colour {
+    border-color:       $pm_friend_color        !important;
+}
+
+dl.mini dd.pm_foe_colour {
+    border-color:       $pm_foe_color           !important;
+}
+
+/* From ucp_tabs.scss                                                         */
+li.tab a {
+    background-color:   $dark_bg        !important;
+}
+
+li.tab a:hover {
+    background-color:   $normal_bg      !important;
+}
+
+li.activetab a {
+    background-color:   $normal_bg      !important;
+    color:              $colored_hints  !important;
+}
+
+// Compact dropdown tab
+li.tab.dropdown-container ul.dropdown-contents li a {
+    background-color:   $dark_bg        !important;
+}

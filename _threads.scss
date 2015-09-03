@@ -1,32 +1,8 @@
 @import "threads_polls";
 @import "post_contents";
 
-div.bg1 {
-    background-color:   $normal_bg              !important;
-}
-
-div.bg2 {
-    background-color:   $normal_bg              !important;
-}
-
-div.content, p.author {
-    color:              $text_color             !important;
-}
-
-div.vote-no-bar {
-    color:              $text_color             !important;
-}
-
-dl.postprofile dd.profile-contact strong,
-dl.postprofile dd.profile-cookies,
-dl.postprofile dd.profile-cookies strong,
-dl.postprofile dd.profile-posts strong {
-    color:              $text_color             !important;
-}
-
 #qr_postform div.panel {
-    background-color:   $dark_bg                !important;
-    border:             1px solid $border_color !important;
+    border:             1px solid               !important;
 }
 
 form + hr {
@@ -34,26 +10,5 @@ form + hr {
 }
 
 div.signature {
-    border-top:         1px solid $light_hints  !important;
-    color:              $text_color             !important;
-}
-
-// Cookie buttons color
-div.vote-up a:hover,
-div.vote-down a:hover {
-    color:              $dark_text_color        !important;
-}
-
-div.vote-up a i.fa:hover,
-div.vote-down a i.fa:hover {
-    background-color:   $colored_hints          !important;
-}
-
-// Cookie bar color
-div.vote-bar-plus {
-    background-color:   $cookie_bar_plus        !important;
-}
-
-div.vote-bar-minus {
-    background-color:   $cookie_bar_minus       !important;
+    border-top:         1px solid               !important;
 }

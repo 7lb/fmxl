@@ -22,7 +22,6 @@ a.top2::before {
 #quick-links > a::before {
     border:             0px                 !important;
     content:            '\f0c9'             !important;
-    color:              $colored_hints      !important;
     top:                4px                 !important;
 }
 
@@ -33,7 +32,6 @@ span.file-uploaded {
 
 span.file-uploaded::before {
     content:            '\f058'             !important;
-    color:              $alt_colored_hints  !important;
     font-family:        FontAwesome         !important;
     font-size:          12pt                !important;
 }

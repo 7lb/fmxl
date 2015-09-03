@@ -1,21 +1,10 @@
 form.topic_poll div.panel {
-    background-color:   $dark_bg                !important;
-    border:             1px solid $border_color !important;
-}
-
-form.topic_poll div.panel fieldset dl {
-    color:              $text_color             !important;
+    border:             1px solid               !important;
 }
 
 form.topic_poll div.panel fieldset dl div.pollbar3 {
     border-radius:      $small_border_radius    !important;
-    background-color:   $weak_colored_hints     !important;
-    color:              $dark_text_color        !important;
     padding-top:        2px                     !important;
     position:           relative                !important;
     top:                -2px                    !important;
-}
-
-form.topic_poll div.panel fieldset dl.most-votes div.pollbar3 {
-    background-color:   $alt_colored_hints      !important;
 }

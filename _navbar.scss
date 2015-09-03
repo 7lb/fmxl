@@ -1,56 +1,24 @@
 div#page-header div.navbar,
 div#page-footer div.navbar {
-    background-color:   $dark_bg                    !important;
-    border:             1px solid $border_color     !important;
-}
-
-// Dropdown arrow
-div.pointer {
-    border-color:       $border_color transparent   !important;
-}
-
-div.pointer-inner {
-    border-color:       $dark_bg transparent        !important;
+    border:             1px solid                   !important;
 }
 
 // Dropdown menus
-div.dropdown-contents, div.dropdown-contents div.header, ul.dropdown-contents {
-    background:         $dark_bg                    !important;
-    color:              $text_color                 !important;
-}
-
-div.dropdown-contents li.bg2 {
-    background:         $light_bg                   !important;
-}
-
 div.dropdown div.dropdown-contents,
 div.dropdown ul.dropdown-contents  {
-    border:             1px solid $border_color     !important;
+    border:             1px solid                   !important;
 }
 
 div.dropdown-contents div.header {
-    border-bottom:      1px solid $border_color     !important;
+    border-bottom:      1px solid                   !important;
 }
 
 div.dropdown-contents div.footer {
-    border-top:         1px solid $border_color     !important;
+    border-top:         1px solid                   !important;
 }
 
 ul li a.notification-block{
     padding:            8px                         !important;
-}
-
-// Notification block colored_hints
-a.notification-block:hover{
-    background-color:   $light_bg                   !important;
-}
-
-a.notification-block:hover span.username-coloured {
-    color:              $text_color                 !important;
-}
-
-a.notification-block p.notification-time {
-    color:              $colored_hints              !important;
 }
 
 // Username "icons" (circle on the left and triangle on the right)

@@ -1,16 +1,3 @@
-// Colors
-fieldset dl label, fieldset.display-options label, #options-panel label,
-div.left-box label, div.right-box label,
-label[for="disable_bbcode"],
-label[for="disable_magic_url"],
-label[for="disable_smilies"] {
-    color:              $colored_hints          !important;
-}
-
-fieldset dl:hover dt label {
-    color:              $bright_colored_hints   !important;
-}
-
 // Vertically center some form options
 fieldset dl dd {
     margin-bottom:      0px                     !important;

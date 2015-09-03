@@ -1,7 +1,6 @@
 // icon button (icons for every button)
 a.icon-button::before, button.icon-button::before, span.icon-button::before {
     background-image:   none                !important;
-    color:              $dark_text_color    !important;
     font-family:        FontAwesome         !important;
     font-size:          8pt                 !important;
     text-align:         center              !important;
@@ -97,7 +96,7 @@ span.modtools-icon::before {
 // Right part of tools button and jump to button
 span.dropdown-select::after {
     background-image:   none                !important;
-    border-left:        1px solid $dark_bg  !important;
+    border-left:        1px solid           !important;
     content:            '\f0d7'             !important;
     font-family:        FontAwesome         !important;
     margin-top:         -1px                !important;

@@ -1,48 +1,17 @@
 // Links
-a {
-    color:              $text_color                 !important;
-}
-
-a:hover, a.username-coloured:hover {
-    color:              $bright_colored_hints       !important;
-}
-
-a.username-coloured {
-    color:              $colored_hints              !important;
-}
-
 a.postlink,
 a.postlink-local {
-    color:              $colored_hints              !important;
-    border-bottom:      1px solid $colored_hints    !important;
+    border-bottom:      1px solid                   !important;
 }
 
 a.postlink:hover,
 a.postlink-local:hover {
-    background-color:   $colored_hints              !important;
-    color:              $dark_text_color            !important;
     text-decoration:    none                        !important;
 }
 
-dl.faq strong {
-    color:              $colored_hints              !important;
-}
-
 // Headers
-h2 {
-    color:              $text_color                 !important;
-}
-
-h3 {
-    color:              $colored_hints              !important;
-}
-
-h4 {
-    color:              $weak_colored_hints         !important;
-}
-
 hr:not(.divider) {
-    border-top:         1px solid $border_color     !important;
+    border-top:         1px solid                   !important;
 }
 
 hr.dashed {
@@ -50,56 +19,16 @@ hr.dashed {
 }
 
 div.stat-block p {
-    background-color:   $normal_bg                  !important;
     border-radius:      $big_border_radius          !important;
     padding:            5px                         !important;
 }
 
 // Topic previews when hovering the mouse over a thread title
 #topic_preview {
-    background-color:   $dark_bg                    !important;
-    border:             1px solid $border_color     !important;
-    color:              $text_color                 !important;
-}
-
-#topic_preview::before,
-#topic_preview.invert::after {
-    background-color:   $dark_bg                    !important;
-    border-color:       $border_color               !important;
+    border:             1px solid                   !important;
 }
 
 // Forum message
 div#message {
-    background-color:   $dark_bg                    !important;
-    border:             1px solid $border_color     !important;
-}
-
-div#message p {
-    color:              $text_color                 !important;
-}
-
-// Bot names color
-div.online-list span.username-coloured {
-    color:              $bot_names_color            !important;
-}
-
-// Forum staff legend colors
-a[href$="&g=5"] {
-    color:              $colored_hints              !important;
-}
-
-a[href$="&g=4"] {
-    color:              $alt_bright_colored_hints   !important;
-}
-
-a[href$="&g=13"] {
-    color:              $alt_colored_hints          !important;
-}
-
-// Text selection color. Doesn't really work in chrome because of <br> tags
-// inside text in posts. Chrome will highlight those empty rows with the
-// default blue color, while FF won't highlight those empty rows
-::-moz-selection {
-    color:              $dark_text_color            !important;
-    background:         $colored_hints              !important;
+    border:             1px solid                   !important;
 }

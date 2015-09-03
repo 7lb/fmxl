@@ -11,15 +11,7 @@ a.subforum.read::before, a.subforum.unread::before {
     top:                -1px            !important;
 }
 
-a.subforum.unread::before {
-    color:              $colored_hints  !important;
-}
-
 a.subforum.read:hover::before, a.subforum.unread:hover::before {
     display:            inline-block    !important;
     text-decoration:    none            !important;
-}
-
-a.subforum.read:hover::before {
-    color:              $text_color     !important;
 }

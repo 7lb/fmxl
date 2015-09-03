@@ -3,17 +3,10 @@ li.tab a, .tab a:hover {
 }
 
 li.tab a {
-    background-color:   $dark_bg        !important;
     background-image:   none            !important;
 }
 
-li.tab a:hover {
-    background-color:   $normal_bg      !important;
-}
-
 li.activetab a {
-    background-color:   $normal_bg      !important;
-    color:              $colored_hints  !important;
     padding:            5px 9px         !important;
 }
 
@@ -23,8 +16,4 @@ li.tab.dropdown-container > a::before {
     content:            '\f0c9'         !important;
     font-family:        FontAwesome     !important;
     top:                5px             !important;
-}
-
-li.tab.dropdown-container ul.dropdown-contents li a {
-    background-color:   $dark_bg        !important;
 }

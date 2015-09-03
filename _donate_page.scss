@@ -1,24 +1,12 @@
 div.panel.bg1 {
-    background-color:   $dark_bg                !important;
-    border:             1px solid $border_color !important;
-}
-
-div.panel.bg1 div.inner div,
-div.panel.bg2 form.payPalForm {
-    color:              $text_color             !important;
+    border:             1px solid               !important;
 }
 
 input#manual-input {
-    background-color:   $normal_bg              !important;
     height:             24px                    !important;
     border-radius:      $small_border_radius    !important;
 }
 
 li.donate-comment {
-    background-color:   $normal_bg              !important;
     border-radius:      $small_border_radius    !important;
-}
-
-p.warning-text {
-    color:              $colored_hints          !important;
 }

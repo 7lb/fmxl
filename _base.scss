@@ -1,12 +1,5 @@
-@import "colors";
 @import "values";
 @import "mixins";
-
-// site-wide backgrounds and text colors
-body, div.navbar, html, input, #wrap {
-    color:              $text_color                 !important;
-    background-color:   $dark_bg                    !important;
-}
 
 // Remove box and text shadows for a flat look
 * {
@@ -19,11 +12,4 @@ body, div.navbar, html, input, #wrap {
 // so they're disabled by default
 *:not(.pointer):not(.pointer-inner) {
     border:             0px                         !important;
-    border-color:       $border_color               !important;
-}
-
-// Text in the top navbar always has a dark background,
-// so it should always be light
-ul#nav-bar li a {
-    color:              $always_light_text_color    !important;
 }

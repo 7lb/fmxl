@@ -27,7 +27,6 @@ span.icon_post_target::before {
 }
 
 span.icon_post_target_unread::before {
-    color:              $colored_hints  !important;
     content:            '\f016'         !important;
 }
 
@@ -41,7 +40,6 @@ span.icon_topic_latest::before {
 }
 
 span.icon_topic_newest::before {
-    color:              $colored_hints  !important;
     content:            '\f08e'         !important;
 }
 

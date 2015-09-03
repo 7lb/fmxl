@@ -5,24 +5,8 @@ div.forumbg {
 
 div.forabg div.inner,
 div.forumbg div.inner {
-    background-color:   $light_hints            !important;
     border-radius:      $big_border_radius      !important;
     padding:            5px                     !important;
-}
-
-div.forabg div.inner ul.topiclist.forums,
-div.forumbg div.inner ul.topiclist.forums {
-    background-color:   $light_hints            !important;
-}
-
-div.forabg div.inner ul.topiclist.forums li.row,
-div.forumbg div.inner ul.topiclist.forums li.row {
-    background-color:   $dark_bg                !important;
-}
-
-div.forabg div.inner ul.topiclist.forums li.row:hover,
-div.forumbg div.inner ul.topiclist.forums li.row:hover {
-    background-color:   $normal_bg              !important;
 }
 
 // Vertically center stuff inside rows
@@ -55,7 +39,6 @@ div.forumbg li.row dd.lastpost {
 // Median XL Worldwide section
 div#cat17.forabg div.inner ul.topiclist.forums,
 div#cat26.forabg div.inner ul.topiclist.forums {
-    background-color:   $dark_bg                !important;
     border-radius:      $small_border_radius    !important;
     margin:             0px                     !important;
 }

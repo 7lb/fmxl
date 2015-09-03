@@ -1,7 +1,5 @@
 input.inputbox, textarea {
-    background-color:   $input_bg               !important;
     border-radius:      $small_border_radius    !important;
-    color:              $text_color             !important;
 }
 
 input.inputbox:not(.search).tiny {
@@ -13,30 +11,10 @@ input.search.tiny {
     border-radius:      $small_border_radius 0px 0px $small_border_radius   !important
 }
 
-// Input placeholder colors. Can't be on the same line! Browsers ignore a
-// whole selector if contains even one unsupported vendor-specific selector
-
-// Firefox 4-18 and derivatives
-input:-moz-placeholder {
-    color:              $placeholder_color      !important;
-}
-
-// Firefox 18+ and derivatives (double colon)
-input::-moz-placeholder {
-    color:              $placeholder_color      !important;
-}
-
-// Webkit and blink browsers (Safari, Chrom*, Opera 15+, Edge)
-input::-webkit-input-placeholder {
-    color:              $placeholder_color      !important;
-}
-
 // Chrome's select dropdown arrow is always black, for this reason
 // select tags will always need to have a light bg and a dark text
 select {
-    background-color:   $always_light_bg        !important;
     border-radius:      $small_border_radius    !important;
-    color:              $always_dark_text_color !important;
     height:             24px                    !important;
 }
 
@@ -45,7 +23,5 @@ select#usernames {
 }
 
 #flag-container {
-    background-color:   $normal_bg              !important;
     border-radius:      $small_border_radius    !important;
-    color:              $colored_hints          !important;
 }

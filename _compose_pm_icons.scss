@@ -7,7 +7,6 @@ label[for=icon-9] img, label[for=icon-10] img {
 label[for=icon-1]::after, label[for=icon-4]::after, label[for=icon-5]::after,
 label[for=icon-6]::after, label[for=icon-7]::after, label[for=icon-8]::after,
 label[for=icon-9]::after, label[for=icon-10]::after {
-    color:          $text_color     !important;
     font-family:    FontAwesome     !important;
     font-size:      11pt            !important;
     font-weight:    normal          !important;
@@ -16,12 +15,10 @@ label[for=icon-9]::after, label[for=icon-10]::after {
 }
 
 label[for=icon-1]::after {
-    color:          $colored_hints  !important;
     content:        '\f06d'         !important;
 }
 
 label[for=icon-4]::after {
-    color:          $colored_hints  !important;
     content:        '\f08a'         !important;
 }
 
