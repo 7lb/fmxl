@@ -755,6 +755,11 @@ hr:not(.divider) {
 hr.dashed {
   border-top: 0px                         !important; }
 
+div.stat-block p {
+  background-color: #363636 !important;
+  border-radius: 5px !important;
+  padding: 5px                         !important; }
+
 #topic_preview {
   background-color: #242424 !important;
   border: 1px solid #363636 !important;

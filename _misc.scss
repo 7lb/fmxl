@@ -49,6 +49,12 @@ hr.dashed {
     border-top:         0px                         !important;
 }
 
+div.stat-block p {
+    background-color:   $normal_bg                  !important;
+    border-radius:      $big_border_radius          !important;
+    padding:            5px                         !important;
+}
+
 // Topic previews when hovering the mouse over a thread title
 #topic_preview {
     background-color:   $dark_bg                    !important;
