@@ -109,3 +109,14 @@ span.dropdown-select[title="Jump to"] {
     padding-left:       7px                 !important;
     padding-right:      24px                !important;
 }
+
+// Compact post buttons
+ul.post-buttons.compact li.dropdown-container a::before {
+    content:            '\f0c9'             !important;
+    left:               -2px                !important;
+    position:           relative            !important;
+}
+
+ul.post-buttons.compact li.dropdown-container ul.dropdown-contents a::before {
+    display:            none                !important;
+}
