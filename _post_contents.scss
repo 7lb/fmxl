@@ -37,7 +37,7 @@ div.hidebox_visible, div.hidebox_hidden {
     border-radius:      $small_border_radius    !important;
 }
 
-div.hidebox_title {
+div.content div.hidebox_title {
     border-right:       1px solid               !important;
     border-bottom:      1px solid               !important;
     border-radius:      $small_border_radius 0px $small_border_radius 0px   !important;
