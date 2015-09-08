@@ -1,4 +1,4 @@
-@import "preset_assassin_light";
+@import "preset_assassin_dark";
 /*[[preset_colorscheme]]*/
 
 /* From base.scss                                                             */
@@ -189,11 +189,13 @@ input.inputbox, textarea {
 // Firefox 4-18 and derivatives
 input:-moz-placeholder {
     color:              $placeholder_color      !important;
+    opacity:            1                       !important;
 }
 
 // Firefox 18+ and derivatives (double colon)
 input::-moz-placeholder {
     color:              $placeholder_color      !important;
+    opacity:            1                       !important;
 }
 
 // Webkit and blink browsers (Safari, Chrom*, Opera 15+, Edge)
