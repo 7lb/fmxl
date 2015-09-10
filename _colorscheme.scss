@@ -477,7 +477,7 @@ div.phpbb_alert a.alert_close {
 /* From post_contents.scss                                                    */
 // This makes sure that the first container in a nested chain
 // does not have any border, but makes nested ones do
-div.content blockquote,
+div.postbody div.content blockquote,
 div.content blockquote.uncited,
 div.content code,
 div.content div.codebox,
