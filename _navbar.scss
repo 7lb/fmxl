@@ -3,6 +3,12 @@ div#page-footer div.navbar {
     border:             1px solid                   !important;
 }
 
+// very top navbar
+ul#nav-more {
+    border:             1px solid                   !important;
+    border-radius:      $small_border_radius        !important;
+}
+
 // Dropdown menus
 div.dropdown div.dropdown-contents,
 div.dropdown ul.dropdown-contents  {

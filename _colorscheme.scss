@@ -331,6 +331,16 @@ a[href$="&g=13"] {
 }
 
 /* From navbar.scss                                                           */
+// very top navbar
+ul#nav-more {
+    background-color:   $dark_bg                    !important;
+    border-color:       $border_color               !important;
+}
+
+ul#nav-more a:hover {
+    background-color:   $normal_bg                  !important;
+}
+
 div#page-header div.navbar,
 div#page-footer div.navbar {
     background-color:   $dark_bg                    !important;
