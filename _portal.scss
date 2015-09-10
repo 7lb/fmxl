@@ -1,0 +1,19 @@
+div.forumbg.module div.bg1 {
+    border-radius:      $small_border_radius    !important;
+}
+
+div.portal div.forumbg.forumbg-table,
+div.portal div.forumbg.forumbg-table div.inner {
+    padding:            0px                     !important;
+}
+
+div.portal div.forumbg.forumbg-table div.inner thead * {
+    padding-bottom:     4px                     !important;
+    padding-top:        0px                     !important;
+}
+
+form#shoutbox div.row-input input {
+    height:             1.7em                   !important;
+    border-radius:      $small_border_radius    !important;
+    line-height:        1.7em                   !important;
+}

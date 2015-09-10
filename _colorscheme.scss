@@ -305,7 +305,7 @@ div#message p {
 }
 
 // Bot names color
-div.online-list span.username-coloured {
+span.username-coloured {
     color:              $bot_names_color            !important;
 }
 
@@ -374,6 +374,10 @@ a.notification-block:hover{
     background-color:   $light_bg                   !important;
 }
 
+a.notification-block span.username-coloured {
+    color:              $colored_hints              !important;
+}
+
 a.notification-block:hover span.username-coloured {
     color:              $text_color                 !important;
 }
@@ -414,6 +418,45 @@ li.ellipsis span {
 div.phpbb_alert {
     border-color:       $border_color       !important;
     background-color:   $dark_bg            !important;
+}
+
+/* From portal.scss                                                           */
+div.bg1 div.container {
+    background-color:   $dark_bg                !important;
+}
+
+div.forumbg.module {
+    background-color:   $light_hints            !important;
+}
+
+div.forumbg.module div.bg1,
+div.forumbg.module div.row {
+    background-color:   $dark_bg                !important;
+}
+
+div.forumbg.module div.row:hover {
+    background-color:   $normal_bg              !important;
+}
+
+div.forumbg.module h3 {
+    color:              $dark_text_color        !important;
+}
+
+div.twitch-row {
+    color:              $text_color             !important;
+}
+
+form#shoutbox div.row-input {
+    background-color:   $dark_bg                !important;
+}
+
+form#shoutbox div.row-input input#shoutbox_input {
+    background-color:   $input_bg               !important;
+}
+
+form#shoutbox div.row-input input[type="submit"] {
+    background-color:   $colored_hints          !important;
+    color:              $dark_text_color        !important;
 }
 
 // Alert close icon
