@@ -48,6 +48,15 @@ blockquote div cite::before {
     position:           relative            !important;
 }
 
+// Zoom image icon
+div.postimage-zoom {
+    opacity:            0.5                 !important;
+}
+
+div.postimage-zoom:hover {
+    opacity:            1                   !important;
+}
+
 // Icon before "return to x" text at the bottom of a thread
 a.arrow-left {
     background-image:   none                !important;

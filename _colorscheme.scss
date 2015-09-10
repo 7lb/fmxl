@@ -169,6 +169,15 @@ span.file-uploaded::before {
     color:              $alt_colored_hints  !important;
 }
 
+div.postimage-zoom {
+    background-color:   $light_hints        !important;
+    color:              $dark_text_color    !important;
+}
+
+div.postimage-zoom:hover {
+    background-color:   $colored_hints      !important;
+}
+
 /* From imageset_icons.scss                                                   */
 span.icon_post_target_unread::before {
     color:              $colored_hints  !important;
@@ -416,6 +425,7 @@ div.pagination ul li span:hover {
 
 div.pagination ul li.active span {
     background-color:   $colored_hints          !important;
+    border-color:       $colored_hints          !important;
     color:              $dark_text_color        !important;
 }
 
