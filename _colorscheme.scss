@@ -458,6 +458,10 @@ div.forumbg.module div.row:hover {
     background-color:   $normal_bg              !important;
 }
 
+div.forumbg.module div.bg1 div.row-category a {
+    color:              $colored_hints          !important;
+}
+
 div.forumbg.module h3 {
     color:              $dark_text_color        !important;
 }
