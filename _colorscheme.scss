@@ -483,6 +483,10 @@ form#shoutbox div.row-input input[type="submit"] {
     color:              $dark_text_color        !important;
 }
 
+tbody tr.bg1 th {
+    background-color:   $dark_bg                !important;
+}
+
 // Alert close icon
 div.phpbb_alert a.alert_close {
     background-color:   $dark_bg            !important;
