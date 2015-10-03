@@ -241,7 +241,7 @@ form#login div.panel {
 
 /* From misc.scss                                                             */
 // Links
-a {
+a, a.current {
     color:              $text_color                 !important;
 }
 
