@@ -489,7 +489,17 @@ tbody tr.bg1 th {
 
 // Alert close icon
 div.phpbb_alert a.alert_close {
-    background-color:   $dark_bg            !important;
+    background-color:   $dark_bg                !important;
+}
+
+/* From profile.scss                                                          */
+dl.details dt {
+    color:              $text_color             !important;
+}
+
+dl.details dd,
+dl.details span {
+    color:              $colored_hints          !important;
 }
 
 /* From post_contents.scss                                                    */
