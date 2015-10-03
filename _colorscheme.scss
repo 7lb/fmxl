@@ -1,4 +1,4 @@
-@import "preset_assassin_dark";
+@import "preset_assassin_light";
 /*[[preset_colorscheme]]*/
 
 /* From base.scss                                                             */
@@ -250,7 +250,8 @@ a, a.current {
     color:              $text_color                 !important;
 }
 
-a:hover, a.username-coloured:hover {
+a:hover, a.username-coloured:hover,
+div#h-header a:hover:not(#h-download) {
     color:              $bright_colored_hints       !important;
 }
 
@@ -268,6 +269,10 @@ a.postlink:hover,
 a.postlink-local:hover {
     background-color:   $colored_hints              !important;
     color:              $dark_text_color            !important;
+}
+
+div#h-header a:not(#h-download) {
+    color:              $always_light_text_color    !important;
 }
 
 dl.faq strong {
