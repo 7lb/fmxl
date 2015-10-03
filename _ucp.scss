@@ -47,16 +47,3 @@ li.row.pm_foe_colour {
     border-left:        3px solid               !important;
 }
 
-// Center some tables' "mark" header text and row checkbox
-ul.cplist dd.mark,
-ul.missing-column li.header dd.mark {
-    margin-left:        15px                    !important;
-}
-
-// These tables' "mark" header text and row input control is already ok
-div.notification_list ul.cplist dd.mark,
-div.notification_list ul.missing-column li.header dd.mark,
-form#ucp ul.cplist dd.mark,
-form#ucp ul.missing-column li.header dd.mark {
-	margin-left:       0px                     !important;
-}
