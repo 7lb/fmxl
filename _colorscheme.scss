@@ -291,7 +291,7 @@ h4 {
     color:              $weak_colored_hints         !important;
 }
 
-hr:not(.divider) {
+hr:not(hr.divider) {
     border-color:       $border_color               !important;
 }
 
@@ -799,23 +799,23 @@ span.label-warning {
     color:              $version_text_color             !important;
 }
 
-.btn-default {
+a.btn.btn-default {
     background-color:   $dark_bg                        !important;
     border-color:       $border_color                   !important;
 }
 
-.btn-default:hover {
+a.btn.btn-default:hover {
     background-color:   $normal_bg                      !important;
     color:              $colored_hints                  !important;
 }
 
-.btn-danger {
+a.btn.btn-danger {
     background-color:   $colored_hints                  !important;
     color:              $dark_text_color                !important;
     border-color:       $colored_hints                  !important;
 }
 
-.btn-danger:hover {
+a.btn.btn-danger:hover {
     background-color:   $bright_colored_hints           !important;
     border-color:       $bright_colored_hints           !important;
     color:              $dark_text_color                !important;

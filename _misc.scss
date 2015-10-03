@@ -10,7 +10,7 @@ a.postlink-local:hover {
 }
 
 // Headers
-hr:not(.divider) {
+hr:not(hr.divider) {
     border-top:         1px solid                   !important;
 }
 
