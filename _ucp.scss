@@ -3,19 +3,19 @@
 
 // Body proper
 div.panel.bg3 {
-    border:             1px solid               !important;
+    border:             1px solid                       !important;
 }
 
 // Manage "remember me" login keys table
 div.inner table.table1 {
-    border:             5px solid               !important;
-    border-collapse:    separate                !important;
-    border-radius:      $big_border_radius      !important;
+    border:             5px solid                       !important;
+    border-collapse:    separate                        !important;
+    border-radius:      $big_border_radius              !important;
 }
 
 div.inner table.table1 thead th {
-    padding-bottom:     12px                    !important;
-    padding-top:        6px                     !important;
+    padding-bottom:     12px                            !important;
+    padding-top:        6px                             !important;
 }
 
 div.inner table.table1 tr:first-child td:first-child {
@@ -28,7 +28,7 @@ div.inner table.table1 tr:first-child td:last-child {
 
 // Better styling for UCP -> Board preferences -> Edit notification options table
 div.inner table.table1 tr.big-column {
-    text-align:         center                  !important;
+    text-align:         center                          !important;
 }
 
 div.inner table.table1 tr:last-child td:first-child {
@@ -44,6 +44,10 @@ li.row.pm_marked_colour,
 li.row.pm_replied_colour,
 li.row.pm_friend_colour,
 li.row.pm_foe_colour {
-    border-left:        3px solid               !important;
+    border-left:        3px solid                       !important;
 }
 
+// PM styles
+div.pm {
+    margin:             10px                            !important;
+}

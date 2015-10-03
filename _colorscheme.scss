@@ -711,6 +711,7 @@ div.vote-no-bar {
 dl.postprofile dd.profile-contact strong,
 dl.postprofile dd.profile-cookies,
 dl.postprofile dd.profile-cookies strong,
+dl.postprofile dd.profile-joined strong,
 dl.postprofile dd.profile-posts strong {
     color:              $text_color             !important;
 }
@@ -864,6 +865,11 @@ div.inner table.table1 tr.big-column {
 div.inner table.table1 tr.big-column td {
     background-color:   $dark_bg                !important;
     color:              $text_color             !important;
+}
+
+// PM styles
+div.pm {
+    background-color:   $normal_bg              !important;
 }
 
 // Styling of UCP -> Private messages -> row border colors
