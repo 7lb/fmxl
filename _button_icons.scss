@@ -33,12 +33,7 @@ a.newpm-icon::before {
     padding-top:        1px                 !important;
 }
 
-a.post-icon::before {
-    content:            '\f067'             !important;
-    padding-left:       2px                 !important;
-    padding-top:        1px                 !important;
-}
-
+a.post-icon::before,
 button.post-icon::before {
     content:            '\f067'             !important;
     padding-left:       2px                 !important;
