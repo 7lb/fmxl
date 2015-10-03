@@ -88,6 +88,11 @@ label[for=icon-4]::after {
 div.panel.bg1 {
     background-color:   $dark_bg                !important;
     border-color:       $border_color           !important;
+    color:              $text_color             !important;
+}
+
+div.panel.bg1 li {
+    color:              $colored_hints          !important;
 }
 
 div.panel.bg1 div.inner div,
@@ -144,15 +149,6 @@ input.abbc3_button:hover {
 // Attach panel
 div#attach-panel {
     color:              $text_color             !important;
-}
-
-// Warning when posting a guide
-div.inner {
-    color:              $text_color             !important;
-}
-
-div.inner li {
-    color:              $colored_hints          !important;
 }
 
 table.zebra-list tr.attach-row td {
@@ -291,7 +287,7 @@ h4 {
     color:              $weak_colored_hints         !important;
 }
 
-hr:not(hr.divider) {
+hr:not(.divider) {
     border-color:       $border_color               !important;
 }
 
