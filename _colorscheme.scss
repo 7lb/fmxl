@@ -146,6 +146,15 @@ div#attach-panel {
     color:              $text_color             !important;
 }
 
+// Warning when posting a guide
+div.inner {
+    color:              $text_color             !important;
+}
+
+div.inner li {
+    color:              $colored_hints          !important;
+}
+
 table.zebra-list tr.attach-row td {
     background-color:   $dark_bg                !important;
 }
