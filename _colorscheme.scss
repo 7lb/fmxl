@@ -287,7 +287,7 @@ h4 {
     color:              $weak_colored_hints         !important;
 }
 
-hr:not(.divider) {
+div.container hr:not(.divider) {
     border-color:       $border_color               !important;
 }
 
