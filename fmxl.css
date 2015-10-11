@@ -723,6 +723,12 @@ form#shoutbox div.row-input input {
   border-radius: 2px !important;
   line-height: 1.7em                   !important; }
 
+div.shouts a.username {
+  font-weight: bold                    !important; }
+
+div.shouts span.timeago {
+  opacity: 0.3                     !important; }
+
 form#agreement div.panel,
 form#register div.panel {
   border: 1px solid               !important; }
@@ -1052,59 +1058,59 @@ div.pm {
 /*[[preset_colorscheme]]*/
 /* From base.scss                                                             */
 body, div.navbar, html, input, #wrap {
-  color: #333333 !important;
-  background-color: #dddddd !important; }
+  color: #bbbbbb !important;
+  background-color: #242424 !important; }
 
 *:not(.pointer):not(.pointer-inner) {
-  border-color: #c9c9c9 !important; }
+  border-color: #363636 !important; }
 
 ul#nav-bar li a {
-  color: #dbdbdb !important; }
+  color: #bbbbbb !important; }
 
 /* From board_index_tables.scss                                               */
 div.forabg div.inner,
 div.forumbg div.inner {
-  background-color: #444444 !important; }
+  background-color: #999999 !important; }
 
 div.forabg div.inner ul.topiclist.forums,
 div.forumbg div.inner ul.topiclist.forums {
-  background-color: #444444 !important; }
+  background-color: #999999 !important; }
 
 div.forabg div.inner ul.topiclist.forums li.row,
 div.forumbg div.inner ul.topiclist.forums li.row {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 div.forabg div.inner ul.topiclist.forums li.row:hover,
 div.forumbg div.inner ul.topiclist.forums li.row:hover {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 div#cat17.forabg div.inner ul.topiclist.forums,
 div#cat26.forabg div.inner ul.topiclist.forums {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 /* From button_icons.scss                                                     */
 a.icon-button::before, button.icon-button::before, span.icon-button::before {
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 span.dropdown-select::after {
-  border-color: #dddddd !important; }
+  border-color: #242424 !important; }
 
 /* From buttons.scss                                                          */
 a.button, a.button2, button.button, button.button2,
 input.button1, input.button2, span.dropdown-trigger.button {
   background-color: #a73939 !important;
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 a.button:hover, a.button2:hover, button.button:hover, button.button2:hover,
 input.button1:hover, input.button2:hover, span.dropdown-trigger.button:hover {
   background-color: #d23636 !important;
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 /* From compose_pm_icons.scss                                                 */
 label[for=icon-1]::after, label[for=icon-4]::after, label[for=icon-5]::after,
 label[for=icon-6]::after, label[for=icon-7]::after, label[for=icon-8]::after,
 label[for=icon-9]::after, label[for=icon-10]::after {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 /* From donate_page.scss                                                      */
 label[for=icon-1]::after {
@@ -1114,22 +1120,25 @@ label[for=icon-4]::after {
   color: #a73939 !important; }
 
 div.panel.bg1 {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important;
-  color: #333333 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important;
+  color: #bbbbbb !important; }
+
+div.panel.bg2 {
+  color: #bbbbbb !important; }
 
 div.panel.bg1 li {
   color: #a73939 !important; }
 
 div.panel.bg1 div.inner div,
 div.panel.bg2 form.payPalForm {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 input#manual-input {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 li.donate-comment {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 p.warning-text {
   color: #a73939 !important; }
@@ -1147,12 +1156,12 @@ fieldset dl:hover dt label {
 
 /* From full_editor.scss                                                      */
 div#postingbox {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important;
-  color: #333333 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important;
+  color: #bbbbbb !important; }
 
 div.abbc3_buttons_row {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 div.abbc3_button,
 input.abbc3_button {
@@ -1163,17 +1172,17 @@ input.abbc3_button:hover {
   background-color: #d23636 !important; }
 
 div#attach-panel {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 table.zebra-list tr.attach-row td {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 /* From guidecenter.scss                                                      */
 form#guidefilter > span {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 form#guidefilter span {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 /* From icons.scss                                                            */
 #quick-links > a::before {
@@ -1183,8 +1192,8 @@ span.file-uploaded::before {
   color: #78b082 !important; }
 
 div.postimage-zoom {
-  background-color: #444444 !important;
-  color: #dbdbdb !important; }
+  background-color: #999999 !important;
+  color: #242424 !important; }
 
 div.postimage-zoom:hover {
   background-color: #a73939 !important; }
@@ -1198,43 +1207,43 @@ span.icon_topic_newest::before {
 
 /* From inputs.scss                                                           */
 input.inputbox, textarea {
-  background-color: #bababa !important;
-  color: #333333 !important; }
+  background-color: #363636 !important;
+  color: #bbbbbb !important; }
 
 input:-moz-placeholder {
-  color: #828282 !important;
+  color: #666666 !important;
   opacity: 1                       !important; }
 
 input::-moz-placeholder {
-  color: #828282 !important;
+  color: #666666 !important;
   opacity: 1                       !important; }
 
 input::-webkit-input-placeholder {
-  color: #828282 !important; }
+  color: #666666 !important; }
 
 select {
-  background-color: #bababa !important;
-  color: #333333 !important; }
+  background-color: #999999 !important;
+  color: #242424 !important; }
 
 #flag-container {
-  background-color: #d0d0d0 !important;
+  background-color: #363636 !important;
   color: #a73939 !important; }
 
 /* From login_page.scss                                                       */
 form#login div.panel {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
 
 /* From mark_read_icon.scss                                                   */
 .dropdown-extended a.mark_read {
   background-color: #a73939 !important; }
 
 .icon-mark::after {
-  color: #bfbfbf !important; }
+  color: #404040 !important; }
 
 /* From misc.scss                                                             */
 a, a.current {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 a:hover, a.username-coloured:hover,
 div#h-header a:hover:not(#h-download) {
@@ -1251,16 +1260,16 @@ a.postlink-local {
 a.postlink:hover,
 a.postlink-local:hover {
   background-color: #a73939 !important;
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 div#h-header a:not(#h-download) {
-  color: #dbdbdb !important; }
+  color: #bbbbbb !important; }
 
 dl.faq strong {
   color: #a73939 !important; }
 
 h2 {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 h3 {
   color: #a73939 !important; }
@@ -1269,30 +1278,30 @@ h4 {
   color: #883939 !important; }
 
 div.container hr:not(.divider) {
-  border-color: #c9c9c9 !important; }
+  border-color: #363636 !important; }
 
 div.stat-block p {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 #topic_preview {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important;
-  color: #333333 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important;
+  color: #bbbbbb !important; }
 
 #topic_preview::before,
 #topic_preview.invert::after {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
 
 div#message {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
 
 div#message p {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 span.username-coloured {
-  color: #783c8c !important; }
+  color: #936ca1 !important; }
 
 a[href$="&g=5"] {
   color: #a73939 !important; }
@@ -1304,53 +1313,53 @@ a[href$="&g=13"] {
   color: #78b082 !important; }
 
 ::-moz-selection {
-  color: #dbdbdb !important;
+  color: #242424 !important;
   background: #a73939 !important; }
 
 /* From navbar.scss                                                           */
 ul#nav-more {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
 
 ul#nav-more a:hover {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 div#page-header div.navbar,
 div#page-footer div.navbar {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
 
 div.pointer {
-  border-color: #c9c9c9 transparent !important; }
+  border-color: #363636 transparent !important; }
 
 div.pointer-inner {
-  border-color: #dddddd transparent !important; }
+  border-color: #242424 transparent !important; }
 
 div.dropdown-contents, div.dropdown-contents div.header, ul.dropdown-contents {
-  background: #dddddd !important;
-  color: #333333 !important; }
+  background: #242424 !important;
+  color: #bbbbbb !important; }
 
 div.dropdown-contents li.bg2 {
-  background: #bfbfbf !important; }
+  background: #404040 !important; }
 
 div.dropdown div.dropdown-contents,
 div.dropdown ul.dropdown-contents {
-  border-color: #c9c9c9 !important; }
+  border-color: #363636 !important; }
 
 div.dropdown-contents div.header {
-  border-color: #c9c9c9 !important; }
+  border-color: #363636 !important; }
 
 div.dropdown-contents div.footer {
-  border-color: #c9c9c9 !important; }
+  border-color: #363636 !important; }
 
 a.notification-block:hover {
-  background-color: #bfbfbf !important; }
+  background-color: #404040 !important; }
 
 a.notification-block span.username-coloured {
   color: #a73939 !important; }
 
 a.notification-block:hover span.username-coloured {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 a.notification-block p.notification-time {
   color: #a73939 !important; }
@@ -1360,8 +1369,8 @@ div.action-bar div.pagination a.dropdown-toggle,
 div.list-inner div.pagination ul li a,
 div.action-bar div.pagination ul li a,
 div.pagination ul li span {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important;
+  background-color: #242424 !important;
+  border-color: #363636 !important;
   color: #8c7a5c !important; }
 
 div.action-bar div.pagination a.dropdown-toggle:hover,
@@ -1369,64 +1378,73 @@ div.list-inner div.pagination ul li a:hover,
 div.action-bar div.pagination ul li a:hover,
 div.pagination ul li span:hover {
   background-color: #d23636 !important;
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 div.pagination ul li.active span {
   background-color: #a73939 !important;
   border-color: #a73939 !important;
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 div.pagination ul li.ellipsis span,
 li.ellipsis span {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 /* From phpbb_alert.scss                                                      */
 div.phpbb_alert {
-  border-color: #c9c9c9 !important;
-  background-color: #dddddd !important; }
+  border-color: #363636 !important;
+  background-color: #242424 !important; }
 
 /* From portal.scss                                                           */
 div.bg1 div.container {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 div.forumbg.module {
-  background-color: #444444 !important; }
+  background-color: #999999 !important; }
 
 div.forumbg.module div.bg1,
 div.forumbg.module div.row {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 div.forumbg.module div.row:hover {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 div.forumbg.module div.bg1 div.row-category a {
   color: #a73939 !important; }
 
 div.forumbg.module h3 {
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
+
+div.shouts a:not(.username) {
+  color: #a73939 !important; }
+
+div.shouts a:not(.username):hover {
+  color: #d23636 !important; }
 
 div.twitch-row {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
+
+div.twitch-row a:last-child {
+  color: #78b082 !important; }
 
 form#shoutbox div.row-input {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 form#shoutbox div.row-input input#shoutbox_input {
-  background-color: #bababa !important; }
+  background-color: #363636 !important; }
 
 form#shoutbox div.row-input input[type="submit"] {
   background-color: #a73939 !important;
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 tbody tr.bg1 th {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 div.phpbb_alert a.alert_close {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 /* From profile.scss                                                          */
 dl.details dt {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 dl.details dd,
 dl.details span {
@@ -1439,7 +1457,7 @@ div.content code,
 div.content div.codebox,
 div.content div.detail-spoiler div.hidden,
 div.content div.spoilwrapper {
-  border-color: #c9c9c9 !important; }
+  border-color: #363636 !important; }
 
 blockquote,
 code,
@@ -1447,16 +1465,16 @@ div.codebox,
 div.detail-spoiler div.hidden,
 div.spoilwrapper,
 pre.nfo {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 code {
-  color: #20a220 !important; }
+  color: #16bb16 !important; }
 
 div.spoiltitle span.spoilbtn, div.spoilcontent, pre.nfo {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 div.hidebox_visible, div.hidebox_hidden {
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 div.hidebox_visible {
   background-color: #78b082 !important; }
@@ -1465,16 +1483,16 @@ div.hidebox_hidden {
   background-color: #883939 !important; }
 
 div.hidebox_title {
-  border-color: #dddddd !important;
-  color: #dbdbdb !important; }
+  border-color: #242424 !important;
+  color: #242424 !important; }
 
 dl.attachbox {
-  background-color: #dddddd !important;
-  color: #333333 !important; }
+  background-color: #242424 !important;
+  color: #bbbbbb !important; }
 
 dl.thumbnail a,
 img.postimage {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 /* From quick-login.scss                                                      */
 fieldset.quick-login label {
@@ -1483,28 +1501,28 @@ fieldset.quick-login label {
 /* From register_page.scss                                                    */
 form#agreement div.panel,
 form#register div.panel {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
 
 form#register dd.error {
   color: #d23636 !important; }
 
 form#register div.panel,
 div.captcha-panel {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 /* From scroll_to_top_button.scss                                             */
 .scroll-btn {
-  background-color: #dddddd !important;
-  border-color: #444444 !important; }
+  background-color: #242424 !important;
+  border-color: #999999 !important; }
 
 .scroll-btn-arrow {
-  border-color: #444444 !important;
-  color: #444444 !important; }
+  border-color: #999999 !important;
+  color: #999999 !important; }
 
 /* From small_icons.scss                                                      */
 li.small-icon:not(.icon-tradegold) a::before {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 li.small-icon:not(.icon-tradegold) a:hover::before {
   color: #d23636 !important; }
@@ -1528,105 +1546,105 @@ a.subforum.unread::before {
   color: #a73939 !important; }
 
 a.subforum.read:hover::before {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 /* From tables.scss                                                           */
 ul.topiclist li.header {
-  background-color: #444444 !important; }
+  background-color: #999999 !important; }
 
 ul.topiclist.guidelist li.header *,
 ul.topiclist li.header * {
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 ul.topiclist.guideheader li.header,
 ul.topiclist.two-columns li.header,
 div.panel ul.topiclist li.header {
-  border-color: #444444 !important; }
+  border-color: #999999 !important; }
 
 ul.topiclist.guidelist:not(.guideheader),
 ul.topiclist.cplist.two-columns,
 ul.topiclist.cplist.missing-column {
-  border-color: #444444 !important;
-  background-color: #444444 !important; }
+  border-color: #999999 !important;
+  background-color: #999999 !important; }
 
 li.row {
-  background-color: #dddddd !important;
-  color: #333333 !important; }
+  background-color: #242424 !important;
+  color: #bbbbbb !important; }
 
 li.row:hover {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 li.row dl.redborder {
   border-color: #a73939 !important; }
 
 li.row strong {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 /* From tg_center.scss                                                        */
 div.panel.bg2 {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
 
 form#tradeform span,
 form#tradeform strong {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 input#tradevalue,
 input#member {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 form#tradeform label[for="confirm_box"] span {
   color: #a73939 !important; }
 
 div.forumbg.forumbg-table div.inner thead * {
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 tr.bg1 {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 tr.bg1:hover {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 tr.bg1 td {
   color: #a73939 !important; }
 
 /* From threads.scss                                                          */
 div.bg1 {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 div.bg2 {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 div.contact-icons a:hover {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 div.content, p.author {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 div.vote-no-bar {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 dl.postprofile dd.profile-contact strong,
 dl.postprofile dd.profile-cookies,
 dl.postprofile dd.profile-cookies strong,
 dl.postprofile dd.profile-joined strong,
 dl.postprofile dd.profile-posts strong {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 #qr_postform div.panel {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
 
 div.notice {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 div.signature {
-  border-color: #444444 !important;
-  color: #333333 !important; }
+  border-color: #999999 !important;
+  color: #bbbbbb !important; }
 
 div.vote-up a:hover,
 div.vote-down a:hover {
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 div.vote-up a i.fa:hover,
 div.vote-down a i.fa:hover {
@@ -1640,15 +1658,15 @@ div.vote-bar-minus {
 
 /* From threads_polls.scss                                                    */
 form.topic_poll div.panel {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
 
 form.topic_poll div.panel fieldset dl {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 form.topic_poll div.panel fieldset dl div.pollbar3 {
   background-color: #883939 !important;
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 form.topic_poll div.panel fieldset dl.most-votes div.pollbar3 {
   background-color: #78b082 !important; }
@@ -1656,138 +1674,138 @@ form.topic_poll div.panel fieldset dl.most-votes div.pollbar3 {
 /* From tools_center.scss                                                     */
 span.label-info {
   background-color: #195ba8 !important;
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 span.label-warning {
   background-color: #cdcd0c !important;
-  color: #333333 !important; }
+  color: #242424 !important; }
 
 a.btn.btn-default {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
 
 a.btn.btn-default:hover {
-  background-color: #d0d0d0 !important;
+  background-color: #363636 !important;
   color: #a73939 !important; }
 
 a.btn.btn-danger {
   background-color: #a73939 !important;
-  color: #dbdbdb !important;
+  color: #242424 !important;
   border-color: #a73939 !important; }
 
 a.btn.btn-danger:hover {
   background-color: #d23636 !important;
   border-color: #d23636 !important;
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 p.bg-danger {
   background-color: rgba(255, 143, 143, 0.5) !important;
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 /* From ucp.scss                                                              */
 div.panel.bg3 {
-  border-color: #c9c9c9 !important; }
+  border-color: #363636 !important; }
 
 div.panel.bg3, div.panel.bg3 div.panel {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 div.panel.bg3 div.panel, div.panel.bg3 div.panel dt {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 div.panel.bg3 div.panel li.header dt {
-  color: #dbdbdb !important; }
+  color: #242424 !important; }
 
 div.panel.bg3 div.panel dl.details dd {
   color: #a73939 !important; }
 
 fieldset.display-actions {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 div.inner table.table1 {
-  background-color: #444444 !important;
-  border-color: #444444 !important; }
+  background-color: #999999 !important;
+  border-color: #999999 !important; }
 
 div.inner table.table1 thead th {
-  background-color: #444444 !important;
-  color: #dbdbdb !important; }
+  background-color: #999999 !important;
+  color: #242424 !important; }
 
 div.inner table.table1 tr {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 div.inner table.table1 tr:hover {
-  background-color: #c9c9c9 !important; }
+  background-color: #363636 !important; }
 
 div.inner table.table1 tr td,
 div.inner table.table1 tr td label {
   color: #a73939 !important; }
 
 div.inner table.table1 tr.big-column {
-  background-color: #bfbfbf !important; }
+  background-color: #404040 !important; }
 
 div.inner table.table1 tr.big-column td {
-  background-color: #dddddd !important;
-  color: #333333 !important; }
+  background-color: #242424 !important;
+  color: #bbbbbb !important; }
 
 div.pm {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 li.row.pm_marked_colour {
   border-color: #dd8800 !important; }
 
 li.row.pm_replied_colour {
-  border-color: #8470d2 !important; }
+  border-color: #5b46ad !important; }
 
 li.row.pm_friend_colour {
-  border-color: #22dd22 !important; }
+  border-color: #16bb16 !important; }
 
 li.row.pm_foe_colour {
-  border-color: #ee3333 !important; }
+  border-color: #d23636 !important; }
 
 /* From ucp_menu.scss                                                         */
 #navigation ul {
-  border-color: #c9c9c9 !important; }
+  border-color: #363636 !important; }
 
 #navigation a {
-  background: #dddddd !important; }
+  background: #242424 !important; }
 
 #navigation #active-subsection a {
   color: #a73939 !important; }
 
 #navigation #active-subsection a, #navigation a:hover {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 div#cp-menu div.cp-mini {
-  background-color: #dddddd !important;
-  border-color: #c9c9c9 !important; }
+  background-color: #242424 !important;
+  border-color: #363636 !important; }
 
 div.cp-mini dt {
   color: #a73939 !important; }
 
 dl.mini {
-  color: #333333 !important; }
+  color: #bbbbbb !important; }
 
 dl.mini dd.pm_marked_colour {
   border-color: #dd8800 !important; }
 
 dl.mini dd.pm_replied_colour {
-  border-color: #8470d2 !important; }
+  border-color: #5b46ad !important; }
 
 dl.mini dd.pm_friend_colour {
-  border-color: #22dd22 !important; }
+  border-color: #16bb16 !important; }
 
 dl.mini dd.pm_foe_colour {
-  border-color: #ee3333 !important; }
+  border-color: #d23636 !important; }
 
 /* From ucp_tabs.scss                                                         */
 li.tab a {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
 
 li.tab a:hover {
-  background-color: #d0d0d0 !important; }
+  background-color: #363636 !important; }
 
 li.activetab a {
-  background-color: #d0d0d0 !important;
+  background-color: #363636 !important;
   color: #a73939 !important; }
 
 li.tab.dropdown-container ul.dropdown-contents li a {
-  background-color: #dddddd !important; }
+  background-color: #242424 !important; }
