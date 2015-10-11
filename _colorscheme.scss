@@ -476,6 +476,14 @@ div.forumbg.module h3 {
     color:              $dark_text_color        !important;
 }
 
+div.shouts a:not(.username) {
+    color:              $colored_hints          !important;
+}
+
+div.shouts a:not(.username):hover {
+    color:              $bright_colored_hints   !important;
+}
+
 div.twitch-row {
     color:              $text_color             !important;
 }

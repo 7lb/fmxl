@@ -17,3 +17,7 @@ form#shoutbox div.row-input input {
     border-radius:      $small_border_radius    !important;
     line-height:        1.7em                   !important;
 }
+
+div.shouts a.username {
+    font-weight:        bold                    !important;
+}
