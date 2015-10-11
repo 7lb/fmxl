@@ -1,4 +1,4 @@
-@import "preset_assassin_light";
+@import "preset_assassin_dark";
 /*[[preset_colorscheme]]*/
 
 /* From base.scss                                                             */
@@ -478,6 +478,10 @@ div.forumbg.module h3 {
 
 div.twitch-row {
     color:              $text_color             !important;
+}
+
+div.twitch-row a:last-child {
+    color:              $alt_colored_hints      !important;
 }
 
 form#shoutbox div.row-input {
