@@ -8,6 +8,9 @@
 *:not(.pointer):not(.pointer-inner) {
   border: 0px                         !important; }
 
+a.button, button.button, span.button {
+  line-height: 12px                        !important; }
+
 button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
@@ -233,10 +236,14 @@ a.quote-icon::before {
   content: '\f10d'             !important;
   font-size: 7pt                 !important; }
 
+a.pmreply-icon,
+a.reply-icon {
+  line-height: 16px                !important; }
+
 a.pmreply-icon::before,
 a.reply-icon::before {
   content: '\f112'             !important;
-  margin-top: 4px                 !important;
+  margin-top: 2px                 !important;
   padding-left: 2px                 !important; }
 
 a.report-icon::before {
@@ -274,11 +281,15 @@ span.dropdown-select::after {
   border-left: 1px solid           !important;
   content: '\f0d7'             !important;
   font-family: FontAwesome         !important;
-  margin-top: -1px                !important;
+  margin-top: -3px                !important;
   padding-top: 7px                 !important;
   text-align: center              !important; }
 
+span.dropdown-select[title="Topic tools"]::after {
+  margin-top: 0px                 !important; }
+
 span.dropdown-select[title="Jump to"] {
+  line-height: 16px                !important;
   padding-left: 7px                 !important;
   padding-right: 24px                !important; }
 
@@ -594,18 +605,20 @@ select#usernames {
 form#login div.panel {
   border: 1px solid   !important; }
 
-a.postlink,
-a.postlink-local {
+div.content a.postlink,
+div.content a.postlink-local {
   border-bottom: 1px solid                   !important; }
 
-a.postlink:hover,
-a.postlink-local:hover {
+div.content a.postlink:hover,
+div.content a.postlink-local:hover {
   text-decoration: none                        !important; }
 
-div.container hr:not(.divider) {
+div.container div.row + hr,
+div.postbody div.content hr {
   border-top: 1px solid                   !important; }
 
-hr.dashed {
+hr.dashed,
+hr.divider {
   border-top: 0px                         !important; }
 
 div.stat-block p {
@@ -727,7 +740,13 @@ div.shouts a.username {
   font-weight: bold                    !important; }
 
 div.shouts span.timeago {
-  opacity: 0.3                     !important; }
+  opacity: 0.4                     !important; }
+
+div.shouts a:not(.username) {
+  border-bottom: 1px solid               !important; }
+
+div.shouts a:not(.username) {
+  text-decoration: none                    !important; }
 
 form#agreement div.panel,
 form#register div.panel {
@@ -756,10 +775,10 @@ div.captcha-panel input#confirm_code {
 fieldset.fields2 dd.captcha-image {
   margin-bottom: 5px                     !important; }
 
-.scroll-btn {
+body#phpbb div.scroll-btn {
   border: 2px solid               !important; }
 
-.scroll-btn-arrow {
+body#phpbb div.scroll-btn-arrow {
   border-bottom: 3px solid               !important;
   border-left: 3px solid               !important; }
 
@@ -926,7 +945,7 @@ div.postbody div.content blockquote,
 div.content blockquote.uncited,
 div.content code,
 div.content div.codebox,
-div.content div.detail-spoiler div.hidden,
+div.content div.detail-spoiler,
 div.content div.spoilwrapper {
   border: 1px solid               !important; }
 
@@ -937,14 +956,14 @@ div.postbody div.content > blockquote,
 div.content > blockquote.uncited,
 div.content div.codebox > code,
 div.content > div.codebox,
-div.content > div.detail-spoiler div.hidden,
+div.content > div.detail-spoiler,
 div.content > div.spoilwrapper {
   border: 0px                     !important; }
 
 blockquote,
 code,
 div.codebox,
-div.detail-spoiler div.hidden,
+div.detail-spoiler,
 div.spoilwrapper,
 pre.nfo {
   border-radius: 2px !important; }
@@ -978,6 +997,9 @@ a.btn.btn-danger {
 
 a.btn.btn-danger:hover {
   border: 1px solid                       !important; }
+
+p.bg-danger {
+  border-radius: 2px !important; }
 
 li.tab a, .tab a:hover {
   margin: 0px 1px 0px 0px !important; }
@@ -1252,13 +1274,13 @@ div#h-header a:hover:not(#h-download) {
 a.username-coloured {
   color: #a73939 !important; }
 
-a.postlink,
-a.postlink-local {
+div.content a.postlink,
+div.content a.postlink-local {
   color: #a73939 !important;
   border-color: #a73939 !important; }
 
-a.postlink:hover,
-a.postlink-local:hover {
+div.content a.postlink:hover,
+div.content a.postlink-local:hover {
   background-color: #a73939 !important;
   color: #242424 !important; }
 
@@ -1277,8 +1299,11 @@ h3 {
 h4 {
   color: #883939 !important; }
 
-div.container hr:not(.divider) {
+div.container div.row + hr {
   border-color: #363636 !important; }
+
+div.postbody div.content hr {
+  color: #bbbbbb !important; }
 
 div.stat-block p {
   background-color: #363636 !important; }
@@ -1415,10 +1440,12 @@ div.forumbg.module h3 {
   color: #242424 !important; }
 
 div.shouts a:not(.username) {
-  color: #a73939 !important; }
+  color: #a73939 !important;
+  border-color: #a73939 !important; }
 
 div.shouts a:not(.username):hover {
-  color: #d23636 !important; }
+  background-color: #a73939 !important;
+  color: #242424 !important; }
 
 div.twitch-row {
   color: #bbbbbb !important; }
@@ -1455,14 +1482,15 @@ div.postbody div.content blockquote,
 div.content blockquote.uncited,
 div.content code,
 div.content div.codebox,
-div.content div.detail-spoiler div.hidden,
+div.content div.detail-spoiler,
 div.content div.spoilwrapper {
   border-color: #363636 !important; }
 
 blockquote,
 code,
 div.codebox,
-div.detail-spoiler div.hidden,
+div.detail-spoiler div.opener,
+div.detail-spoiler,
 div.spoilwrapper,
 pre.nfo {
   background-color: #242424 !important; }
@@ -1470,7 +1498,8 @@ pre.nfo {
 code {
   color: #16bb16 !important; }
 
-div.spoiltitle span.spoilbtn, div.spoilcontent, pre.nfo {
+dl.attachbox {
+  background-color: #242424 !important;
   color: #bbbbbb !important; }
 
 div.hidebox_visible, div.hidebox_hidden {
@@ -1486,8 +1515,12 @@ div.hidebox_title {
   border-color: #242424 !important;
   color: #242424 !important; }
 
-dl.attachbox {
-  background-color: #242424 !important;
+div.rules {
+  background-color: rgba(255, 143, 143, 0.5) !important;
+  border-radius: 2px !important;
+  color: #242424 !important; }
+
+div.spoiltitle span.spoilbtn, div.spoilcontent, pre.nfo {
   color: #bbbbbb !important; }
 
 dl.thumbnail a,
@@ -1512,11 +1545,11 @@ div.captcha-panel {
   color: #bbbbbb !important; }
 
 /* From scroll_to_top_button.scss                                             */
-.scroll-btn {
+body#phpbb div.scroll-btn {
   background-color: #242424 !important;
   border-color: #999999 !important; }
 
-.scroll-btn-arrow {
+body#phpbb div.scroll-btn-arrow {
   border-color: #999999 !important;
   color: #999999 !important; }
 
