@@ -1,11 +1,11 @@
 // Links
-a.postlink,
-a.postlink-local {
+div.content a.postlink,
+div.content a.postlink-local {
     border-bottom:      1px solid                   !important;
 }
 
-a.postlink:hover,
-a.postlink-local:hover {
+div.content a.postlink:hover,
+div.content a.postlink-local:hover {
     text-decoration:    none                        !important;
 }
 

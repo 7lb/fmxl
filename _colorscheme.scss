@@ -263,14 +263,14 @@ a.username-coloured {
     color:              $colored_hints              !important;
 }
 
-a.postlink,
-a.postlink-local {
+div.content a.postlink,
+div.content a.postlink-local {
     color:              $colored_hints              !important;
     border-color:       $colored_hints              !important;
 }
 
-a.postlink:hover,
-a.postlink-local:hover {
+div.content a.postlink:hover,
+div.content a.postlink-local:hover {
     background-color:   $colored_hints              !important;
     color:              $dark_text_color            !important;
 }
