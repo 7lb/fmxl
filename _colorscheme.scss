@@ -541,7 +541,7 @@ div.postbody div.content blockquote,
 div.content blockquote.uncited,
 div.content code,
 div.content div.codebox,
-div.content div.detail-spoiler div.hidden,
+div.content div.detail-spoiler,
 div.content div.spoilwrapper {
     border-color:       $border_color           !important;
 }
@@ -549,7 +549,8 @@ div.content div.spoilwrapper {
 blockquote,
 code,
 div.codebox,
-div.detail-spoiler div.hidden,
+div.detail-spoiler div.opener,
+div.detail-spoiler,
 div.spoilwrapper,
 pre.nfo {
     background-color:   $dark_bg                !important;
