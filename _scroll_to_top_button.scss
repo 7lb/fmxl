@@ -1,8 +1,9 @@
-.scroll-btn {
+// Very high specificity because otherwise firefox won't display these borders
+body#phpbb div.scroll-btn {
     border:             2px solid               !important;
 }
 
-.scroll-btn-arrow {
+body#phpbb div.scroll-btn-arrow {
     border-bottom:      3px solid               !important;
     border-left:        3px solid               !important;
 }

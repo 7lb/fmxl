@@ -610,12 +610,12 @@ div.captcha-panel {
 }
 
 /* From scroll_to_top_button.scss                                             */
-.scroll-btn {
+body#phpbb div.scroll-btn {
     background-color:   $dark_bg                !important;
     border-color:       $light_hints            !important;
 }
 
-.scroll-btn-arrow {
+body#phpbb div.scroll-btn-arrow {
     border-color:       $light_hints            !important;
     color:              $light_hints            !important;
 }
