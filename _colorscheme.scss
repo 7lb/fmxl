@@ -560,7 +560,8 @@ code {
     color:              $code_color             !important;
 }
 
-div.spoiltitle span.spoilbtn, div.spoilcontent, pre.nfo {
+dl.attachbox {
+    background-color:   $dark_bg                !important;
     color:              $text_color             !important;
 }
 
@@ -581,8 +582,13 @@ div.hidebox_title {
     color:              $dark_text_color        !important;
 }
 
-dl.attachbox {
-    background-color:   $dark_bg                !important;
+div.rules {
+    background-color:   $transparent_hints      !important;
+    border-radius:      $small_border_radius    !important;
+    color:              $dark_text_color        !important;
+}
+
+div.spoiltitle span.spoilbtn, div.spoilcontent, pre.nfo {
     color:              $text_color             !important;
 }
 
