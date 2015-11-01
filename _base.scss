@@ -11,3 +11,8 @@
 *:not(.pointer):not(.pointer-inner) {
     border:             0px                         !important;
 }
+
+// Standardize button line-height across browsers
+a.button, button.button, span.button {
+    line-height:        12px                        !important;
+}

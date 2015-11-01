@@ -45,10 +45,15 @@ a.quote-icon::before {
     font-size:          7pt                 !important;
 }
 
+a.pmreply-icon,
+a.reply-icon {
+    line-height:        16px                !important;
+}
+
 a.pmreply-icon::before,
 a.reply-icon::before {
     content:            '\f112'             !important;
-    margin-top:         4px                 !important;
+    margin-top:         2px                 !important;
     padding-left:       2px                 !important;
 }
 
@@ -95,13 +100,19 @@ span.dropdown-select::after {
     border-left:        1px solid           !important;
     content:            '\f0d7'             !important;
     font-family:        FontAwesome         !important;
-    margin-top:         -1px                !important;
+    margin-top:         -3px                !important;
     padding-top:        7px                 !important;
     text-align:         center              !important;
 }
 
+// Fix for tools button right arrow
+span.dropdown-select[title="Topic tools"]::after {
+    margin-top:         0px                 !important;
+}
+
 // Jump to button only
 span.dropdown-select[title="Jump to"] {
+    line-height:        16px                !important;
     padding-left:       7px                 !important;
     padding-right:      24px                !important;
 }
