@@ -296,8 +296,12 @@ h4 {
     color:              $weak_colored_hints         !important;
 }
 
-div.container hr:not(.divider) {
+div.container div.row + hr {
     border-color:       $border_color               !important;
+}
+
+div.postbody div.content hr {
+    color:              $text-color                 !important;
 }
 
 div.stat-block p {

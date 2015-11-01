@@ -7,9 +7,7 @@
     text-shadow:        none                        !important;
 }
 
-// Generally speaking we want borders to have the designed border color.
-// Exceptions will come later. Also, we want borders only in specific places,
-// so they're disabled by default
+// We want borders only in specific places, so they're disabled by default
 *:not(.pointer):not(.pointer-inner) {
     border:             0px                         !important;
 }
