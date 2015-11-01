@@ -9,7 +9,7 @@ a.postlink-local:hover {
     text-decoration:    none                        !important;
 }
 
-// Horizontal rulers should have borders but Firefox is stupid, so we get this
+// Horizontal rulers should have borders but firefox is stupid, so we get this
 div.container div.row + hr,
 div.postbody div.content hr {
     border-top:         1px solid                   !important;
