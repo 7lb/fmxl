@@ -27,17 +27,28 @@ a.info-icon::before {
     content:            '\f129'             !important;
 }
 
+a.button.newpm-icon {
+    line-height:        16px                !important;
+}
+
 a.newpm-icon::before {
     content:            '\f069'             !important;
+    margin-top:         0px                 !important;
     padding-left:       2px                 !important;
-    padding-top:        1px                 !important;
+    padding-top:        2px                 !important;
+}
+
+a.button.post-icon,
+button.button.post-icon {
+    line-height:        16px                !important
 }
 
 a.post-icon::before,
 button.post-icon::before {
     content:            '\f067'             !important;
     padding-left:       2px                 !important;
-    padding-top:        1px                 !important;
+    position:           relative            !important;
+    top:                -1px                !important;
 }
 
 a.quote-icon::before {

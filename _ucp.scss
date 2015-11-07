@@ -45,9 +45,24 @@ li.row.pm_replied_colour,
 li.row.pm_friend_colour,
 li.row.pm_foe_colour {
     border-left:        3px solid                       !important;
+    border-right:       3px solid                       !important;
 }
 
 // PM styles
 div.pm {
     margin:             10px                            !important;
+}
+
+// Vertically center ucp checkboxes
+dl dd.mark input {
+    margin-top:         17px                            !important;
+}
+
+dl.icon dd.mark input {
+    margin-top:         11px                            !important;
+}
+
+// Better horiz centering for UCP -> Private Messages -> Sent Messages table
+ul.pmlist.missing-column dt {
+    margin-right:       -330px                          !important;
 }

@@ -221,16 +221,25 @@ button.forwardpm-icon::before {
 a.info-icon::before {
   content: '\f129'             !important; }
 
+a.button.newpm-icon {
+  line-height: 16px                !important; }
+
 a.newpm-icon::before {
   content: '\f069'             !important;
+  margin-top: 0px                 !important;
   padding-left: 2px                 !important;
-  padding-top: 1px                 !important; }
+  padding-top: 2px                 !important; }
+
+a.button.post-icon,
+button.button.post-icon {
+  line-height: 16px                !important; }
 
 a.post-icon::before,
 button.post-icon::before {
   content: '\f067'             !important;
   padding-left: 2px                 !important;
-  padding-top: 1px                 !important; }
+  position: relative            !important;
+  top: -1px                !important; }
 
 a.quote-icon::before {
   content: '\f10d'             !important;
@@ -1072,10 +1081,20 @@ li.row.pm_marked_colour,
 li.row.pm_replied_colour,
 li.row.pm_friend_colour,
 li.row.pm_foe_colour {
-  border-left: 3px solid                       !important; }
+  border-left: 3px solid                       !important;
+  border-right: 3px solid                       !important; }
 
 div.pm {
   margin: 10px                            !important; }
+
+dl dd.mark input {
+  margin-top: 17px                            !important; }
+
+dl.icon dd.mark input {
+  margin-top: 11px                            !important; }
+
+ul.pmlist.missing-column dt {
+  margin-right: -330px                          !important; }
 
 /*[[preset_colorscheme]]*/
 /* From base.scss                                                             */
