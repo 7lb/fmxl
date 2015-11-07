@@ -26,10 +26,10 @@ div.shouts span.timeago {
     opacity:            0.4                     !important;
 }
 
-div.shouts a:not(.username) {
+div.shouts a:not(.username):not(.username-coloured) {
     border-bottom:      1px solid               !important;
 }
 
-div.shouts a:not(.username) {
+div.shouts a:not(.username):not(.username-coloured) {
     text-decoration:    none                    !important;
 }
