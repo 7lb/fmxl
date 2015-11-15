@@ -44,3 +44,8 @@ div.content div.hidebox_title {
     left:               0px                     !important;
     top:                0px                     !important;
 }
+
+// Item bbcode should have bottom border
+span[bbitem].bbitem {
+    border-bottom:      1px solid               !important;
+}
