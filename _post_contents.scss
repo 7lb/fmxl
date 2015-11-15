@@ -49,3 +49,18 @@ div.content div.hidebox_title {
 span[bbitem].bbitem {
     border-bottom:      1px solid               !important;
 }
+
+body#phpbb div.bbitem-display,
+body#phpbb div.bbitem-continer,
+body#phpbb div.item-header {
+    border-radius:      5px                     !important;
+}
+
+body#phpbb div.bbitem-display {
+    border:             1px solid               !important;
+}
+
+body#phpbb div.item-class {
+    border-top:         1px solid               !important;
+    border-radius:      0px 0px 5px 5px         !important;
+}
