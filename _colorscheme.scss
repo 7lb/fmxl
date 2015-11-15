@@ -233,6 +233,27 @@ select {
     color:              $colored_hints          !important;
 }
 
+/* From item_search.scss                                                      */
+div.panel {
+    background-color:   $light_hints            !important;
+}
+
+table#item-results {
+    background-color:   $dark_bg                !important;
+}
+
+table#item-results tr:hover {
+    background-color:   $normal_bg              !important;
+}
+
+table#item-results td + td {
+    color:              $text_color             !important;
+}
+
+table#item-results tr:first-child {
+    border-color:       $light_hints            !important;
+}
+
 /* From login_page.scss                                                       */
 form#login div.panel {
     background-color:   $dark_bg                !important;

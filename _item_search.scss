@@ -1,0 +1,20 @@
+div#page-body > script + h2 + div.panel {
+    padding:            5px                     !important;
+}
+
+input#item-input {
+    border-radius:      $small_border_radius    !important;
+    margin:             0px                     !important;
+    padding:            0px                     !important;
+    padding-bottom:     5px                     !important;
+    padding-top:        5px                     !important;
+    width:              100%                    !important;
+}
+
+table#item-results {
+    border-radius:      $small_border_radius    !important;
+}
+
+table#item-results tr:first-child {
+    border-top:         5px solid               !important;
+}
