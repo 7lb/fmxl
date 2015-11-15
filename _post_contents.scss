@@ -53,7 +53,7 @@ span[bbitem].bbitem {
 body#phpbb div.bbitem-display,
 body#phpbb div.bbitem-continer,
 body#phpbb div.item-header {
-    border-radius:      5px                     !important;
+    border-radius:      $big_border_radius      !important;
 }
 
 body#phpbb div.bbitem-display {
@@ -62,5 +62,5 @@ body#phpbb div.bbitem-display {
 
 body#phpbb div.item-class {
     border-top:         1px solid               !important;
-    border-radius:      0px 0px 5px 5px         !important;
+    border-radius:      0px 0px $big_border_radius $big_border_radius       !important;
 }
