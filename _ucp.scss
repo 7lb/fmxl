@@ -6,6 +6,11 @@ div.panel.bg3 {
     border:             1px solid                       !important;
 }
 
+// Remove useless border from UCP -> PMs -> Compose PM
+div#postingbox.panel {
+    border:             0px                             !important;
+}
+
 // Manage "remember me" login keys table
 div.inner table.table1 {
     border:             5px solid                       !important;
