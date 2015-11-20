@@ -1,6 +1,7 @@
 div#page-header div.navbar,
 div#page-footer div.navbar {
     border:             1px solid                   !important;
+    border-radius:      $big_border_radius          !important;
 }
 
 // very top navbar

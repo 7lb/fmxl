@@ -36,50 +36,28 @@ div.forumbg li.row dd.lastpost {
     padding-top:        3px                     !important;
 }
 
-// Median XL Worldwide section
-div#cat17.forabg div.inner ul.topiclist.forums,
-div#cat26.forabg div.inner ul.topiclist.forums {
-    border-radius:      $small_border_radius    !important;
-    margin:             0px                     !important;
+#cat17 div.inner {
+    padding:            0px                     !important;
 }
 
-#for18.row,
-#for27.row,
-#for28.row,
-#for29.row,
-#for30.row {
+// Median XL Worldwide section
+#for18.row {
     margin-bottom:      5px                     !important;
     margin-top:         5px                     !important
 }
 
-#for18.row dl.forum_read,
-#for27.row dl.forum_read,
-#for28.row dl.forum_read,
-#for29.row dl.forum_read,
-#for30.row dl.forum_read {
+#for18.row dl.forum_read {
     opacity:            0.2                     !important;
 }
 
-#for18.row dl.forum_read:hover,
-#for27.row dl.forum_read:hover,
-#for28.row dl.forum_read:hover,
-#for29.row dl.forum_read:hover,
-#for30.row dl.forum_read:hover {
+#for18.row dl.forum_read:hover {
     opacity:            0.4                     !important;
 }
 
-#for18.row dl.forum_unread,
-#for27.row dl.forum_unread,
-#for28.row dl.forum_unread,
-#for29.row dl.forum_unread,
-#for30.row dl.forum_unread {
+#for18.row dl.forum_unread {
     opacity:            0.8                     !important;
 }
 
-#for18.row dl.forum_unread:hover,
-#for27.row dl.forum_unread:hover,
-#for28.row dl.forum_unread:hover,
-#for29.row dl.forum_unread:hover,
-#for30.row dl.forum_unread:hover {
+#for18.row dl.forum_unread:hover {
     opacity:            1                       !important;
 }

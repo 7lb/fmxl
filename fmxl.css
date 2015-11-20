@@ -11,6 +11,9 @@
 a.button, button.button, span.button {
   line-height: 12px                        !important; }
 
+body {
+  background-image: none                        !important; }
+
 button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
@@ -659,7 +662,8 @@ div#message {
 
 div#page-header div.navbar,
 div#page-footer div.navbar {
-  border: 1px solid                   !important; }
+  border: 1px solid                   !important;
+  border-radius: 5px !important; }
 
 ul#nav-more {
   border: 1px solid                   !important;
@@ -746,7 +750,9 @@ div.phpbb_alert a.alert_close::before {
   left: 1px                 !important;
   top: -1px                !important; }
 
-div.forumbg.module div.bg1 {
+div.forumbg.module,
+div.forumbg.module div.bg1,
+table#lastposts {
   border-radius: 2px !important; }
 
 div.portal div.forumbg.forumbg-table,
@@ -837,45 +843,23 @@ div.forumbg li.row dd.views {
 div.forumbg li.row dd.lastpost {
   padding-top: 3px                     !important; }
 
-div#cat17.forabg div.inner ul.topiclist.forums,
-div#cat26.forabg div.inner ul.topiclist.forums {
-  border-radius: 2px !important;
-  margin: 0px                     !important; }
+#cat17 div.inner {
+  padding: 0px                     !important; }
 
-#for18.row,
-#for27.row,
-#for28.row,
-#for29.row,
-#for30.row {
+#for18.row {
   margin-bottom: 5px                     !important;
   margin-top: 5px                     !important; }
 
-#for18.row dl.forum_read,
-#for27.row dl.forum_read,
-#for28.row dl.forum_read,
-#for29.row dl.forum_read,
-#for30.row dl.forum_read {
+#for18.row dl.forum_read {
   opacity: 0.2                     !important; }
 
-#for18.row dl.forum_read:hover,
-#for27.row dl.forum_read:hover,
-#for28.row dl.forum_read:hover,
-#for29.row dl.forum_read:hover,
-#for30.row dl.forum_read:hover {
+#for18.row dl.forum_read:hover {
   opacity: 0.4                     !important; }
 
-#for18.row dl.forum_unread,
-#for27.row dl.forum_unread,
-#for28.row dl.forum_unread,
-#for29.row dl.forum_unread,
-#for30.row dl.forum_unread {
+#for18.row dl.forum_unread {
   opacity: 0.8                     !important; }
 
-#for18.row dl.forum_unread:hover,
-#for27.row dl.forum_unread:hover,
-#for28.row dl.forum_unread:hover,
-#for29.row dl.forum_unread:hover,
-#for30.row dl.forum_unread:hover {
+#for18.row dl.forum_unread:hover {
   opacity: 1                       !important; }
 
 ul.topiclist.guidelist li.header *,
@@ -1163,8 +1147,10 @@ div.forabg div.inner ul.topiclist.forums li.row:hover,
 div.forumbg div.inner ul.topiclist.forums li.row:hover {
   background-color: #363636 !important; }
 
-div#cat17.forabg div.inner ul.topiclist.forums,
-div#cat26.forabg div.inner ul.topiclist.forums {
+#cat17 div.inner {
+  background-color: transparent             !important; }
+
+#cat17.forabg div.inner ul.topiclist.forums {
   background-color: #242424 !important; }
 
 /* From button_icons.scss                                                     */
@@ -1377,6 +1363,9 @@ div.container div.row + hr {
 
 div.postbody div.content hr {
   color: #bbbbbb !important; }
+
+div.stat-block {
+  background-color: transparent                 !important; }
 
 div.stat-block p {
   background-color: #363636 !important; }

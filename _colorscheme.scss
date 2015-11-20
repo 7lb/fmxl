@@ -39,9 +39,11 @@ div.forumbg div.inner ul.topiclist.forums li.row:hover {
     background-color:   $normal_bg              !important;
 }
 
-// Median XL Worldwide section
-div#cat17.forabg div.inner ul.topiclist.forums,
-div#cat26.forabg div.inner ul.topiclist.forums {
+#cat17 div.inner {
+    background-color:   transparent             !important;
+}
+
+#cat17.forabg div.inner ul.topiclist.forums {
     background-color:   $dark_bg                !important;
 }
 
@@ -323,6 +325,10 @@ div.container div.row + hr {
 
 div.postbody div.content hr {
     color:              $text-color                 !important;
+}
+
+div.stat-block {
+    background-color:   transparent                 !important;
 }
 
 div.stat-block p {
