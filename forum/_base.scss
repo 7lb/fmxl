@@ -1,11 +1,4 @@
-@import "values";
-@import "mixins";
-
-// Remove box and text shadows for a flat look
-* {
-    @include            no-box-shadow();
-    text-shadow:        none                        !important;
-}
+@import "../common/values";
 
 // We want borders only in specific places, so they're disabled by default
 *:not(.pointer):not(.pointer-inner) {
@@ -17,6 +10,3 @@ a.button, button.button, span.button {
     line-height:        12px                        !important;
 }
 
-body {
-    background-image:   none                        !important;
-}

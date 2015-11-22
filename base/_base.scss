@@ -1,0 +1,12 @@
+@import "../common/values";
+@import "mixins";
+
+// Remove box and text shadows for a flat look
+* {
+    @include            no-box-shadow();
+    text-shadow:        none                        !important;
+}
+
+body {
+    background-image:   none                        !important;
+}
