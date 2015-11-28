@@ -7,6 +7,9 @@
 body {
   background-image: none                        !important; }
 
+div#h-header a {
+  background-color: transparent                 !important; }
+
 div#h-header a:not(#h-download) {
   color: #bbbbbb !important; }
 

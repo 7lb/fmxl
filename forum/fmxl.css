@@ -974,6 +974,9 @@ div.content div.hidebox_title {
   left: 0px                     !important;
   top: 0px                     !important; }
 
+div.rules {
+  border-radius: 2px !important; }
+
 span[bbitem].bbitem {
   border-bottom: 1px solid               !important; }
 

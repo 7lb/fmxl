@@ -1,6 +1,16 @@
 // Dev stuff
-@import "assassin_dark_docs";
+//@import "assassin_dark_docs";
 //@import "assassin_light_docs";
+
+// ENERGY FACTOR PAGE
+body#energyfactor img {
+    border-width: 0px !important;
+}
+
+// UNIQUES PAGE
+body[id="#uniques"] table {
+    border-style: solid !important;
+}
 
 // Keep this last
 /*[[docs_colorscheme]]*/

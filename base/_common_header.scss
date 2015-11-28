@@ -1,13 +1,17 @@
 @import "../common/preset_assassin_dark";
 
+div#h-header a {
+    background-color:   transparent                 !important;
+}
+
 div#h-header a:not(#h-download) {
-    color:  $always_light_text_color    !important;
+    color:              $always_light_text_color    !important;
 }
 
 div#h-header a:hover:not(#h-download) {
-    color:  $bright_colored_hints       !important;
+    color:              $bright_colored_hints       !important;
 }
 
 ul#h-nav li {
-    border: 0px                         !important;
+    border:             0px                         !important;
 }
