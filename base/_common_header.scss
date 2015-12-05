@@ -12,12 +12,8 @@ div#h-header a:hover:not(#h-download) {
     color:              $bright_colored_hints       !important;
 }
 
-a.site-current::after {
-    color:              $bright_colored_hints       !important;
-    content:            "\25bc"                     !important;
-    left:               -50%                        !important;
-    position:           relative                    !important;
-    top:                -13px                       !important;
+a.site-current {
+    text-decoration:    underline                   !important;
 }
 
 ul#h-nav li {
