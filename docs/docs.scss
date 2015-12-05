@@ -2,14 +2,19 @@
 //@import "assassin_dark_docs";
 //@import "assassin_light_docs";
 
+// INTRODUCTION PAGE
+u {
+    text-decoration:    none    !important;
+}
+
 // ENERGY FACTOR PAGE
 body#energyfactor img {
-    border-width: 0px !important;
+    border-width:       0px     !important;
 }
 
 // UNIQUES PAGE
 body[id="#uniques"] table {
-    border-style: solid !important;
+    border-style:       solid   !important;
 }
 
 // Keep this last

@@ -601,6 +601,18 @@ div.hidebox_title {
     color:              $dark_text_color        !important;
 }
 
+div.item-full {
+    background-color:   $dark_bg                !important;
+}
+
+div.item-full span.item-basic {
+    color:              $text_color             !important;
+}
+
+div.item-full span.item-magic {
+    color:              $docs_magic             !important;
+}
+
 div.rules {
     background-color:   $transparent_hints      !important;
     color:              $dark_text_color        !important;

@@ -1,22 +1,26 @@
 body {
-    background-color: #242424 !important;
-    color: #bbbbbb !important;
+    background-color:   $dark_bg            !important;
+    color:              $text_color         !important;
 }
 
 a {
-    background-color: transparent !important;
-	color: #a73939 !important;
+    background-color:   transparent         !important;
+	color:              $colored_hints      !important;
 }
 
 a:hover {
-    background-color: #a73939 !important;
-    color: #242424 !important;
+    background-color:   $colored_hints      !important;
+    color:              $dark_bg            !important;
+}
+
+a[href^="javascript"]:hover:not(.node) {
+    background-color:   transparent         !important;
 }
 
 /* ENERGY FACTOR PAGE */
 
 div.reagent span:not(.bracket):not(.fnum):not(.fbar):not(.fden) {
-    color: #bbbbbb !important;
+    color:              $text_color         !important;
 }
 
 /* BLOCK & DEFENCE PAGE */
@@ -24,213 +28,217 @@ table,
 table thead tr th,
 table tbody:not(.unique_oskill):not(.set_oskill):not(.orange_s) tr th,
 table tbody tr td {
-    color: #bbbbbb !important;
-    border-color: #888888 !important;
+    color:              $text_color         !important;
+    border-color:       $light_border_color !important;
 }
 
 body#energyfactor table tbody tr:hover * {
-    background-color: #363636 !important;
+    background-color:   $normal_bg          !important;
 }
 
 /* PLAYERS X PAGE */
 body#energyfactor table tbody td:nth-child(even) {
-    background-color: #404040 !important;
+    background-color:   $light_bg           !important;
 }
 
 body#energyfactor table tbody tr:hover td:nth-child(even) {
-    background-color: #363636 !important;
+    background-color:   $normal_bg          !important;
 }
 
 /* WITCHES PAGE */
 div.imabox {
-	background-color: #363636 !important;
+	background-color:   $normal_bg          !important;
 }
 
 /* AMAZON PAGE */
 div.black {
-    color: #bbbbbb !important;
+    color:              $text_color         !important;
 }
 
 span.red {
-    color: #a73939 !important;
+    color:              $colored_hints      !important;
 }
 
 table.betasmall tbody tr:hover * {
-    background-color: #242424 !important;
+    background-color:   $dark_bg            !important;
 }
 
 /* ITEM-ONLY SKILLS PAGE */
 span.magic {
-    color: #5b5be0 !important;
+    color:              $docs_magic         !important;
 }
 
 /* SKILLPLANNER PAGE */
 td[colspan="4"] {
-    background-color: #404040 !important;
+    background-color:   $light_bg           !important;
 }
 
 /* WEAPONS PAGE */
 table.itemsmall tbody tr td:nth-child(even) {
-    background-color: #404040 !important;
+    background-color:   $light_bg           !important;
 }
 
 table.itemsmall tbody tr:hover td {
-    background-color: #363636 !important;
+    background-color:   $normal_bg          !important;
 }
 
 span.underdotted {
-    border-color: #bbbbbb !important;
+    border-color:       $text_color         !important;
 }
 
 /* UNIQUES PAGE */
 table.item_table tbody tr td {
-    border-color: #404040 !important;
+    border-color:       $border_color       !important;
 }
 
 table.item_table tbody tr td:first-child {
-    border-left-color: #888888 !important;
+    border-left-color:  $light_border_color !important;
 }
 
 table.item_table img {
-    border-color: #888888 !important;
+    border-color:       $light_border_color !important;
 }
 
 body[id="#uniques"] table tbody tr td {
-    border-color: #404040 !important;
+    border-color:       $border_color       !important;
 }
 
 /* SACRED UNIQUES PAGE */
 sup {
-    color: #bbbbbb !important;
+    color:              $text_color         !important;
 }
 
 div.unique span,
 span.magic > span:not(.orange) {
-    color: #bbbbbb !important;
+    color:              $text_color         !important;
 }
 
 span.class {
-    border-color: #bbbbbb !important;
+    border-color:       $text_color         !important;
 }
 
 /* MYSTIC ORBS PAGE */
 div.charms img {
-    border-color: #888888 !important;
+    border-color:       $light_border_color !important;
 }
 
 /* RUNEWORDS PAGE */
 body#runewords td[colspan="4"] {
-    background-color: #242424 !important;
+    background-color:   $dark_bg            !important;
 }
 
 /* SHRINE BONUSES PAGE */
 table#tablesorter img {
-    border-color: #888888 !important;
+    border-color:       $light_border_color !important;
 }
 
 /* PREFIXES & SUFFIXES PAGE */
 fieldset td[colspan="4"],
 fieldset td[colspan="4"] hr {
-    background-color: #363636 !important;
-    border-color: #363636 !important;
+    background-color:   $normal_bg          !important;
+    border-color:       $border_color       !important;
 }
 
 table#filter td[colspan="4"] {
-    background-color: #242424 !important;
+    background-color:   $dark_bg            !important;
 }
 
 span.darkergrey {
-	color: #888888 !important;
+	color:              $lighter_bg         !important;
+}
+
+table.maintable tbody td:nth-child(even) {
+    background-color:   $normal_bg          !important; 
 }
 
 table.tablesorter tbody tr:hover td {
-    background-color: #404040 !important;
+    background-color:   $light_bg           !important;
 }
 
 table.tablesorter tbody td:nth-child(3),
 table.tablesorter tbody td:nth-child(5) {
-    background-color: #363636 !important;
+    background-color:   $dark_bg            !important;
 }
 
 /* ITEMS WITH OSKILLS PAGE */
 table tbody.unique_oskill tr:hover td,
-table tbody.unique_oskill tr:hover th,
+table tbody.unique_oskill tr:hover td + th,
 table tbody.set_oskill tr:hover td,
-table tbody.set_oskill tr:hover th,
+table tbody.set_oskill tr:hover td + th,
 table tbody.rw_oskill tr:hover td,
-table tbody.rw_oskill tr:hover th,
+table tbody.rw_oskill tr:hover td + th,
 table tbody.rare_crafted_oskill tr:hover td,
-table tbody.rare_crafted_oskill tr:hover th,
+table tbody.rare_crafted_oskill tr:hover td + th,
 table tbody.mo_oskill tr:hover td,
-table tbody.mo_oskill tr:hover th,
+table tbody.mo_oskill tr:hover td + th,
 table tbody.orange_s tr:hover td,
-table tbody.orange_s tr:hover th {
-    background-color: #363636 !important;
+table tbody.orange_s tr:hover td + th {
+    background-color:   $normal_bg          !important;
 }
 
 table tbody.unique_oskill tr th,
 table tbody.set_oskill tr th,
 table tbody.orange_s tr th{
-    border-color: #888888 !important;
+    border-color:       $light_border_color !important;
 }
 
 /* QUEST REFERENCE PAGE */
 table#quest_list tbody tr:hover > :not(th){
-    background-color: #404040 !important;
+    background-color:   $light_bg           !important;
 }
 
 table#quest_list tbody tr:nth-child(even) {
-	background-color: #363636 !important;
+    background-color:   $normal_bg          !important;
 }
 
 table#quest_list span {
-    border-color: #bbbbbb !important;
+    border-color:       $light_border_color !important;
 }
 
 /* UBERQUESTS PAGE */
 table.content img {
-    border-color: #888888 !important;
+    border-color:       $light_border_color !important;
 }
 
 table#triune2 img {
-    border-color: #888888 !important;
+    border-color:       $light_border_color !important;
 }
 
 table#triune2 tbody tr:nth-child(odd):hover,
 table#triune2 tbody tr:nth-child(even):hover {
-    background-color: #404040 !important;
+    background-color:   $light_bg           !important;
 }
 
 table#triune2 tbody tr:nth-child(odd) {
-    background-color: #363636 !important;
+    background-color:   $normal_bg          !important;
 }
 
 table#chry_table thead tr {
-    border-color: #888888 !important;
+    border-color:       $light_border_color !important;
 }
 
 table#chry_table tbody tr:hover {
-    background-color: #404040 !important;
+    background-color:   $normal_bg          !important;
 }
 
 table.token tbody {
-    border-color: #888888 !important;
+    border-color:       $light_border_color !important;
 }
 
 table.token tbody tr:hover {
-    background-color: #404040 !important;
+    background-color:   $normal_bg          !important;
 }
 
 /* CHALLENGES PAGE */
 table.dogmas span {
-    color: #bbbbbb !important;
+    color:              $text_color         !important;
 }
 
 /* MONSTER STATS PAGE */
-table#mainTable tbody tr:hover td:nth-child(even) {
-    background-color: #404040 !important;
+table#mainTable tbody tr:hover td {
+    background-color:   $normal_bg          !important;
 }
 
-table#mainTable tbody td:nth-child(even) {
-    background-color: #242424 !important;
+table#mainTable tbody td {
+    background-color:   $dark_bg            !important;
 }
